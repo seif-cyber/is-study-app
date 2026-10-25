@@ -42,3 +42,6 @@ public/img/<course>/<unit>/*.webp      # رسومات المحاضرة
 ```
 
 النشر أوتوماتيك على GitHub Pages مع كل push على `main`.
+
+## Firebase (تسجيل دخول + حفظ التقدم + لوحة أدمن)
+شوف [docs/FIREBASE.md](docs/FIREBASE.md) للخطوات: `npm run deploy:firebase`.

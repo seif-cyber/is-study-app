@@ -5,7 +5,7 @@
  },
  {
   "q": "Solve the Reddy Mikks model graphically.",
-  "a": "Plot each constraint line, find the feasible region and evaluate the corner points: (0,0)=0, (4,0)=20, (3,1.5)=21, (2,2)=18, (1,2)=13, (0,1)=4. The optimum is x1 = 3, x2 = 1.5 with Z = 21 (i.e. $21,000)."
+  "a": "Plot each constraint line, find the feasible region and evaluate the corner points: (0,0)=0, (4,0)=20, (3,1.5)=21, (2,2)=18, (1,2)=13, (0,1)=4. The optimum is x1 = 3, x2 = 1.5 with Z = 21 (i.e. \\$21,000)."
  },
  {
   "q": "Explain the simplex method steps and apply the first iteration to Reddy Mikks.",

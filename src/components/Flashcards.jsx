@@ -58,7 +58,7 @@ export default function Flashcards({ cards }) {
       <div className="progress">
         <i style={{ width: ((i + 1) / deck.length) * 100 + '%' }} />
       </div>
-      <button className={`flashcard ${flipped ? 'flipped' : ''}`} onClick={() => setFlipped((f) => !f)}>
+      <button key={`${i}-${flipped}`} className={`flashcard ${flipped ? 'flipped' : ''}`} onClick={() => setFlipped((f) => !f)}>
         {!flipped ? (
           <div className="fc-front" dir="auto">
             <Markdown>{c.front}</Markdown>

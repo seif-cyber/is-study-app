@@ -13,6 +13,7 @@ const empty = () => ({
   read: {},      // unitKey -> timestamp
   exams: {},     // course -> { mid, final }
   settings: { theme: 'auto', font: 17 },
+  meta: { updatedAt: 0 }, // last local change (used to merge with the cloud copy)
 });
 
 function read() {
@@ -31,9 +32,10 @@ export function getState() {
   return state;
 }
 
-export function update(fn) {
+export function update(fn, { silent = false } = {}) {
   const next = structuredClone(state);
   fn(next);
+  if (!silent) next.meta = { ...next.meta, updatedAt: Date.now() };
   state = next;
   try {
     localStorage.setItem(KEY, JSON.stringify(state));
@@ -43,12 +45,35 @@ export function update(fn) {
   subs.forEach((f) => f());
 }
 
-export function replaceAll(data) {
-  update((s) => Object.assign(s, empty(), data));
+const clear = (s) => Object.keys(s).forEach((k) => delete s[k]);
+
+export function replaceAll(data, opts) {
+  update((s) => (clear(s), Object.assign(s, empty(), data, { settings: { ...empty().settings, ...data?.settings } })), opts);
+}
+
+export function subscribe(fn) {
+  subs.add(fn);
+  return () => subs.delete(fn);
+}
+
+// Activity events (unit opened, quiz finished...). The cloud module listens when sign-in is enabled.
+const listeners = new Set();
+export function onTrack(fn) {
+  listeners.add(fn);
+  return () => listeners.delete(fn);
+}
+export function track(type, data = {}) {
+  listeners.forEach((f) => {
+    try {
+      f(type, data);
+    } catch {
+      /* never break the UI because of analytics */
+    }
+  });
 }
 
 export function resetAll() {
-  update((s) => Object.assign(s, empty()));
+  update((s) => (clear(s), Object.assign(s, empty())));
 }
 
 export function useStore(selector = (s) => s) {
@@ -86,6 +111,8 @@ export function recordQuiz(key, pct) {
     r.last = pct;
     r.attempts++;
   });
+  const [course, unit] = key.split('/');
+  track('quiz_finish', { course, unit, score: pct });
 }
 
 // Leitner boxes: box n is due again after INTERVALS[n] days.

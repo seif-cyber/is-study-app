@@ -21,6 +21,46 @@ function Explanation({ q, picked }) {
   );
 }
 
+function Confetti() {
+  const colors = ['#1d4ed8', '#16a34a', '#eab308', '#db2777', '#0891b2', '#f97316'];
+  const bits = useMemo(
+    () =>
+      Array.from({ length: 36 }, (_, k) => ({
+        k,
+        c: colors[k % colors.length],
+        x: `${Math.round((Math.random() - 0.5) * 700)}px`,
+        y: `${Math.round(150 + Math.random() * 450)}px`,
+        r: `${Math.round(Math.random() * 720)}deg`,
+        d: `${Math.random() * 0.25}s`,
+      })),
+    [],
+  );
+  return (
+    <div className="confetti" aria-hidden="true">
+      {bits.map((b) => (
+        <i key={b.k} style={{ background: b.c, '--x': b.x, '--y': b.y, '--r': b.r, animationDelay: b.d }} />
+      ))}
+    </div>
+  );
+}
+
+function CountUp({ to }) {
+  const [v, setV] = useState(0);
+  useEffect(() => {
+    if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) return setV(to);
+    let raf;
+    const t0 = performance.now();
+    const tick = (t) => {
+      const k = Math.min(1, (t - t0) / 900);
+      setV(Math.round(to * (1 - Math.pow(1 - k, 3))));
+      if (k < 1) raf = requestAnimationFrame(tick);
+    };
+    raf = requestAnimationFrame(tick);
+    return () => cancelAnimationFrame(raf);
+  }, [to]);
+  return v;
+}
+
 function Timer({ seconds, onEnd }) {
   const [left, setLeft] = useState(seconds);
   useEffect(() => {
@@ -99,8 +139,11 @@ export default function Quiz({ questions, mode = 'practice', minutes, onFinish, 
     }
     return (
       <div className="quiz-result">
+        {score >= 85 && <Confetti />}
         <div className={`score-ring ${score >= 85 ? 'great' : score >= 60 ? 'ok' : 'bad'}`}>
-          <b>{score}%</b>
+          <b>
+            <CountUp to={score} />%
+          </b>
           <span>
             {right.length} / {qs.length}
           </span>

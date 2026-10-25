@@ -3,7 +3,7 @@
 - **IS** = مكونات مترابطة بتجمّع وتعالج وتخزّن وتوزّع البيانات والمعلومات + **feedback** لتحقيق هدف.
 - **Data** = حقائق خام · **Information** = حقائق معالجة ليها قيمة مضافة · **Knowledge** = فهم المعلومات لدعم قرار.
 - **11 صفة للمعلومة القيّمة:** Accessible · Accurate (GIGO) · Complete · Economical · Flexible · Relevant · Reliable · Secure · Simple (information overload) · Timely · Verifiable.
-- **قيمة المعلومة** = العائد − تكلفة الحصول عليها (مثال 10,000$ − التكلفة).
+- **قيمة المعلومة** = العائد − تكلفة الحصول عليها (مثال 10,000\$ − التكلفة).
 - **عناصر النظام:** Input ← Processing ← Output + **Feedback** (مثال 400 ساعة بدل 40) · **Control** = مراقبة الـ feedback.
 - **CBIS:** Hardware · Software · Databases · Telecommunications · Networks · People · Procedures.
 - **Internet** (أكبر شبكة) · **Intranet** (داخلية) · **Extranet** (شركاء وعملاء مختارين).

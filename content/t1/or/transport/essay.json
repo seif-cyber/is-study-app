@@ -1,7 +1,7 @@
 [
  {
   "q": "Define the transportation model and solve the MG Auto example.",
-  "a": "The transportation model determines the shipping schedule minimizing total cost from m sources to n destinations subject to supply and demand. MG Auto: supplies 1000, 1500, 1200; demands 2300, 1400; costs LA 80/215, Detroit 100/108, New Orleans 102/68. Optimal: LA-Denver 1000, Detroit-Denver 1300, Detroit-Miami 200, New Orleans-Miami 1200; cost = 80,000 + 130,000 + 21,600 + 81,600 = $313,200."
+  "a": "The transportation model determines the shipping schedule minimizing total cost from m sources to n destinations subject to supply and demand. MG Auto: supplies 1000, 1500, 1200; demands 2300, 1400; costs LA 80/215, Detroit 100/108, New Orleans 102/68. Optimal: LA-Denver 1000, Detroit-Denver 1300, Detroit-Miami 200, New Orleans-Miami 1200; cost = 80,000 + 130,000 + 21,600 + 81,600 = \\$313,200."
  },
  {
   "q": "How is an unbalanced transportation model balanced?",
@@ -9,7 +9,7 @@
  },
  {
   "q": "Explain how production-inventory control is modelled as a transportation problem (Boralis).",
-  "a": "Sources are production in each month (capacity) and destinations are monthly demands. The unit cost is 40 if produced in the same month, 40 + 0.50 per month of holding if produced earlier, and 40 + 2.00 per month of delay if backordered. With capacities 50, 180, 280, 270 and demands 100, 200, 180, 300 the optimal cost is $31,455."
+  "a": "Sources are production in each month (capacity) and destinations are monthly demands. The unit cost is 40 if produced in the same month, 40 + 0.50 per month of holding if produced earlier, and 40 + 2.00 per month of delay if backordered. With capacities 50, 180, 280, 270 and demands 100, 200, 180, 300 the optimal cost is \\$31,455."
  },
  {
   "q": "Summarize the transportation algorithm and the MODI optimality test.",

@@ -50,7 +50,7 @@ s.t.  X1 + 2X2 <= 40
 | x1 | 1 | 0 | -3/5 | 2/5 | 24 |
 
 > [!EXAMPLE]
-> **Optimal:** X₁ = **24**، X₂ = **8**، **Z = 1360$**. (نفس مثال Beaver Creek في Lec 1.)
+> **Optimal:** X₁ = **24**، X₂ = **8**، **Z = 1360\$**. (نفس مثال Beaver Creek في Lec 1.)
 > الـ slack: s₁ = s₂ = 0 (القيدين binding). **Shadow prices:** 16 و 6.
 
 ---

@@ -28,5 +28,5 @@
   {"topic": "Sensitivity", "q": "After the first RHS changes from 16 to 20, the new X1 is:", "choices": ["7", "10/3", "29/3", "2/3"], "explain": "x₁ = (2/3)(20) − (1/3)(11) = 29/3.", "answer": 2},
   {"topic": "Sensitivity", "q": "After that RHS change, Z becomes:", "choices": ["310", "333.33", "300", "323.33"], "explain": "30(29/3) + 50(2/3) ≈ 323.33.", "answer": 3},
   {"topic": "Task", "q": "In the chairs and tables task (Max 40c + 50t), the optimal solution is:", "choices": ["12 chairs and 18 tables", "18 chairs and 12 tables", "22.5 chairs and 7.5 tables", "0 chairs and 21 tables"], "explain": "**(12, 18)**.", "answer": 0},
-  {"topic": "Task", "q": "The optimal profit in the chairs and tables task is:", "choices": ["$1,275", "$1,380", "$1,050", "$1,000"], "explain": "40(12) + 50(18) = **1380**.", "answer": 1}
+  {"topic": "Task", "q": "The optimal profit in the chairs and tables task is:", "choices": ["\\$1,275", "\\$1,380", "\\$1,050", "\\$1,000"], "explain": "40(12) + 50(18) = **1380**.", "answer": 1}
 ]

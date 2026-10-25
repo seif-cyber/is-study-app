@@ -5,6 +5,7 @@ import Home from './pages/Home.jsx';
 import Course from './pages/Course.jsx';
 import Unit from './pages/Unit.jsx';
 import { useStore } from './lib/store.js';
+import AuthGate from './components/AuthGate.jsx';
 
 const Review = lazy(() => import('./pages/Review.jsx'));
 const Mistakes = lazy(() => import('./pages/Mistakes.jsx'));
@@ -12,6 +13,7 @@ const Stats = lazy(() => import('./pages/Stats.jsx'));
 const Glossary = lazy(() => import('./pages/Glossary.jsx'));
 const CourseCards = lazy(() => import('./pages/CourseCards.jsx'));
 const Practice = lazy(() => import('./pages/Practice.jsx'));
+const Admin = lazy(() => import('./pages/Admin.jsx'));
 const More = lazy(() => import('./pages/More.jsx'));
 const Notes = lazy(() => import('./pages/More.jsx').then((m) => ({ default: m.Notes })));
 const Search = lazy(() => import('./pages/More.jsx').then((m) => ({ default: m.Search })));
@@ -35,6 +37,7 @@ function useTheme() {
 export default function App() {
   useTheme();
   return (
+    <AuthGate>
     <HashRouter>
       <Suspense fallback={<Loading />}>
         <Routes>
@@ -52,10 +55,12 @@ export default function App() {
           <Route path="/search" element={<Search />} />
           <Route path="/settings" element={<Settings />} />
           <Route path="/install" element={<Install />} />
+          <Route path="/admin" element={<Admin />} />
           <Route path="*" element={<Home />} />
         </Routes>
       </Suspense>
       <BottomNav />
     </HashRouter>
+    </AuthGate>
   );
 }

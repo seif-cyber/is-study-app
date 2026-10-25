@@ -5,7 +5,7 @@
  },
  {
   "front": "MG Auto",
-  "back": "Supply 1000/1500/1200 · Demand 2300/1400 · Optimum: LA→D 1000, Det→D 1300, Det→M 200, NO→M 1200 ⇒ $313,200"
+  "back": "Supply 1000/1500/1200 · Demand 2300/1400 · Optimum: LA→D 1000, Det→D 1300, Det→M 200, NO→M 1200 ⇒ \\$313,200"
  },
  {
   "front": "Balancing",
@@ -13,15 +13,15 @@
  },
  {
   "front": "MG with dummy",
-  "back": "Detroit 1300 ⇒ dummy plant 200 ⇒ Miami short 200 · cost $291,600"
+  "back": "Detroit 1300 ⇒ dummy plant 200 ⇒ Miami short 200 · cost \\$291,600"
  },
  {
   "front": "Boralis costs",
-  "back": "i=j:40 · i<j: 40+0.5(j−i) · i>j: 40+2(i−j) · optimal $31,455"
+  "back": "i=j:40 · i<j: 40+0.5(j−i) · i>j: 40+2(i−j) · optimal \\$31,455"
  },
  {
   "front": "Tool sharpening",
-  "back": "new $12 · overnight $6 · 2-day $3 · demand total 124 · optimal $840 (rotational $372)"
+  "back": "new \\$12 · overnight \\$6 · 2-day \\$3 · demand total 124 · optimal \\$840 (rotational \\$372)"
  },
  {
   "front": "SunRay",

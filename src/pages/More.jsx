@@ -4,11 +4,15 @@ import { Page, Loading } from '../components/Layout.jsx';
 import { useAsync } from './Unit.jsx';
 import { allLessons, getCourse, getUnit, courses } from '../lib/content.js';
 import { useStore, update, replaceAll, resetAll, getState } from '../lib/store.js';
+import { firebaseEnabled } from '../lib/firebase.js';
+import { useAuth, loadCloud } from '../lib/auth.js';
 
 export default function More() {
+  const a = useAuth();
   return (
     <Page title="المزيد" back={false}>
       <div className="menu">
+        {a.isAdmin && <Link to="/admin">🛡 لوحة الأدمن (الطلاب)</Link>}
         <Link to="/search">🔎 بحث في كل الشروحات</Link>
         <Link to="/notes">🗒 ملاحظاتي والعلامات ⭐</Link>
         <Link to="/settings">⚙️ الإعدادات والنسخة الاحتياطية</Link>
@@ -110,6 +114,7 @@ export function Settings() {
 
   return (
     <Page title="⚙️ الإعدادات">
+      {firebaseEnabled && <Account />}
       <div className="card">
         <label className="field">
           المظهر
@@ -126,7 +131,11 @@ export function Settings() {
       </div>
       <div className="card">
         <b>💾 النسخة الاحتياطية</b>
-        <p className="muted small">تقدمك محفوظ على الموبايل ده بس. خد نسخة احتياطية لو هتغير الموبايل أو تمسح المتصفح.</p>
+        <p className="muted small">
+          {firebaseEnabled
+            ? 'تقدمك بيتحفظ على حسابك تلقائيًا. وتقدر كمان تاخد نسخة على الجهاز.'
+            : 'تقدمك محفوظ على الموبايل ده بس. خد نسخة احتياطية لو هتغير الموبايل أو تمسح المتصفح.'}
+        </p>
         <div className="row wrap gap">
           <button className="btn" onClick={exportData}>
             ⬇️ حفظ نسخة
@@ -141,6 +150,24 @@ export function Settings() {
         </div>
       </div>
     </Page>
+  );
+}
+
+function Account() {
+  const a = useAuth();
+  if (!a.user) return null;
+  return (
+    <div className="card">
+      <b>👤 حسابي</b>
+      <p className="small" style={{ margin: '6px 0' }}>
+        {a.profile?.name || a.user.displayName} · <span dir="ltr">{a.user.email}</span>
+        <br />
+        <span className="muted">☁️ التقدم بيتحفظ على حسابك وبيتزامن على أي جهاز تسجل منه.</span>
+      </p>
+      <button className="btn" onClick={() => confirm('تسجيل خروج من الجهاز ده؟') && loadCloud().then((m) => m.signOut())}>
+        🚪 تسجيل خروج
+      </button>
+    </div>
   );
 }
 

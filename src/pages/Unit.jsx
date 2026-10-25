@@ -5,7 +5,7 @@ import Markdown from '../components/Markdown.jsx';
 import Quiz from '../components/Quiz.jsx';
 import Flashcards from '../components/Flashcards.jsx';
 import { getCourse, getUnit, loadLesson, loadSummary, loadQuiz, loadCards, loadEssay, driveUrl } from '../lib/content.js';
-import { useStore, update, unitKey, recordQuiz } from '../lib/store.js';
+import { useStore, update, unitKey, recordQuiz, track } from '../lib/store.js';
 
 export function useAsync(fn, deps) {
   const [v, setV] = useState(undefined);
@@ -130,6 +130,7 @@ export default function Unit() {
 
   useEffect(() => {
     update((s) => (s.last = { course: courseId, unit: unitId, at: Date.now() }));
+    track('open_unit', { course: courseId, unit: unitId });
   }, [k]);
 
   useEffect(() => {

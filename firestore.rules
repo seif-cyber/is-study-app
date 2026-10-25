@@ -1,0 +1,36 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    function signedIn() { return request.auth != null; }
+    function isAdmin() { return signedIn() && exists(/databases/$(database)/documents/admins/$(request.auth.uid)); }
+    function isOwner(uid) { return signedIn() && request.auth.uid == uid; }
+    // fields a student may never set or change on their own profile
+    function touchesProtected() {
+      return request.resource.data.diff(resource.data).affectedKeys().hasAny(['access', 'plan', 'role']);
+    }
+
+    match /users/{uid} {
+      allow read: if isOwner(uid) || isAdmin();
+      allow create: if isOwner(uid) && request.resource.data.get('access', false) == false
+                    && !request.resource.data.keys().hasAny(['plan', 'role']);
+      allow update: if (isOwner(uid) && !touchesProtected()) || isAdmin();
+      allow delete: if isAdmin();
+
+      match /private/{docId} {
+        allow read, write: if isOwner(uid);
+        allow read: if isAdmin();
+      }
+      match /events/{eventId} {
+        allow create: if isOwner(uid);
+        allow read: if isOwner(uid) || isAdmin();
+        allow update, delete: if false;
+      }
+    }
+
+    // admins are added by hand from the Firebase console (document id = admin uid)
+    match /admins/{uid} {
+      allow read: if isOwner(uid);
+      allow write: if false;
+    }
+  }
+}

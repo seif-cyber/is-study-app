@@ -9,7 +9,7 @@
  },
  {
   "q": "Solve the Beaver Creek problem and interpret the result.",
-  "a": "Evaluate the corner points: (0,0) = 0; (30,0) = 1200; (0,20) = 1000; (24,8) = 1360. The best solution is 24 bowls and 8 mugs with profit $1,360. At this point both labor (24 + 2x8 = 40) and clay (4x24 + 3x8 = 120) are fully used."
+  "a": "Evaluate the corner points: (0,0) = 0; (30,0) = 1200; (0,20) = 1000; (24,8) = 1360. The best solution is 24 bowls and 8 mugs with profit \\$1,360. At this point both labor (24 + 2x8 = 40) and clay (4x24 + 3x8 = 120) are fully used."
  },
  {
   "q": "What are the summary steps of LP model formulation?",

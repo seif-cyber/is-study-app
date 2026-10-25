@@ -1,9 +1,10 @@
-import { defineConfig } from 'vite';
+import { defineConfig, loadEnv } from 'vite';
 import react from '@vitejs/plugin-react';
 import { VitePWA } from 'vite-plugin-pwa';
 
-export default defineConfig({
-  base: '/is-study-app/',
+// GitHub Pages serves the app from /is-study-app/; Firebase Hosting serves it from / (VITE_BASE=/ in .env.firebase).
+export default defineConfig(({ mode }) => ({
+  base: loadEnv(mode, process.cwd(), '').VITE_BASE || '/is-study-app/',
   plugins: [
     react(),
     VitePWA({
@@ -32,4 +33,4 @@ export default defineConfig({
       },
     }),
   ],
-});
+}));
