@@ -1,0 +1,96 @@
+{
+  "id": "cn",
+  "order": 2,
+  "group": "general",
+  "icon": "🌐",
+  "color": "#0891b2",
+  "title": "Computer Networks",
+  "short": "Networks",
+  "titleAr": "شبكات الحاسب",
+  "practice": false,
+  "units": [
+    {
+      "id": "lec01-02",
+      "kind": "lecture",
+      "n": 1,
+      "title": "Lec 1 & 2",
+      "titleAr": "",
+      "pdf": "19qkguuihBpU2wnQOKbQyfsv0G5eSJKbF",
+      "mid": true
+    },
+    {
+      "id": "lec03-04",
+      "kind": "lecture",
+      "n": 2,
+      "title": "Lec 3 & 4",
+      "titleAr": "",
+      "pdf": "1QDixW1xjZiSs2LwdhmKv4jPxZZg7GSEW",
+      "mid": true
+    },
+    {
+      "id": "lec-ip",
+      "kind": "lecture",
+      "n": 3,
+      "title": "Lec: IP Addressing",
+      "titleAr": "عناوين IP",
+      "pdf": "1t1m9zlnchkSpDZ-soXpCAwMwE5TyAVvH",
+      "mid": true
+    },
+    {
+      "id": "lec05",
+      "kind": "lecture",
+      "n": 4,
+      "title": "Lec 5",
+      "titleAr": "",
+      "pdf": "1lwwwbYSOWbMxtvKstCPlHp3-tvpRQ1DW"
+    },
+    {
+      "id": "lec06",
+      "kind": "lecture",
+      "n": 5,
+      "title": "Lec 6",
+      "titleAr": "",
+      "pdf": "1O_5IMB5Y4dLv20B8QABHRgnEs_MOdXCg"
+    },
+    {
+      "id": "sec01",
+      "kind": "section",
+      "n": 1,
+      "title": "Section 1",
+      "titleAr": "",
+      "pdf": "1sCG3XYu62nND5W4p2eQlr5RF3f7I033u"
+    },
+    {
+      "id": "sec02",
+      "kind": "section",
+      "n": 2,
+      "title": "Section 2",
+      "titleAr": "",
+      "pdf": "1ndBA33iRm6D5wGVfLM7GRTj4Kfilc1ol"
+    },
+    {
+      "id": "sec03",
+      "kind": "section",
+      "n": 3,
+      "title": "Section 3",
+      "titleAr": "",
+      "pdf": "1AUisIRrd7nfAdnKlhCniRF3aFJhc7hei"
+    },
+    {
+      "id": "sec04",
+      "kind": "section",
+      "n": 4,
+      "title": "Section 4: IP Configuration",
+      "titleAr": "إعداد IP",
+      "pdf": "1ysjMNc9bUxPO_PxwU4ml_W2I4Q_6oe5x"
+    },
+    {
+      "id": "sec05",
+      "kind": "section",
+      "n": 5,
+      "title": "Router Configuration",
+      "titleAr": "إعداد الراوتر",
+      "pdf": "1gkT8p_W3itcPuaQtRO0LsvcvuQE0NUQ0"
+    }
+  ]
+}

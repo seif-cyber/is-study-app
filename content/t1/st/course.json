@@ -1,0 +1,98 @@
+{
+  "id": "st",
+  "order": 5,
+  "group": "is",
+  "icon": "💾",
+  "color": "#d97706",
+  "title": "Storage Technologies",
+  "short": "Storage",
+  "titleAr": "تقنيات التخزين",
+  "practice": false,
+  "units": [
+    {
+      "id": "lec01",
+      "kind": "lecture",
+      "n": 1,
+      "title": "Lec 1",
+      "titleAr": "",
+      "pdf": "1DpDb752OryZChMfh-WomdVcdFzPwb_rk",
+      "mid": true
+    },
+    {
+      "id": "lec02",
+      "kind": "lecture",
+      "n": 2,
+      "title": "Lec 2",
+      "titleAr": "",
+      "pdf": "10CRwhFBt2NpR2jkme_fTugRRKnK2YHQe",
+      "mid": true
+    },
+    {
+      "id": "lec03",
+      "kind": "lecture",
+      "n": 3,
+      "title": "Lec 3",
+      "titleAr": "",
+      "pdf": "1R2znqjWFbCuSJrF1BAQoROf5X-_GPWO4",
+      "mid": true
+    },
+    {
+      "id": "lec04",
+      "kind": "lecture",
+      "n": 4,
+      "title": "Lec 4",
+      "titleAr": "",
+      "pdf": "1Op1fYc67oIJTccKPfKFffEwv3TSmOVkB",
+      "mid": true
+    },
+    {
+      "id": "lec05",
+      "kind": "lecture",
+      "n": 5,
+      "title": "Lec 5",
+      "titleAr": "",
+      "pdf": "1zQM0m34FVDZM0lWdSTA8ZlKUPerATOox",
+      "mid": true
+    },
+    {
+      "id": "lec06",
+      "kind": "lecture",
+      "n": 6,
+      "title": "Lec 6",
+      "titleAr": "",
+      "pdf": "1RW8fgg3mhXvWuw89saHPOrc1CtuI47_u"
+    },
+    {
+      "id": "lec07",
+      "kind": "lecture",
+      "n": 7,
+      "title": "Lec 7",
+      "titleAr": "",
+      "pdf": "1S08jm9O77uIW41OAkXJQVYhkOeVW0viu"
+    },
+    {
+      "id": "lec08",
+      "kind": "lecture",
+      "n": 8,
+      "title": "Lec 8",
+      "titleAr": "",
+      "pdf": "1Ccd__qRCj8Bya0CXhqH6baHDVyQI2TMb"
+    },
+    {
+      "id": "lec09",
+      "kind": "lecture",
+      "n": 9,
+      "title": "Lec 9",
+      "titleAr": "",
+      "pdf": "1i37CPTSz0DxNCIAJRkhCMVxhLsWcB2zG"
+    },
+    {
+      "id": "lec10",
+      "kind": "lecture",
+      "n": 10,
+      "title": "Lec 10",
+      "titleAr": "",
+      "pdf": "1AHueAqO0pyT32ZPnP6dP161m6QzA1pij"
+    }
+  ]
+}

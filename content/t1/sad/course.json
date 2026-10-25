@@ -1,0 +1,114 @@
+{
+  "id": "sad",
+  "order": 6,
+  "group": "is",
+  "icon": "📐",
+  "color": "#db2777",
+  "title": "System Analysis & Design",
+  "short": "SAD",
+  "titleAr": "تحليل وتصميم النظم",
+  "practice": false,
+  "units": [
+    {
+      "id": "lec01",
+      "kind": "lecture",
+      "n": 1,
+      "title": "Lec 1: Introduction",
+      "titleAr": "مقدمة",
+      "pdf": "1BKbaVg49imULTuIRrsw9tetgbw4MDT06",
+      "mid": true
+    },
+    {
+      "id": "ch02",
+      "kind": "lecture",
+      "n": 2,
+      "title": "Ch2",
+      "titleAr": "",
+      "pdf": "1RJgfja3zx1JXEd2LzmsvmxThVE359xbz",
+      "mid": true
+    },
+    {
+      "id": "ch04",
+      "kind": "lecture",
+      "n": 3,
+      "title": "Ch4",
+      "titleAr": "",
+      "pdf": "1AL5_xdj4kGKY2tJJfUhaQ1-0kmiAoO3Y",
+      "mid": true
+    },
+    {
+      "id": "ch05",
+      "kind": "lecture",
+      "n": 4,
+      "title": "Ch5",
+      "titleAr": "",
+      "pdf": "1K6XR3Czugho86ZnHUwhutn1tuklDWSZ-",
+      "mid": true
+    },
+    {
+      "id": "ch05-erd",
+      "kind": "lecture",
+      "n": 5,
+      "title": "Ch5: ERD",
+      "titleAr": "مخطط الكيانات والعلاقات",
+      "pdf": "16VVMr8k3UloUAhB1tFHGoZo9t44PAc7A",
+      "mid": true
+    },
+    {
+      "id": "lec06",
+      "kind": "lecture",
+      "n": 6,
+      "title": "Lec 6",
+      "titleAr": "",
+      "pdf": "1OPWROr7O0Wkzli_KqZWkTw68B5oO5Nu3"
+    },
+    {
+      "id": "lec07",
+      "kind": "lecture",
+      "n": 7,
+      "title": "Lec 7",
+      "titleAr": "",
+      "pdf": "1AjEpJ4c50XVBNeREyHkjXREE6p0YwcWe"
+    },
+    {
+      "id": "ch08",
+      "kind": "lecture",
+      "n": 8,
+      "title": "Ch8",
+      "titleAr": "",
+      "pdf": "1UMhNWWP9nk3lt4EFQ5DwhbvWadc2kBRl"
+    },
+    {
+      "id": "sec01",
+      "kind": "section",
+      "n": 1,
+      "title": "Section: Intro",
+      "titleAr": "",
+      "pdf": "1Fh-NaAhSSYz8U_h8cokkeb6zKcgZSFBA"
+    },
+    {
+      "id": "sec02",
+      "kind": "section",
+      "n": 2,
+      "title": "Section: SAD",
+      "titleAr": "",
+      "pdf": "16ZUDZp6-uy_EP0z11FasavKk12flEW7l"
+    },
+    {
+      "id": "sec03-erd",
+      "kind": "section",
+      "n": 3,
+      "title": "Section 3: ERD",
+      "titleAr": "",
+      "pdf": "1Qa4tCDODnMj1mCj6GkJ684sgS0jobD7a"
+    },
+    {
+      "id": "sec04-activity",
+      "kind": "section",
+      "n": 4,
+      "title": "Section: Activity Diagram",
+      "titleAr": "",
+      "pdf": "1TWBVuNw44FnDUI9MyWsXnc9q_wHWMlp2"
+    }
+  ]
+}

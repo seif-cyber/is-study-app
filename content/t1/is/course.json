@@ -1,0 +1,48 @@
+{
+  "id": "is",
+  "order": 4,
+  "group": "is",
+  "icon": "🗂️",
+  "color": "#059669",
+  "title": "Information Systems",
+  "short": "IS",
+  "titleAr": "نظم المعلومات",
+  "practice": false,
+  "units": [
+    {
+      "id": "lec01",
+      "kind": "lecture",
+      "n": 1,
+      "title": "Lec 1: Introduction",
+      "titleAr": "مقدمة",
+      "pdf": "1A26hT8b8LXj_NPqUk-EMsdC2yTR0GZxL",
+      "mid": true
+    },
+    {
+      "id": "ch02",
+      "kind": "lecture",
+      "n": 2,
+      "title": "Ch2",
+      "titleAr": "",
+      "pdf": "1PiExwzaa0Y_bmFHixGI_wnyFNDNI4KSL",
+      "mid": true
+    },
+    {
+      "id": "ch03",
+      "kind": "lecture",
+      "n": 3,
+      "title": "Ch3",
+      "titleAr": "",
+      "pdf": "1SjyhHkQ7DJKFC3ymfB1BjcfBHsUblniE",
+      "mid": true
+    },
+    {
+      "id": "bigdata",
+      "kind": "lecture",
+      "n": 4,
+      "title": "Big Data",
+      "titleAr": "البيانات الضخمة",
+      "pdf": "1T5L65aGaT_ea5ThytC_lzJKFGM1UfGZx"
+    }
+  ]
+}

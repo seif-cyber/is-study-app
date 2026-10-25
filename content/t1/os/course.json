@@ -1,0 +1,111 @@
+{
+  "id": "os",
+  "order": 1,
+  "group": "general",
+  "icon": "💻",
+  "color": "#2563eb",
+  "title": "Operating Systems",
+  "short": "OS",
+  "titleAr": "نظم التشغيل",
+  "practice": false,
+  "units": [
+    {
+      "id": "ch01",
+      "kind": "lecture",
+      "n": 1,
+      "title": "Ch1: Introduction",
+      "titleAr": "مقدمة عن نظم التشغيل",
+      "pdf": "1kF9kZgOBbe8A7RHuMzvmOAUP7t7CgBxk",
+      "mid": true
+    },
+    {
+      "id": "ch02",
+      "kind": "lecture",
+      "n": 2,
+      "title": "Ch2: Operating-System Structures",
+      "titleAr": "هيكل نظام التشغيل",
+      "pdf": "1DXkFEgipcYPRRqGmXv10ffzNifl53Oc2",
+      "mid": true
+    },
+    {
+      "id": "ch03",
+      "kind": "lecture",
+      "n": 3,
+      "title": "Ch3: Processes",
+      "titleAr": "العمليات",
+      "pdf": "1Bp7s6svwYbshaA-58TjTwmGGKVlww2CY"
+    },
+    {
+      "id": "ch04",
+      "kind": "lecture",
+      "n": 4,
+      "title": "Ch4: Threads",
+      "titleAr": "الـ Threads",
+      "pdf": "1Hcg_wPPXvuuWo6k3ayF2yEcN-J9p8xuF"
+    },
+    {
+      "id": "sec01",
+      "kind": "section",
+      "n": 1,
+      "title": "Sec1: Intro & Virtualization",
+      "titleAr": "مقدمة وتثبيت Linux",
+      "pdf": "12ndZtWUR3mjUJVKHb535g0wlq3w_8twl"
+    },
+    {
+      "id": "sec02",
+      "kind": "section",
+      "n": 2,
+      "title": "Sec2: Basic Linux Commands",
+      "titleAr": "أوامر Linux الأساسية",
+      "pdf": "1rltW2cMDlCFKSG8yOApw_UUGK9ebd2pf"
+    },
+    {
+      "id": "sec02lab",
+      "kind": "section",
+      "n": 3,
+      "title": "Sec2 Lab: Practice",
+      "titleAr": "تطبيق عملي",
+      "pdf": "15PlOOd4BQs2SarYCxM8pEr_nNBo7Mvyk"
+    },
+    {
+      "id": "sec03",
+      "kind": "section",
+      "n": 4,
+      "title": "Sec3: cp & mv Commands",
+      "titleAr": "أوامر النسخ والنقل",
+      "pdf": "1mBKbKokbZym2ZrhCA6hOnjYv-FOjY-sK"
+    },
+    {
+      "id": "sec04",
+      "kind": "section",
+      "n": 5,
+      "title": "Sec4: Permissions (chmod)",
+      "titleAr": "الصلاحيات",
+      "pdf": "1mQ7rn70PJae4AY_SBa05Js9Hmr9mswCk"
+    },
+    {
+      "id": "sec05",
+      "kind": "section",
+      "n": 6,
+      "title": "Sec5: Git & GitHub",
+      "titleAr": "Git و GitHub",
+      "pdf": "1sZXhMf6Ab7fBN7Cs1aT2bAdnCAAN3yM4"
+    },
+    {
+      "id": "sec06sem",
+      "kind": "section",
+      "n": 7,
+      "title": "Sec6: Semaphores",
+      "titleAr": "الـ Semaphores",
+      "pdf": "12nSBS1bQnfMCSuOuvZuSuumB0l8i3ai4"
+    },
+    {
+      "id": "sec06sch",
+      "kind": "section",
+      "n": 8,
+      "title": "Sec6: Task Scheduling",
+      "titleAr": "جدولة المهام",
+      "pdf": "1V8p0XGMxX_WJsQNgpTYH_G0izNW_et8Q"
+    }
+  ]
+}
