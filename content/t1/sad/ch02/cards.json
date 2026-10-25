@@ -1,0 +1,58 @@
+[
+ {
+  "front": "Methodology / Technique / Tool",
+  "back": "Methodology = خطوات · Technique = عمليات المحلل · Tool = برامج"
+ },
+ {
+  "front": "4 process activities",
+  "back": "Specification · Design & implementation · Validation · Evolution"
+ },
+ {
+  "front": "Plan-driven vs Agile",
+  "back": "Plan-driven = كل حاجة مخططة مسبقًا · Agile = تخطيط تزايدي، تغيير أسهل"
+ },
+ {
+  "front": "Waterfall phases",
+  "back": "Requirements ← Design ← Implementation & unit test ← Integration & system test ← Operation & maintenance"
+ },
+ {
+  "front": "Waterfall problem",
+  "back": "صعوبة التغيير · مناسب لمتطلبات مستقرة ومشاريع كبيرة متعددة المواقع"
+ },
+ {
+  "front": "Incremental benefits",
+  "back": "تغيير أرخص · feedback أسهل · تسليم أسرع"
+ },
+ {
+  "front": "Incremental problems",
+  "back": "العملية مش مرئية · البنية بتتدهور (محتاج refactoring)"
+ },
+ {
+  "front": "Incremental delivery",
+  "back": "قيمة مبكرة · early increments = prototype · مخاطرة أقل · الأولويات تتختبر أكتر"
+ },
+ {
+  "front": "Spiral sectors",
+  "back": "Objective setting · Risk assessment & reduction · Development & validation · Planning"
+ },
+ {
+  "front": "Prototype",
+  "back": "نسخة أولية لاستخلاص/تحقق المتطلبات وتصميم UI والاختبار"
+ },
+ {
+  "front": "Prototype benefits",
+  "back": "usability · احتياجات حقيقية · جودة تصميم · maintainability · جهد أقل"
+ },
+ {
+  "front": "Throw-away prototype",
+  "back": "بيتم رميه بعد استخلاص المتطلبات"
+ },
+ {
+  "front": "Reuse-oriented",
+  "back": "النظام من مكونات موجودة"
+ },
+ {
+  "front": "Selection criteria",
+  "back": "Clear requirements · Familiar technology · Complexity · Time schedule · Schedule visibility"
+ }
+]

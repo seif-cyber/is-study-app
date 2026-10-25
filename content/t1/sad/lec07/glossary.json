@@ -1,0 +1,97 @@
+[
+ {
+  "en": "Model",
+  "ar": "نموذج",
+  "def": "تجريد لنظام"
+ },
+ {
+  "en": "Abstraction",
+  "ar": "التجريد",
+  "def": "إخفاء غير المهم حسب الغرض"
+ },
+ {
+  "en": "Object",
+  "ar": "كائن",
+  "def": "وحدة أساسية بـ state وbehavior"
+ },
+ {
+  "en": "Class",
+  "ar": "فئة",
+  "def": "وصف لمجموعة objects متشابهة"
+ },
+ {
+  "en": "Identity",
+  "ar": "الهوية",
+  "def": "تميز كل object"
+ },
+ {
+  "en": "Classification",
+  "ar": "التصنيف",
+  "def": "جمع objects متشابهة في class"
+ },
+ {
+  "en": "Encapsulation",
+  "ar": "التغليف",
+  "def": "فصل الواجهة عن التنفيذ"
+ },
+ {
+  "en": "Data Hiding",
+  "ar": "إخفاء البيانات",
+  "def": "البيانات لا تُرى من الخارج"
+ },
+ {
+  "en": "Inheritance",
+  "ar": "الوراثة",
+  "def": "مشاركة الخصائص بين classes"
+ },
+ {
+  "en": "Superclass",
+  "ar": "الفئة الأم",
+  "def": "تحتوي الخصائص العامة"
+ },
+ {
+  "en": "Subclass",
+  "ar": "الفئة الفرعية",
+  "def": "ترث وتضيف"
+ },
+ {
+  "en": "Polymorphism",
+  "ar": "تعدد الأشكال",
+  "def": "نفس operation بسلوك مختلف"
+ },
+ {
+  "en": "Generic Class",
+  "ar": "فئة عامة",
+  "def": "النوع يُحدد وقت التشغيل"
+ },
+ {
+  "en": "Attribute",
+  "ar": "خاصية",
+  "def": "خاصية مسماة للـ class"
+ },
+ {
+  "en": "Operation",
+  "ar": "عملية",
+  "def": "دالة تُطبق على objects"
+ },
+ {
+  "en": "Method",
+  "ar": "طريقة",
+  "def": "تنفيذ operation"
+ },
+ {
+  "en": "Class Diagram",
+  "ar": "مخطط الفئات",
+  "def": "يعرض classes وعلاقاتها"
+ },
+ {
+  "en": "Object Diagram",
+  "ar": "مخطط الكائنات",
+  "def": "يعرض objects وعلاقاتها"
+ },
+ {
+  "en": "Package Diagram",
+  "ar": "مخطط الحزم",
+  "def": "تجميع classes"
+ }
+]

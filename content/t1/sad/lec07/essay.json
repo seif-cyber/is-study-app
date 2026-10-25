@@ -1,0 +1,34 @@
+[
+ {
+  "q": "Explain the software process and why we build models.",
+  "a": "The software process is a structured set of activities: specification, design and implementation, validation (testing) and maintenance/evolution. A model is an abstraction of a system that lets us ignore unessential details. We build models to reduce complexity, test the system before building it, communicate with the customer and document and visualize ideas."
+ },
+ {
+  "q": "Classify UML diagrams.",
+  "a": "Functional diagrams (use case) describe functionality from the user's view; static diagrams (class, object, package) describe static structure; dynamic diagrams include interaction diagrams (object interactions), state diagrams (behavior of an individual object over time) and activity diagrams (workflow)."
+ },
+ {
+  "q": "What is object-oriented software and what are its main characteristics?",
+  "a": "OO software organizes software as a collection of discrete objects that incorporate both data structure and behavior; the fundamental unit is the object with state and operations (unlike structured programming where data and operations were separate). Characteristics: identity, classification, encapsulation, abstraction, inheritance, polymorphism, generics, cohesion and coupling."
+ },
+ {
+  "q": "Explain identity, classification and abstraction.",
+  "a": "Identity: every object has its own identity (memory address/handle) even if two objects have identical state. Classification: objects with the same attributes and operations belong to the same class, which is an abstraction relevant to the application. Abstraction: selective examination of certain aspects of a problem, isolating what is important for the purpose (e.g. a Car for the DMV vs for a mechanic)."
+ },
+ {
+  "q": "Explain encapsulation with an example.",
+  "a": "Encapsulation separates the external aspects of an object from its internal implementation details through data hiding and implementation hiding. It reduces interdependency: for example, the sort() operation of a List class can change from Bubble Sort to Quick Sort without affecting applications using the class."
+ },
+ {
+  "q": "Explain inheritance and polymorphism with examples.",
+  "a": "Inheritance shares attributes and operations among classes in a hierarchy: a superclass holds general features and subclasses inherit and refine them (e.g. Car with Taxi and Truck). Polymorphism means the same operation behaves differently in different classes: getArea() is length x width in Rectangle, pi x radius squared in Circle and side squared in Square; each class's implementation is a method."
+ },
+ {
+  "q": "Describe the class model and the class notation.",
+  "a": "The class model captures static structure: classes/objects, their relationships, and attributes and operations. A class is a box with up to three compartments (name, attributes, operations). An attribute is a named property with a value in each object; an operation is a function applied to objects and a method is its implementation. A missing compartment means not yet specified, an empty one means none exist."
+ },
+ {
+  "q": "How would you identify the classes in the flights system?",
+  "a": "Classes appear as common nouns in the description: City, Airport, Airline, Flight, Passenger, Seat, Plane, Pilot (and Co-Pilot)."
+ }
+]

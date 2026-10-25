@@ -1,0 +1,66 @@
+[
+ {
+  "front": "Business process vs rule",
+  "back": "Process = إيه بيتعمل ومين وبأي ترتيب · Rule = قيد على إزاي بيتدار (مثال: أقل mileage)"
+ },
+ {
+  "front": "OCL",
+  "back": "Object Constraint Language · لغة رسمية لتمثيل القيود في UML"
+ },
+ {
+  "front": "Activity diagram",
+  "back": "بيمثل الـ business process: أنشطة وتسلسل وتزامن (والمسؤول بالـ swimlanes)"
+ },
+ {
+  "front": "Activity symbols",
+  "back": "Start (دايرة) · End · Activity · Transition · Fork/Join · Decision/Merge ◇ · Guard [ ] · Swimlane"
+ },
+ {
+  "front": "Decision vs Merge",
+  "back": "Decision = خرجين+ مع guards · Merge = خرج واحد"
+ },
+ {
+  "front": "Workflow",
+  "back": "تسلسل أنشطة بينتج نتيجة ذات قيمة ملحوظة"
+ },
+ {
+  "front": "Library business rules",
+  "back": "حد لعدد الكتب · الاستعارة أسبوعين · غرامة على التأخير"
+ },
+ {
+  "front": "Use case model",
+  "back": "ماذا يفعل النظام من وجهة نظر المستخدم · أساس عقد"
+ },
+ {
+  "front": "Use case symbols",
+  "back": "Actor = stick figure · Use case = oval · خطوط · Note"
+ },
+ {
+  "front": "System boundary",
+  "back": "صندوق: use cases جواه (داخلي) و actors برّاه (خارجي)"
+ },
+ {
+  "front": "Use case description",
+  "back": "Identifier · Initiator · Pre · Post · Main success scenario · Goal · Extensions"
+ },
+ {
+  "front": "Scenario",
+  "back": "instance من use case · main (ناجح) أو unsuccessful"
+ },
+ {
+  "front": "Generalization of actors",
+  "back": "Reserver ← Guest و Receptionist · سهم مفتوح الرأس"
+ },
+ {
+  "front": "«include»",
+  "back": "سلوك مشترك غير مشروط (check reservation) · سهم متقطع للـ use case المشترك"
+ },
+ {
+  "front": "«extend»",
+  "back": "سلوك بديل مشروط (refuse loan) · سهم متقطع للـ use case الأصلي"
+ },
+ {
+  "front": "Use case uses",
+  "back": "تخطيط · architecture · testing (walk-through)"
+ }
+]

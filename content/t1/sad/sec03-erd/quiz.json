@@ -1,0 +1,242 @@
+[
+ {
+  "topic": "ER",
+  "q": "Basic constructs of the ER model are:",
+  "choices": [
+   "Entities, attributes and relationships",
+   "Classes, objects, methods",
+   "Actors, use cases",
+   "Tables only"
+  ],
+  "explain": "**Entities · Attributes · Relationships**.",
+  "answer": 0
+ },
+ {
+  "topic": "ER",
+  "q": "In an ER diagram, rectangles represent:",
+  "choices": [
+   "Relationship sets",
+   "Entity sets",
+   "Attributes",
+   "Keys"
+  ],
+  "explain": "مستطيل = entity.",
+  "answer": 1
+ },
+ {
+  "topic": "ER",
+  "q": "In an ER diagram, diamonds represent:",
+  "choices": [
+   "Entity sets",
+   "Attributes",
+   "Relationship sets",
+   "Domains"
+  ],
+  "explain": "معين = relationship.",
+  "answer": 2
+ },
+ {
+  "topic": "ER",
+  "q": "In an ER diagram, ellipses represent:",
+  "choices": [
+   "Entities",
+   "Relationships",
+   "Cardinality",
+   "Attributes"
+  ],
+  "explain": "بيضاوي = attribute.",
+  "answer": 3
+ },
+ {
+  "topic": "Entities",
+  "q": "A strong entity is an entity set that:",
+  "choices": [
+   "Has a primary key",
+   "Has no primary key",
+   "Is always weak",
+   "Has no attributes"
+  ],
+  "explain": "**Strong** عنده PK.",
+  "answer": 0
+ },
+ {
+  "topic": "Entities",
+  "q": "A weak entity set:",
+  "choices": [
+   "Has a primary key",
+   "Does not have sufficient attributes to form a primary key",
+   "Has no relationships",
+   "Is derived"
+  ],
+  "explain": "**Weak** ملهاش PK.",
+  "answer": 1
+ },
+ {
+  "topic": "Entities",
+  "q": "A partial key:",
+  "choices": [
+   "Is a primary key",
+   "Is a foreign key",
+   "Distinguishes weak entities together with the owner's primary key",
+   "Is a super key"
+  ],
+  "explain": "**Partial key**.",
+  "answer": 2
+ },
+ {
+  "topic": "Entities",
+  "q": "An identifying relationship is drawn as a:",
+  "choices": [
+   "Single rectangle",
+   "Dashed ellipse",
+   "Circle",
+   "Double-line diamond"
+  ],
+  "explain": "معين بخط مزدوج.",
+  "answer": 3
+ },
+ {
+  "topic": "Attributes",
+  "q": "A derived attribute is:",
+  "choices": [
+   "Having several values",
+   "Computed from another attribute (e.g. age from birth date)",
+   "Divisible into parts",
+   "A key"
+  ],
+  "explain": "**Derived** بيتحسب.",
+  "answer": 1
+ },
+ {
+  "topic": "Attributes",
+  "q": "A multi-valued attribute:",
+  "choices": [
+   "Is computed",
+   "Is always a key",
+   "Can have more than one value for an entity",
+   "Has no value"
+  ],
+  "explain": "**Multi-valued** كذا قيمة.",
+  "answer": 2
+ },
+ {
+  "topic": "Attributes",
+  "q": "A composite attribute:",
+  "choices": [
+   "Is derived",
+   "Is a key",
+   "Has one value only",
+   "Can be divided into sub-parts"
+  ],
+  "explain": "**Composite** ينقسم.",
+  "answer": 3
+ },
+ {
+  "topic": "Relationship",
+  "q": "The three properties of a relationship are:",
+  "choices": [
+   "Degree, cardinality constraint, participation constraint",
+   "Name, color, shape",
+   "Key, domain, type",
+   "Class, object, method"
+  ],
+  "explain": "**Degree, Cardinality, Participation**.",
+  "answer": 0
+ },
+ {
+  "topic": "Relationship",
+  "q": "A binary relationship has degree:",
+  "choices": [
+   "1",
+   "2",
+   "3",
+   "4"
+  ],
+  "explain": "**2**، unary = 1، ternary = 3.",
+  "answer": 1
+ },
+ {
+  "topic": "Relationship",
+  "q": "A relationship among three entity types is:",
+  "choices": [
+   "Unary",
+   "Binary",
+   "Ternary",
+   "Recursive"
+  ],
+  "explain": "**Ternary**.",
+  "answer": 2
+ },
+ {
+  "topic": "Relationship",
+  "q": "A relationship in which the same entity participates more than once is:",
+  "choices": [
+   "Binary",
+   "Ternary",
+   "Weak",
+   "Recursive (unary)"
+  ],
+  "explain": "**Recursive/Unary**.",
+  "answer": 3
+ },
+ {
+  "topic": "Participation",
+  "q": "'An employee MUST work for a department' is:",
+  "choices": [
+   "Total participation",
+   "Partial participation",
+   "Optional",
+   "Ternary"
+  ],
+  "explain": "**Total**.",
+  "answer": 0
+ },
+ {
+  "topic": "Participation",
+  "q": "Only some employees manage departments. The participation of employee in MANAGES is:",
+  "choices": [
+   "Total",
+   "Partial",
+   "Mandatory",
+   "Weak"
+  ],
+  "explain": "**Partial**.",
+  "answer": 1
+ },
+ {
+  "topic": "Keys",
+  "q": "A candidate key is:",
+  "choices": [
+   "Any attribute",
+   "A foreign key",
+   "A set of attributes that can uniquely identify an entity and has no removable attribute",
+   "A derived attribute"
+  ],
+  "explain": "**Candidate key**.",
+  "answer": 2
+ },
+ {
+  "topic": "Keys",
+  "q": "(SSN, Name) is NOT a candidate key because:",
+  "choices": [
+   "SSN is not unique",
+   "Name is a key",
+   "SSN is derived",
+   "Name can be removed without losing uniqueness"
+  ],
+  "explain": "فيه attribute زيادة.",
+  "answer": 3
+ },
+ {
+  "topic": "Keys",
+  "q": "The primary key is:",
+  "choices": [
+   "The candidate key chosen by the designer (unique and not null)",
+   "Any foreign key",
+   "A derived attribute",
+   "A weak key"
+  ],
+  "explain": "**Primary key**.",
+  "answer": 0
+ }
+]

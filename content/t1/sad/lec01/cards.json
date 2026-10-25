@@ -1,0 +1,46 @@
+[
+ {
+  "front": "Analysis vs Design",
+  "back": "Analysis = what (إيه المطلوب) · Design = how (إزاي هيتنفذ)"
+ },
+ {
+  "front": "System analyst",
+  "back": "الجسر بين مستخدمي الـ business وفنيي الكمبيوتر"
+ },
+ {
+  "front": "Role of analyst",
+  "back": "تسهيل التواصل · استخلاص المتطلبات · توثيقها · إدارة التعديلات (version control)"
+ },
+ {
+  "front": "Stakeholders",
+  "back": "Managers · Regulators · Day-to-day users · Technical support · Developers"
+ },
+ {
+  "front": "Good analyst",
+  "back": "Impertinence · Impartiality · Relax constraints · Attention to detail · Re-framing"
+ },
+ {
+  "front": "End-user levels",
+  "back": "Top/Executive ← Middle ← Supervisory ← Clerical & service"
+ },
+ {
+  "front": "Models / Techniques / Tools",
+  "back": "Models = تمثيل (graphical, mathematical, physical) · Techniques = إرشادات · Tools = برامج CASE"
+ },
+ {
+  "front": "Data-centered approach",
+  "back": "ERDs/DFDs ← tables, keys ← files, records"
+ },
+ {
+  "front": "OO approach",
+  "back": "use case/class diagrams ← ODL ← class definitions"
+ },
+ {
+  "front": "Principles",
+  "back": "للمستخدم · مراحل ومهام · حل مشكلات · مش sequential · استثمار رأسمالي · ممكن تلغي · التوثيق ناتج كل المراحل"
+ },
+ {
+  "front": "Project failure",
+  "back": "Complete failure · Cost overruns · Quality problems · Missed deadlines · Unsatisfied stakeholders · Operational failure"
+ }
+]

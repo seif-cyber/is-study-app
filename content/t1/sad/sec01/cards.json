@@ -1,0 +1,22 @@
+[
+ {
+  "front": "UML",
+  "back": "Unified Modeling Language · لغة رسومية لـ specifying / visualizing / constructing / documenting"
+ },
+ {
+  "front": "Structural vs Behavioral",
+  "back": "Structural = static (class, package, composite structure, profile) · Behavioral = dynamic (use case, sequence, activity, state)"
+ },
+ {
+  "front": "Use case diagram",
+  "back": "تفاعل النظام مع actors خارجيين · التقاط المتطلبات · عقد بين المستخدم والمطور"
+ },
+ {
+  "front": "Sequence diagram",
+  "back": "Interaction diagram · ترتيب تفاعل الـ processes (مثال ATM)"
+ },
+ {
+  "front": "ATM messages",
+  "back": "1: insert card ... 4.1.1: validateTransaction(accountNumber, amount)"
+ }
+]

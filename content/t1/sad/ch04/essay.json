@@ -1,0 +1,30 @@
+[
+ {
+  "q": "What is a requirement and why are requirements important?",
+  "a": "A requirement is a statement identifying a capability, characteristic or quality factor of a system that gives it value and utility to a customer or user. Per IEEE it must be unambiguous, testable/measurable and necessary. Requirements are the basis for all later work (design, development, testing, implementation, operation) and for project planning, risk management, trade-offs, acceptance testing and change control."
+ },
+ {
+  "q": "Define requirements engineering and discuss completeness and consistency.",
+  "a": "Requirements engineering is the subset of systems engineering concerned with discovering, developing, tracing, analyzing, qualifying, communicating and managing the requirements that define the system at successive levels of abstraction. Requirements should theoretically be complete (all facilities described) and consistent (no conflicts), but in practice, because of system and environment complexity, a fully complete and consistent document is impossible."
+ },
+ {
+  "q": "List the criteria of a good requirement.",
+  "a": "Necessary, feasible, correct, concise, unambiguous, complete, consistent, verifiable, traceable, allocated, design independent, nonredundant, written using the standard construct 'shall', assigned a unique identifier, and devoid of escape clauses (if, when, but, except, unless; usually, generally, often...)."
+ },
+ {
+  "q": "Compare the reasons for project failure and the success factors reported by Standish Group.",
+  "a": "Failure (1995): incomplete requirements 13.1%, lack of user involvement 12.4%, lack of resources 10.6%, unrealistic expectations 9.9%, lack of executive support 9.3%, changing requirements 8.7%, lack of planning 8.1%, no longer needed 7.5%. Success (1995): user involvement 15.9%, management support 13.9%, clear statement of requirements 13.0%... Success (2015): executive management support 20%, user involvement 15%, optimization 15%, skilled resources 13%, project management expertise 12%, agile process 10%."
+ },
+ {
+  "q": "What are functional requirements? Give examples and explain requirements imprecision.",
+  "a": "Functional requirements are statements of services the system should provide, how it reacts to inputs and how it behaves in specific situations (behavioral/operational requirements). Examples from MHC-PMS: a user shall be able to search the appointments lists for all clinics; the system shall generate a daily list of patients per clinic; each staff member shall be identified by an 8-digit number. Imprecision: 'search' was understood by users as across all clinics but by developers as within one clinic."
+ },
+ {
+  "q": "Explain non-functional requirements and their classifications.",
+  "a": "Non-functional requirements specify system properties (reliability, safety), constraints on services (response time) and on the development process (standards, IDE, language). They often apply to the whole system and may be more critical than functional ones. Sommerville: product, organisational, external. Robertson & Robertson (8): look-and-feel, usability and humanity, performance, operational and environmental, maintainability and support, cultural, legal, security."
+ },
+ {
+  "q": "Explain security requirements and how non-functional requirements can be made verifiable.",
+  "a": "Security covers access, privacy, integrity and immunity; attacks include disclosure, modification, denial of service and repudiation. NFRs are hard to state precisely and verify; a verifiable NFR expresses a goal using a measurable metric: speed (transactions/second), size (MB), ease of use (training time), reliability (MTTF, availability), robustness (restart time), portability (number of target systems)."
+ }
+]

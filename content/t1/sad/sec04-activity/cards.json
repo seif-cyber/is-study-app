@@ -1,0 +1,30 @@
+[
+ {
+  "front": "Activity diagram",
+  "back": "behavioral · flow chart متقدم · workflow من البداية للنهاية بمسارات قرار"
+ },
+ {
+  "front": "Components",
+  "back": "Initial state · Activity · Control flow · Fork · Join · Decision · Merge · Swim lanes · Final nodes"
+ },
+ {
+  "front": "Fork vs Join",
+  "back": "Fork = تقسيم لنشاطين متزامنين · Join = تجميعهم"
+ },
+ {
+  "front": "Decision vs Merge",
+  "back": "Decision = مسارين+ بشروط · Merge = تجميع تدفقات غير متزامنة"
+ },
+ {
+  "front": "Swim lanes",
+  "back": "تجميع الأنشطة المرتبطة في عمود/صف (رأسي أو أفقي)"
+ },
+ {
+  "front": "Flow final vs Activity final",
+  "back": "Flow final = نهاية تدفق واحد · Activity final = نهاية كل التدفقات"
+ },
+ {
+  "front": "ATM example",
+  "back": "Customer: Enter pin · ATM: [valid PIN] ← enter amount ← check balance ← debit + take money ← show balance ← eject card"
+ }
+]

@@ -1,0 +1,74 @@
+[
+ {
+  "front": "Requirement",
+  "back": "بيان لقدرة/خاصية/جودة لازم النظام يكون عنده · unambiguous, testable, necessary (IEEE)"
+ },
+ {
+  "front": "Why important",
+  "back": "أساس: Project Planning · Risk Management · Trade Off · Acceptance Testing · Change Control"
+ },
+ {
+  "front": "Requirements Engineering",
+  "back": "اكتشاف وتطوير وتتبع وتحليل وتوصيل وإدارة المتطلبات"
+ },
+ {
+  "front": "Complete vs Consistent",
+  "back": "Complete = كل المرافق · Consistent = بدون تعارض · مستحيل 100%"
+ },
+ {
+  "front": "Good requirement",
+  "back": "Necessary · Feasible · Correct · Concise · Unambiguous · Complete · Consistent · Verifiable · Traceable · Allocated · Design independent · Nonredundant · shall · unique ID · no escape clauses"
+ },
+ {
+  "front": "Failure reasons 1995",
+  "back": "Incomplete requirements 13.1% · Lack of user involvement 12.4% · Lack of resources 10.6%"
+ },
+ {
+  "front": "Success factors 1995",
+  "back": "User involvement 15.9% · Management support 13.9% · Clear requirements 13.0%"
+ },
+ {
+  "front": "Success factors 2015",
+  "back": "Executive management support 20% · User involvement 15% · Optimization 15%"
+ },
+ {
+  "front": "Functional REQ",
+  "back": "خدمات/سلوك النظام (behavioral/operational) · inputs ← outputs"
+ },
+ {
+  "front": "Requirements imprecision",
+  "back": "مثال 'search': المستخدم كل العيادات · المطور عيادة واحدة"
+ },
+ {
+  "front": "Non-functional REQ",
+  "back": "خصائص وقيود (reliability, response time...) · تنطبق على النظام كله"
+ },
+ {
+  "front": "Sommerville (3)",
+  "back": "Product · Organisational · External"
+ },
+ {
+  "front": "Robertson (8)",
+  "back": "Look-and-feel · Usability · Performance · Operational · Maintainability · Cultural · Legal · Security"
+ },
+ {
+  "front": "Security REQs",
+  "back": "Access · Privacy · Integrity · Immunity"
+ },
+ {
+  "front": "Attacks",
+  "back": "Disclosure · Modification · Denial of service · Repudiation"
+ },
+ {
+  "front": "Verifiable NFR",
+  "back": "goal + measure يتختبر موضوعيًا (fit criteria)"
+ },
+ {
+  "front": "Metrics",
+  "back": "Speed: transactions/sec · Size: MB · Ease of use: training time · Reliability: MTTF · Robustness: restart time · Portability: number of targets"
+ },
+ {
+  "front": "Constraints",
+  "back": "Solution constraints · Deadlines · Financial budget · Current system constraints"
+ }
+]

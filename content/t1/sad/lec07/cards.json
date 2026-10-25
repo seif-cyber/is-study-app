@@ -1,0 +1,70 @@
+[
+ {
+  "front": "Software process",
+  "back": "Specification · Design & implementation · Validation · Maintenance & evolution"
+ },
+ {
+  "front": "Model",
+  "back": "abstraction لنظام · لتقليل التعقيد، اختبار، تواصل، توثيق"
+ },
+ {
+  "front": "UML diagram groups",
+  "back": "Functional (use case) · Static (class, object, package) · Dynamic (interaction, state, activity)"
+ },
+ {
+  "front": "UML tools",
+  "back": "Rational Rose (IBM) · Bouml (open source) · Visio (sketching)"
+ },
+ {
+  "front": "Class model",
+  "back": "البنية الثابتة: classes + objects + relationships + attributes + operations · أهم OO model"
+ },
+ {
+  "front": "OO software",
+  "back": "objects بتجمع data + behavior · الوحدة الأساسية = object"
+ },
+ {
+  "front": "OO characteristics",
+  "back": "Identity · Classification · Encapsulation · Abstraction · Inheritance · Polymorphism · Generics · Cohesion · Coupling"
+ },
+ {
+  "front": "Identity",
+  "back": "كل object مميز (memory address / handle) حتى لو نفس الـ state"
+ },
+ {
+  "front": "Classification",
+  "back": "objects بنفس attributes و operations ← نفس الـ class"
+ },
+ {
+  "front": "Abstraction",
+  "back": "إخفاء غير المهم · الغرض بيحدد المهم (Car عند DMV vs mechanic)"
+ },
+ {
+  "front": "Encapsulation",
+  "back": "data hiding + implementation hiding · تغيير التنفيذ بدون تأثير"
+ },
+ {
+  "front": "Inheritance",
+  "back": "superclass (parent/base) ← subclass (child/derived) · general ثم special"
+ },
+ {
+  "front": "Polymorphism",
+  "back": "نفس operation بـ methods مختلفة (getArea)"
+ },
+ {
+  "front": "Generics",
+  "back": "type بيتحدد وقت التشغيل (parameterized class)"
+ },
+ {
+  "front": "Attribute / Value",
+  "back": "attribute = خاصية مسماة · value = قيمة محددة · الاسم فريد داخل class"
+ },
+ {
+  "front": "Operation vs Method",
+  "back": "operation = الإجراء · method = تنفيذه في class"
+ },
+ {
+  "front": "Class notation",
+  "back": "3 compartments: name · attributes · operations · مفقود ≠ فاضي · - private · + public"
+ }
+]

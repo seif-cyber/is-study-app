@@ -1,0 +1,30 @@
+[
+ {
+  "q": "Differentiate between business processes and business rules and how each is represented.",
+  "a": "A **business process** defines what is done in a business, by whom, in what order, using which resources and with what consequences (e.g. renting a car); it is represented with UML activity diagrams. A **business rule** constrains how the business is run (e.g. the allocated car is the lowest-mileage available one); it is recorded in natural language or UML and OCL (Object Constraint Language) to give quick access when things change and as a basis for decisions."
+ },
+ {
+  "q": "Explain the elements of an activity diagram.",
+  "a": "Activities (rounded boxes); start node and end node; transitions (arrows); synchronization bars (fork for concurrent activities, join for their end); decision node (diamond with two outgoing arcs and guards in square brackets); merge node (brings alternative flows together with one outgoing flow); guard (Boolean condition on a transition); swimlanes (who is responsible for which activities)."
+ },
+ {
+  "q": "What are the advantages of activity diagrams?",
+  "a": "They investigate the workflow from activity to activity, help understand the basic behavior of the system and business situation, model concurrent systems, record use case scenarios, and identify the stages at which each role interacts with the process."
+ },
+ {
+  "q": "Explain use case models, their elements and advantages.",
+  "a": "Use case models define what a proposed system should do from the user's perspective and can be the basis of a contract. Elements: actors (stick figures), use cases (ovals), relationships (lines) and notes. Advantages: capturing and representing requirements, planning iterations, validating systems, defining system scope, and acting as a common language between developer and user."
+ },
+ {
+  "q": "Describe the parts of a use case description and give an example.",
+  "a": "Identifier and name; initiator; goal; precondition; postcondition; main success scenario (numbered steps); and extensions. Example UC1 make reservation: initiator guest or receptionist; goal a room is reserved; precondition none; postcondition a room of the desired type is reserved for the period and no longer free; extension 3.a room not available: offer alternatives."
+ },
+ {
+  "q": "Explain «include» and «extend» with examples.",
+  "a": "«include» factors common functionality into a distinct use case used by several others; it is unconditional (e.g. check reservation included by extend loan and return copy of book). «extend» models conditional alternative behaviour of a use case (e.g. refuse loan extends borrow copy of book when the member has the maximum number of books). The dashed arrow points to the included use case for include, and from the extension to the original for extend."
+ },
+ {
+  "q": "Explain generalization among actors and the use of use cases in planning, architecture and testing.",
+  "a": "When two actors share behaviour and one has extra behaviour, a generalised actor (Reserver) holds the common behaviour and specialised actors (Guest, Receptionist) inherit it, shown with an open-headed arrow. Use cases help planning (complexity, actors, risk, effort estimates), influence architecture (grouping, interfaces, checking non-functional requirements via scenarios) and testing (walk-through, deriving tests from scenarios)."
+ }
+]

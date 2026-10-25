@@ -1,0 +1,26 @@
+[
+ {
+  "front": "System analysis",
+  "back": "دراسة النظام الحالي لتحديد المشاكل والاحتياجات وجمع متطلبات الجديد"
+ },
+ {
+  "front": "System design",
+  "back": "خطة تفصيلية لإزاي النظام الجديد هيتبني"
+ },
+ {
+  "front": "SDLC",
+  "back": "عملية لتصميم وتطوير واختبار البرمجيات · تنتهي بـ Deployment/Delivery"
+ },
+ {
+  "front": "Requirements process",
+  "back": "Gathering ← Organizing ← Negotiation & discussion ← Documentation"
+ },
+ {
+  "front": "Functional requirement",
+  "back": "إيه البرنامج يعمل · مثال: search by name/category"
+ },
+ {
+  "front": "Non-functional requirement",
+  "back": "إزاي بيؤدي: performance, usability, reliability, security + قيود"
+ }
+]

@@ -1,0 +1,34 @@
+[
+ {
+  "q": "Explain associations, multiplicity and roles.",
+  "a": "An association is a relationship between classes with a meaningful name (a verb phrase), inherently bidirectional and usually implemented by references. Multiplicity specifies the number of instances of one class relating to one instance of the other (*, 1..*, 1..40, 5, 3,5,8) and exposes hidden assumptions. Roles name each association end and are important in self-associations (e.g. employee/employer, parent/child)."
+ },
+ {
+  "q": "Differentiate between a link and an association.",
+  "a": "A link is a physical or conceptual connection among objects (John works for GE). An association is a relationship between classes that represents a group of links (Person WorksFor Company). Class diagrams show associations and object diagrams show links; multiple associations can model multiple links between the same objects."
+ },
+ {
+  "q": "What is an association class? Compare it with an ordinary class.",
+  "a": "An association class is an association that is also a class, with attributes and operations (e.g. WorksFor with salary and jobTitle, or AccessibleBy with accessPermission). It has only one occurrence per pair of linked objects, whereas an ordinary class such as Purchase can have any number of objects for each pair of person and company."
+ },
+ {
+  "q": "Explain qualified associations with an example.",
+  "a": "A qualified association uses a qualifier attribute to reduce a many relation to a one relation at the other end. A bank has many accounts, but bank plus account number identifies exactly one account; likewise directory plus filename identifies one file. Qualification increases the precision of the model."
+ },
+ {
+  "q": "Differentiate between aggregation and composition.",
+  "a": "Aggregation is a has-a association where an aggregate contains parts (PoliceStation-PoliceOfficer, Directory-File). Composition is stronger: a part belongs to at most one assembly and exists only if the assembly exists (Hand-Finger, Board-Square)."
+ },
+ {
+  "q": "Explain generalization, specialization, inheritance, overriding and abstract classes.",
+  "a": "Generalization is the is-a relationship between a superclass (common attributes, operations and associations) and subclasses (specific additions); inheritance is the mechanism; it is transitive. Its purposes are polymorphism, structuring descriptions and code reuse. A subclass may override a feature with the same name but must preserve attribute type, argument number and types and return type. An abstract class cannot be instantiated and has abstract operations (e.g. Employee.computePay)."
+ },
+ {
+  "q": "What is an object diagram and what are its elements?",
+  "a": "An object diagram is a snapshot of the system at an instant in time and is an instantiation of the class model. Elements: rectangles for objects with underlined ObjectName : ClassName, an optional compartment of attribute values, and links (instances of associations) between objects."
+ },
+ {
+  "q": "State the class modelling tips.",
+  "a": "Find objects among tangible objects, roles, events and organizational units. Keep scope relevant, models simple, layouts clear (avoid crossing lines) and use descriptive singular nouns for class names."
+ }
+]

@@ -1,0 +1,70 @@
+[
+ {
+  "front": "Association",
+  "back": "علاقة بين classes · verb phrase · ثنائية الاتجاه"
+ },
+ {
+  "front": "Multiplicity values",
+  "back": "* zero or more · 1..* one or more · 1..40 · 5 exactly · 3,5,8 · 0..1 optional"
+ },
+ {
+  "front": "Link vs Association",
+  "back": "link = بين objects · association = مجموعة links بين classes"
+ },
+ {
+  "front": "Roles / Self-association",
+  "back": "اسم لكل طرف · مهم للـ self-associations (parent/child)"
+ },
+ {
+  "front": "Association class",
+  "back": "association + class (attributes) · مثال WorksFor (salary, jobTitle) · AccessibleBy (accessPermission)"
+ },
+ {
+  "front": "Association class vs ordinary",
+  "back": "association class: occurrence واحد لكل زوج · ordinary class: أي عدد"
+ },
+ {
+  "front": "Qualified association",
+  "back": "qualifier يقلل many إلى one (Bank + accountNumber → Account)"
+ },
+ {
+  "front": "Class modelling order",
+  "back": "Define classes ← associations ← multiplicity"
+ },
+ {
+  "front": "Aggregation",
+  "back": "has-a · ◇ · PoliceStation–PoliceOfficer · Directory–File"
+ },
+ {
+  "front": "Composition",
+  "back": "◆ · الجزء يوجد بوجود الكل · Hand–Finger · Board–Square"
+ },
+ {
+  "front": "Generalization",
+  "back": "is-a · superclass فيها المشترك · subclass تضيف الخاص · transitive"
+ },
+ {
+  "front": "Specialization vs Inheritance",
+  "back": "specialization = تخصيص · inheritance = الآلية"
+ },
+ {
+  "front": "Generalization purposes",
+  "back": "دعم polymorphism · هيكلة الوصف · إعادة استخدام الكود"
+ },
+ {
+  "front": "Overriding",
+  "back": "نفس الاسم في subclass · يحافظ على attribute type وarguments وreturn type"
+ },
+ {
+  "front": "Abstract class",
+  "back": "ناقص · ما ينفعش instances · abstract operation (computePay)"
+ },
+ {
+  "front": "Object diagram",
+  "back": "snapshot · ObjectName:ClassName مسطّر · links = instances of associations"
+ },
+ {
+  "front": "Class modelling tips",
+  "back": "Tangible · Roles · Events · Organizational units · Scope · Simplicity · Layout · Names"
+ }
+]

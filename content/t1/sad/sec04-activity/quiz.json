@@ -1,0 +1,17 @@
+[
+  {"topic": "Activity", "q": "An activity diagram is essentially:", "choices": ["An advanced version of a flow chart", "A class diagram", "A database schema", "A network map"], "explain": "**advanced flow chart**.", "answer": 0},
+  {"topic": "Activity", "q": "An activity diagram describes:", "choices": ["The static structure", "The dynamic aspects of the system", "Hardware", "Requirements only"], "explain": "dynamic.", "answer": 1},
+  {"topic": "Activity", "q": "The initial state is shown as:", "choices": ["A diamond", "A rectangle", "A filled circle", "A stick figure"], "explain": "دايرة مصمتة.", "answer": 2},
+  {"topic": "Activity", "q": "A fork:", "choices": ["Joins flows", "Ends the process", "Starts the process", "Splits a single activity flow into two concurrent activities"], "explain": "**Fork** = تقسيم.", "answer": 3},
+  {"topic": "Activity", "q": "A join:", "choices": ["Combines concurrent activities into a flow where only one activity occurs at a time", "Splits flows", "Is a decision", "Is a note"], "explain": "**Join**.", "answer": 0},
+  {"topic": "Activity", "q": "A decision node:", "choices": ["Has one outgoing path", "Has at least two paths with condition text", "Joins flows", "Ends the activity"], "explain": "مسارين على الأقل.", "answer": 1},
+  {"topic": "Activity", "q": "A merge node:", "choices": ["Splits a flow", "Represents a swimlane", "Brings together multiple non-concurrent flows", "Starts the diagram"], "explain": "**Merge**.", "answer": 2},
+  {"topic": "Activity", "q": "Swim lanes:", "choices": ["Split flows", "End flows", "Hold notes", "Group related activities into one column or row, vertical or horizontal"], "explain": "**Swim lanes**.", "answer": 3},
+  {"topic": "Activity", "q": "A flow final node represents:", "choices": ["The end of one specific flow", "The end of all flows", "The start", "A decision"], "explain": "flow final = تدفق واحد.", "answer": 0},
+  {"topic": "Activity", "q": "An activity final node (final state) represents:", "choices": ["The end of one flow only", "Completion of all flows of a process", "A fork", "A merge"], "explain": "activity final = كل التدفقات.", "answer": 1},
+  {"topic": "Activity", "q": "Control flow is shown as:", "choices": ["A diamond", "A circle", "An arrow from one activity to another", "A swimlane"], "explain": "سهم.", "answer": 2},
+  {"topic": "Activity", "q": "In the sale example, a guard such as [First item] is used on:", "choices": ["A fork", "A swimlane", "The initial state", "A decision"], "explain": "guards على القرارات.", "answer": 3},
+  {"topic": "Activity", "q": "In the ATM activity diagram, the lanes are:", "choices": ["Customer and ATM Machine", "Bank and Customer", "Admin and User", "Server and Client"], "explain": "**Customer / ATM Machine**.", "answer": 0},
+  {"topic": "Activity", "q": "In the ATM example, an invalid PIN leads to:", "choices": ["Immediate success", "A different path guarded by [Invalid PIN]", "Fork", "Join"], "explain": "guard `[Invalid PIN]`.", "answer": 1},
+  {"topic": "Activity", "q": "The Fork/Join example in the lecture involves:", "choices": ["Two decisions", "Two swimlanes", "Steaming milk and adding coffee in parallel", "Two final nodes"], "explain": "Steaming Milk + Adding Coffee.", "answer": 2}
+]

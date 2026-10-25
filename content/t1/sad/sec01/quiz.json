@@ -1,0 +1,18 @@
+[
+  {"topic": "UML", "q": "UML stands for:", "choices": ["Unified Modeling Language", "Universal Machine Language", "Unified Markup Logic", "User Model Link"], "explain": "**Unified Modeling Language**.", "answer": 0},
+  {"topic": "UML", "q": "UML is used to:", "choices": ["Only write code", "Specify, visualize, construct and document the artifacts of software systems", "Only manage budgets", "Only design hardware"], "explain": "specifying / visualizing / constructing / documenting.", "answer": 1},
+  {"topic": "UML", "q": "UML mostly uses:", "choices": ["Plain text only", "Spreadsheets", "Graphical notations", "Audio"], "explain": "**Graphical notations**.", "answer": 2},
+  {"topic": "UML", "q": "UML simplifies:", "choices": ["Hardware assembly", "Accounting", "Marketing", "The complex process of software design"], "explain": "بيبسّط تصميم البرمجيات.", "answer": 3},
+  {"topic": "Types", "q": "Structural diagrams show:", "choices": ["Static features of a system", "Dynamic features", "Only workflows", "Only users"], "explain": "**Structural = static**.", "answer": 0},
+  {"topic": "Types", "q": "Behavioral diagrams show:", "choices": ["Static features", "Dynamic features of a system", "Only classes", "Only packages"], "explain": "**Behavioral = dynamic**.", "answer": 1},
+  {"topic": "Types", "q": "Which is a structural diagram?", "choices": ["Use case diagram", "Sequence diagram", "Class diagram", "Activity diagram"], "explain": "**Class diagram** = structural.", "answer": 2},
+  {"topic": "Types", "q": "Which is a behavioral diagram?", "choices": ["Package diagram", "Class diagram", "Profile diagram", "Sequence diagram"], "explain": "Sequence = behavioral.", "answer": 3},
+  {"topic": "Use case", "q": "A use case diagram describes:", "choices": ["The interaction between the system and its external actors", "The class structure", "The database schema", "The network"], "explain": "تفاعل النظام مع actors.", "answer": 0},
+  {"topic": "Use case", "q": "A use case diagram is mainly used to:", "choices": ["Design databases", "Capture user requirements", "Write code", "Test hardware"], "explain": "التقاط متطلبات المستخدم.", "answer": 1},
+  {"topic": "Use case", "q": "A use case diagram works like:", "choices": ["A class hierarchy", "A test log", "A contract between end user and software developers", "A network map"], "explain": "عقد.", "answer": 2},
+  {"topic": "Sequence", "q": "A sequence diagram is a(n):", "choices": ["Class diagram", "Package diagram", "ER diagram", "Interaction diagram"], "explain": "**Interaction diagram**.", "answer": 3},
+  {"topic": "Sequence", "q": "A sequence diagram shows:", "choices": ["How processes operate with one another and in what order", "Static classes", "Database tables", "Hardware"], "explain": "ترتيب التفاعل.", "answer": 0},
+  {"topic": "Sequence", "q": "In the ATM sequence diagram, message '1' is:", "choices": ["validateTransaction", "insert card", "eject card", "enter amount"], "explain": "الرسالة 1: **insert card**.", "answer": 1},
+  {"topic": "Sequence", "q": "The hierarchical numbering such as 4.1.1 in a sequence diagram indicates:", "choices": ["Different diagrams", "Class names", "Nested messages", "Errors"], "explain": "ترقيم هرمي للرسائل المتداخلة.", "answer": 2},
+  {"topic": "Examples", "q": "The use case example in the section is for:", "choices": ["A hospital", "A library", "A bank", "An airline reservation system"], "explain": "**Airline Reservation System**.", "answer": 3}
+]

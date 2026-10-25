@@ -1,0 +1,30 @@
+[
+ {
+  "q": "What is an ERD and what are its objectives and components?",
+  "a": "An ERD (Chen, 1976) models the semantics of data to be stored in an information system. Components: entities, attributes and relationships. Objectives: an accurate model of the organization's information needs, a framework for new systems, modelling data independently of storage/access method, communication with users, and verifying functional requirements (CRUD)."
+ },
+ {
+  "q": "Explain entities and attributes.",
+  "a": "An entity is a thing that can be distinctly identified; the entity type defines attributes and their domains (named in the singular) and an entity instance is an occurrence. Attributes are descriptive or identifying, take values from a domain, may be optional (NULL) or mandatory, and logical design may add surrogate and foreign keys."
+ },
+ {
+  "q": "Explain relationship properties and types with examples.",
+  "a": "Degree (number of participants: unary, binary, ternary), cardinality (1:1, 1:M, M:M) and optionality (participation), with labels in both directions. Examples: student–course M:M; customer–order 1:M; citizen–SSID 1:1; artist must create one or more artworks, artwork produced by exactly one artist."
+ },
+ {
+  "q": "Differentiate between conceptual and logical ERDs.",
+  "a": "Conceptual ERDs document the real world, allow M:M relationships and do not show foreign keys, with no concern for database type. Logical ERDs document it in terms of a relational structure: M:M relationships are replaced by two 1:M relationships and an all-key intermediary entity, and foreign keys are shown."
+ },
+ {
+  "q": "Differentiate between strong, weak and associative entities.",
+  "a": "A strong entity exists independently. A weak entity is existence-dependent on another entity (e.g. ORDER on CUSTOMER) and its key is often defined via the relationship. An associative entity holds information about an association between two or more (usually strong) entities and depends on at least two entities."
+ },
+ {
+  "q": "Explain subtyping and exclusivity.",
+  "a": "A subtype is a subset of another entity's occurrences (supertype), grouping like items; it inherits supertype attributes, gives more accurate representation, removes redundancy and improves readability (e.g. Boat with sailing, power, rowing, hydrofoil; Person with Staff and Customer). Exclusivity (either/or) is modelled with an arc in Barker notation; rules: all arc ends join the same entity, same optionality, no end in more than one arc (e.g. an account owned by an individual or a company, not both)."
+ },
+ {
+  "q": "Explain how the sales office/property ERD eliminates the many-to-many relationship.",
+  "a": "Property and Owner have a many-to-many relationship with attribute Percent_Owned. It is eliminated by an associative (link) entity between Property and Owner carrying Property_ID and Owner_ID as a composite primary key (both foreign keys) and the Percent_Owned attribute."
+ }
+]

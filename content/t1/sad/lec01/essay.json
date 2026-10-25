@@ -1,0 +1,30 @@
+[
+ {
+  "q": "What is SAD? Differentiate between analysis and design.",
+  "a": "**Systems analysis** is the process of understanding and specifying in detail what the information system should accomplish (what is required to solve the problem). **System design** is the process of defining and describing in detail how the components of the information system should be physically implemented (how the system will operate to solve the problem)."
+ },
+ {
+  "q": "Who is the system analyst and what is the analyst's role?",
+  "a": "The system analyst bridges the gap between business users and computer technicians, studying the organization's problems and requirements to decide how people, methods and technology can best improve the business. Roles: facilitate communication between all stakeholders; elicit requirements from many sources; document requirements accurately and consistently; manage future revisions (version control)."
+ },
+ {
+  "q": "Explain the characteristics of a good analyst.",
+  "a": "Impertinence (question everything, assume nothing); Impartiality (find the best solution to the business problem); Relax constraints (assume anything is possible and eliminate the impossible); Attention to detail (be precise, comprehensive, consistent); Re-framing (be creative, think outside the box)."
+ },
+ {
+  "q": "Differentiate between models, techniques and tools.",
+  "a": "A **model** represents an important aspect of the real world (graphical, mathematical or physical). **Techniques** are guidelines that help the analyst complete a development activity (e.g. data modeling, software testing). **Tools** are supportive software (CASE tools) that help create models or other project components."
+ },
+ {
+  "q": "Compare the data-centered and object-oriented approaches.",
+  "a": "Both start from requirements (interviews, documentation, surveys). Data-centered: conceptual design with ERDs, DFDs, FDCs; logical design with tables, columns, primary and foreign keys; physical design with files, records, fields, pointers. Object-oriented: use case and class diagrams; schema in object definition language (ODL); class definitions."
+ },
+ {
+  "q": "List the essential principles for a successful system.",
+  "a": "The system is for the end-user; establish phases and tasks; problem-solving skills; system development is not a sequential process; systems are capital investments; don't be afraid to cancel; documentation is a product of all phases."
+ },
+ {
+  "q": "What counts as project failure?",
+  "a": "Complete failure (no deliverable output) and other types: cost overruns, software quality problems, missed deadlines, unsatisfied stakeholders and operational failure."
+ }
+]

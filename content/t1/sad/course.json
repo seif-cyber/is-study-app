@@ -22,8 +22,8 @@
       "id": "ch02",
       "kind": "lecture",
       "n": 2,
-      "title": "Ch2",
-      "titleAr": "",
+      "title": "Ch2: Development Methodologies",
+      "titleAr": "منهجيات التطوير",
       "pdf": "1RJgfja3zx1JXEd2LzmsvmxThVE359xbz",
       "mid": true
     },
@@ -31,8 +31,8 @@
       "id": "ch04",
       "kind": "lecture",
       "n": 3,
-      "title": "Ch4",
-      "titleAr": "",
+      "title": "Ch4: Requirement Gathering",
+      "titleAr": "جمع المتطلبات",
       "pdf": "1AL5_xdj4kGKY2tJJfUhaQ1-0kmiAoO3Y",
       "mid": true
     },
@@ -40,8 +40,8 @@
       "id": "ch05",
       "kind": "lecture",
       "n": 4,
-      "title": "Ch5",
-      "titleAr": "",
+      "title": "Ch5: Business Processes, Activity & Use Case",
+      "titleAr": "العمليات والـ Use Case",
       "pdf": "1K6XR3Czugho86ZnHUwhutn1tuklDWSZ-",
       "mid": true
     },
@@ -66,32 +66,32 @@
       "id": "lec07",
       "kind": "lecture",
       "n": 7,
-      "title": "Lec 7",
-      "titleAr": "",
+      "title": "Lec 7: Modelling & OO Concepts",
+      "titleAr": "النمذجة ومفاهيم OO",
       "pdf": "1AjEpJ4c50XVBNeREyHkjXREE6p0YwcWe"
     },
     {
       "id": "ch08",
       "kind": "lecture",
       "n": 8,
-      "title": "Ch8",
-      "titleAr": "",
+      "title": "Ch8: Class Associations & Generalization",
+      "titleAr": "علاقات الـ Class",
       "pdf": "1UMhNWWP9nk3lt4EFQ5DwhbvWadc2kBRl"
     },
     {
       "id": "sec01",
       "kind": "section",
       "n": 1,
-      "title": "Section: Intro",
-      "titleAr": "",
+      "title": "Section: UML, Use Case & Sequence",
+      "titleAr": "UML و Use Case و Sequence",
       "pdf": "1Fh-NaAhSSYz8U_h8cokkeb6zKcgZSFBA"
     },
     {
       "id": "sec02",
       "kind": "section",
       "n": 2,
-      "title": "Section: SAD",
-      "titleAr": "",
+      "title": "Section: SAD, SDLC & Requirements",
+      "titleAr": "مقدمة SAD والمتطلبات",
       "pdf": "16ZUDZp6-uy_EP0z11FasavKk12flEW7l"
     },
     {

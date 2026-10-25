@@ -1,0 +1,92 @@
+[
+ {
+  "en": "Association",
+  "ar": "ارتباط",
+  "def": "علاقة بين classes"
+ },
+ {
+  "en": "Multiplicity",
+  "ar": "التعددية",
+  "def": "عدد instances المرتبطة"
+ },
+ {
+  "en": "Link",
+  "ar": "وصلة",
+  "def": "اتصال بين objects"
+ },
+ {
+  "en": "Role",
+  "ar": "دور",
+  "def": "اسم لنهاية association"
+ },
+ {
+  "en": "Self-association",
+  "ar": "ارتباط ذاتي",
+  "def": "association لنفس الـ class"
+ },
+ {
+  "en": "Association Class",
+  "ar": "فئة ارتباط",
+  "def": "association لها attributes"
+ },
+ {
+  "en": "Qualified Association",
+  "ar": "ارتباط مؤهل",
+  "def": "qualifier يقلل many لـ one"
+ },
+ {
+  "en": "Aggregation",
+  "ar": "التجميع",
+  "def": "has-a، الجزء مستقل"
+ },
+ {
+  "en": "Composition",
+  "ar": "التركيب",
+  "def": "الجزء يعتمد على الكل"
+ },
+ {
+  "en": "Generalization",
+  "ar": "التعميم",
+  "def": "علاقة is-a"
+ },
+ {
+  "en": "Specialization",
+  "ar": "التخصيص",
+  "def": "تحسين الـ superclass"
+ },
+ {
+  "en": "Inheritance",
+  "ar": "الوراثة",
+  "def": "آلية التعميم والتخصيص"
+ },
+ {
+  "en": "Ancestor",
+  "ar": "السلف",
+  "def": "parent أو grandparent"
+ },
+ {
+  "en": "Descendant",
+  "ar": "الخلف",
+  "def": "child أو grandchild"
+ },
+ {
+  "en": "Overriding",
+  "ar": "تجاوز",
+  "def": "إعادة تعريف feature في subclass"
+ },
+ {
+  "en": "Abstract Class",
+  "ar": "فئة مجردة",
+  "def": "لا يمكن إنشاء instances"
+ },
+ {
+  "en": "Object Model",
+  "ar": "نموذج الكائنات",
+  "def": "مجموعة objects"
+ },
+ {
+  "en": "Object Diagram",
+  "ar": "مخطط الكائنات",
+  "def": "snapshot للنظام"
+ }
+]

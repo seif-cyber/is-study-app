@@ -1,0 +1,30 @@
+[
+ {
+  "q": "Differentiate between methodologies, techniques and tools.",
+  "a": "**Methodologies:** step-by-step approaches that help develop the information system. **Techniques:** processes the analyst follows to ensure thorough, complete and comprehensive analysis and design. **Tools:** computer programs that aid in applying techniques. Together they form an organizational approach to systems analysis and design."
+ },
+ {
+  "q": "Compare plan-driven and agile processes.",
+  "a": "In **plan-driven** processes all activities are planned in advance and progress is measured against the plan. In **agile** processes planning is incremental and it is easier to change the process to reflect changing requirements. Most practical processes include elements of both, and there are no right or wrong processes."
+ },
+ {
+  "q": "Explain the waterfall model, its phases and problems.",
+  "a": "Phases: requirements analysis and definition; system and software design; implementation and unit testing; integration and system testing; operation and maintenance. A phase must complete before the next. Problems: inflexible partitioning makes it hard to respond to changing requirements; appropriate only when requirements are well understood and changes limited; few business systems have stable requirements; mostly used for large systems engineering projects at several sites."
+ },
+ {
+  "q": "Explain incremental development with its benefits and problems.",
+  "a": "Specification, development and validation are interleaved, producing an initial version, intermediate versions and a final version. Benefits: lower cost of changing requirements, easier customer feedback, faster delivery. Problems: the process is not visible (managers need deliverables) and system structure degrades as increments are added unless refactoring is done."
+ },
+ {
+  "q": "Describe the spiral model and its disadvantages.",
+  "a": "Each loop has four sectors: objective setting, risk assessment and reduction, development and validation, and planning (review and plan the next phase). Disadvantages: not suitable if risk analysis greatly affects profit; developers must actively look for and accurately analyze risks."
+ },
+ {
+  "q": "What is software prototyping? When is it used and what are its benefits?",
+  "a": "A prototype is an initial version used to demonstrate concepts and try out design options, in requirements elicitation/validation, UI design and back-to-back testing. It is applied when customers do not know exact requirements and is an iterative trial-and-error process. Benefits: improved usability, closer match to real needs, improved design quality and maintainability, reduced development effort."
+ },
+ {
+  "q": "List the criteria for selecting an appropriate methodology.",
+  "a": "Clear user requirements; familiar technology; complexity; time schedule; schedule visibility."
+ }
+]

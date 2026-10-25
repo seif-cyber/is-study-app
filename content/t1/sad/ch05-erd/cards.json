@@ -1,0 +1,62 @@
+[
+ {
+  "front": "ERD",
+  "back": "Chen 1976 · entities + attributes + relationships · notations: Barker, IE, Chen, IDEF1X"
+ },
+ {
+  "front": "ERD objectives",
+  "back": "نموذج دقيق · أداة تواصل · تحقق من المتطلبات (CRUD) · مستقل عن التخزين"
+ },
+ {
+  "front": "Entity type vs instance",
+  "back": "type = تعريف (بالمفرد) · instance = occurrence"
+ },
+ {
+  "front": "Attributes",
+  "back": "Descriptive · Identifying · domain · Optional (NULL) · Mandatory"
+ },
+ {
+  "front": "Relationship degree",
+  "back": "عدد المشاركين: unary · binary · ternary"
+ },
+ {
+  "front": "Cardinality",
+  "back": "1:1 · 1:M · M:M"
+ },
+ {
+  "front": "Optionality",
+  "back": "لازم تشارك ولا لأ (0/1)"
+ },
+ {
+  "front": "Conceptual vs Logical ERD",
+  "back": "Conceptual: M:M مسموح، بدون FK · Logical: M:M ← 2×1:M + associative entity، مع FK"
+ },
+ {
+  "front": "ERD steps",
+  "back": "1) entities 2) relationships (optionality, cardinality, degree, labels) 3) attributes"
+ },
+ {
+  "front": "Strong / Weak / Associative",
+  "back": "Strong مستقل · Weak معتمد على entity · Associative معتمد على 2+"
+ },
+ {
+  "front": "Unique identifier",
+  "back": "تركيبة attributes وعلاقات تحدد occurrence ← PK"
+ },
+ {
+  "front": "Subtyping",
+  "back": "subtype ⊂ supertype · يرث attributes · تمثيل أدق وبدون تكرار"
+ },
+ {
+  "front": "Exclusivity (Arc)",
+  "back": "either/or · كل النهايات لنفس الـ entity · نفس الـ optionality · ولا نهاية في أكتر من arc"
+ },
+ {
+  "front": "Unary / Ternary",
+  "back": "Unary = نفس الـ entity · Ternary = 3 entities"
+ },
+ {
+  "front": "Temporal",
+  "back": "تسجيل التاريخ (position history) بـ entity إضافية"
+ }
+]

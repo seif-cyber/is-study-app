@@ -1,0 +1,38 @@
+[
+ {
+  "front": "ER model",
+  "back": "Entities · Attributes · Relationships"
+ },
+ {
+  "front": "ER symbols",
+  "back": "Rectangle = entity · Diamond = relationship · Ellipse = attribute · Double rectangle = weak · Double diamond = identifying · Underline = key · Double ellipse = multivalued · Dashed ellipse = derived"
+ },
+ {
+  "front": "Strong vs Weak",
+  "back": "Strong عنده PK · Weak ملهاش PK كفاية ← partial key + owner PK"
+ },
+ {
+  "front": "Attribute types",
+  "back": "Simple · Composite · Derived · Multi-valued · Complex"
+ },
+ {
+  "front": "Degree",
+  "back": "Unary (recursive) · Binary · Ternary"
+ },
+ {
+  "front": "Cardinality",
+  "back": "One-to-one · One-to-many · Many-to-many"
+ },
+ {
+  "front": "Participation",
+  "back": "Total (لازم) · Partial (بعض)"
+ },
+ {
+  "front": "Key types",
+  "back": "Candidate · Primary · Foreign · Composite · Partial · Alternate · Super"
+ },
+ {
+  "front": "Candidate vs Primary",
+  "back": "Candidate = يحدد بشكل فريد من غير زيادة · Primary = المختار (unique, not null)"
+ }
+]
