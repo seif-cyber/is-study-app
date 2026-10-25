@@ -55,17 +55,9 @@
       "mid": true
     },
     {
-      "id": "lec06",
-      "kind": "lecture",
-      "n": 6,
-      "title": "Lec 6",
-      "titleAr": "",
-      "pdf": "1OPWROr7O0Wkzli_KqZWkTw68B5oO5Nu3"
-    },
-    {
       "id": "lec07",
       "kind": "lecture",
-      "n": 7,
+      "n": 6,
       "title": "Lec 7: Modelling & OO Concepts",
       "titleAr": "النمذجة ومفاهيم OO",
       "pdf": "1AjEpJ4c50XVBNeREyHkjXREE6p0YwcWe"
@@ -73,7 +65,7 @@
     {
       "id": "ch08",
       "kind": "lecture",
-      "n": 8,
+      "n": 7,
       "title": "Ch8: Class Associations & Generalization",
       "titleAr": "علاقات الـ Class",
       "pdf": "1UMhNWWP9nk3lt4EFQ5DwhbvWadc2kBRl"
