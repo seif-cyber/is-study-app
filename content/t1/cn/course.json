@@ -13,8 +13,8 @@
       "id": "lec01-02",
       "kind": "lecture",
       "n": 1,
-      "title": "Lec 1 & 2",
-      "titleAr": "",
+      "title": "Lec 1: Introduction to Computer Networks",
+      "titleAr": "مقدمة في شبكات الحاسب",
       "pdf": "19qkguuihBpU2wnQOKbQyfsv0G5eSJKbF",
       "mid": true
     },
@@ -22,8 +22,8 @@
       "id": "lec03-04",
       "kind": "lecture",
       "n": 2,
-      "title": "Lec 3 & 4",
-      "titleAr": "",
+      "title": "Lec 2: Signals & Transmission Basics",
+      "titleAr": "الإشارات وأساسيات النقل",
       "pdf": "1QDixW1xjZiSs2LwdhmKv4jPxZZg7GSEW",
       "mid": true
     },
@@ -31,7 +31,7 @@
       "id": "lec-ip",
       "kind": "lecture",
       "n": 3,
-      "title": "Lec: IP Addressing",
+      "title": "Lec 3: IP Addressing (IPv4 & IPv6)",
       "titleAr": "عناوين IP",
       "pdf": "1t1m9zlnchkSpDZ-soXpCAwMwE5TyAVvH",
       "mid": true
@@ -40,16 +40,16 @@
       "id": "lec05",
       "kind": "lecture",
       "n": 4,
-      "title": "Lec 5",
-      "titleAr": "",
+      "title": "Lec 5: Network Models (OSI & TCP/IP)",
+      "titleAr": "نماذج الشبكات",
       "pdf": "1lwwwbYSOWbMxtvKstCPlHp3-tvpRQ1DW"
     },
     {
       "id": "lec06",
       "kind": "lecture",
       "n": 5,
-      "title": "Lec 6",
-      "titleAr": "",
+      "title": "Lec 10: Wireless & Cellular Networks",
+      "titleAr": "الشبكات اللاسلكية والخلوية",
       "pdf": "1O_5IMB5Y4dLv20B8QABHRgnEs_MOdXCg"
     },
     {
