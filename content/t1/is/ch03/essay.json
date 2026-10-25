@@ -1,0 +1,34 @@
+[
+ {
+  "q": "What is a data warehouse? Explain each part of the definition.",
+  "a": "A **data warehouse** is a system that **retrieves** (ETL) and **consolidates** data **periodically** from source systems into a **dimensional or normalized data store**. It usually keeps **years of history** and is queried for business intelligence or analytics. It is updated in **batches**, not at every transaction in the source system."
+ },
+ {
+  "q": "Explain the components of a data warehouse system.",
+  "a": "**Source systems (OLTP)** capture transactions and are examined by a **data profiler**. The **ETL system** extracts data to a **staging area**, transforms it and loads it into the **dimensional data store (DDS)**. **Data quality rules** send bad data to the **DQ database**. The **control system** runs ETL based on rules in the **metadata** database; the **audit system** logs ETL operations. Users query the DDS with **front-end tools** (spreadsheets, pivot tables, reports, SQL) or via **multidimensional databases (cubes)** with analytics, data mining and dashboards. Minimum: ETL + DDS."
+ },
+ {
+  "q": "Explain ETL and ELT and compare them.",
+  "a": "**ETL** extracts data from sources, transforms it (format changes, derived values, validation, cleansing) and loads it into the target. **ELT** loads raw data into the warehouse first and performs transformations, lookups and deduplication inside it, so no ETL server is needed and powerful MPP engines are exploited."
+ },
+ {
+  "q": "Explain data cleansing and what happens to bad data.",
+  "a": "Data cleansing identifies and corrects dirty data using data quality rules applied after extraction and before loading. Correct data is loaded. Incorrect data can be **rejected, corrected, or allowed**, depending on the situation, risk level and rule type (error or warning). Bad data is stored in the DQ database for reporting and correction in the source systems."
+ },
+ {
+  "q": "Discuss the issues of consolidating data from different source systems.",
+  "a": "**Availability** (fields or levels present in one system only), **time ranges** (different validity periods, e.g. weekly vs monthly), **definitions** (same name, different meaning), **conversion** (units, currencies, time zones, rates that change over time) and **matching** (deciding whether records in different systems refer to the same entity using IDs or name + email + address)."
+ },
+ {
+  "q": "Describe the multidimensional database (cube) with an example.",
+  "a": "A multidimensional database stores data in cells whose positions are defined by dimensions; each cell represents a business event. Example: a cube with dimensions Time, Store and Customer with 100 segments each has 100 x 100 x 100 = 1,000,000 cells; each cell holds Sales Value, Cost and Profit (Sales - Cost)."
+ },
+ {
+  "q": "Compare star, snowflake and galaxy schemas.",
+  "a": "**Star:** dimensions have no sub-dimensions; simplest; easy for ETL loading. **Snowflake:** a variation with normalized dimension tables (sub-dimensions); less redundancy and disk space; some analytics apps work better. **Galaxy (fact constellation):** two or more related fact tables sharing common dimensions; models business events more accurately."
+ },
+ {
+  "q": "Design a star schema for a data warehouse with dimensions date, spectator, location and game and measures count and charge.",
+  "a": "The **fact table** (e.g. Game_Fact) holds foreign keys to the four **dimension tables**: Date, Spectator (with type student/adult/senior determining the charge rate), Location and Game, plus the measures **count** and **charge**. Each dimension is linked directly to the fact table in the center, forming a star."
+ }
+]

@@ -1,0 +1,137 @@
+[
+ {
+  "en": "Data Processing",
+  "ar": "معالجة البيانات",
+  "def": "تحويل البيانات لشكل مفيد"
+ },
+ {
+  "en": "File Processing",
+  "ar": "معالجة الملفات",
+  "def": "تخزين ومعالجة البيانات في ملفات منفصلة"
+ },
+ {
+  "en": "Sequential File",
+  "ar": "ملف تسلسلي",
+  "def": "سجلات بتتعالج بالترتيب"
+ },
+ {
+  "en": "Direct Access File",
+  "ar": "ملف وصول مباشر",
+  "def": "وصول عشوائي للسجلات على disk"
+ },
+ {
+  "en": "Metadata",
+  "ar": "بيانات وصفية",
+  "def": "بيانات عن البيانات (تعريف الملفات)"
+ },
+ {
+  "en": "DBMS",
+  "ar": "نظام إدارة قواعد البيانات",
+  "def": "برنامج لإنشاء وصيانة والوصول للـ databases"
+ },
+ {
+  "en": "Database",
+  "ar": "قاعدة بيانات",
+  "def": "مجموعة بيانات مترابطة"
+ },
+ {
+  "en": "Redundancy",
+  "ar": "التكرار",
+  "def": "نفس البيانات في أماكن كتير"
+ },
+ {
+  "en": "Inconsistency",
+  "ar": "التضارب",
+  "def": "نسخ البيانات مش متطابقة"
+ },
+ {
+  "en": "Concurrency",
+  "ar": "التزامن",
+  "def": "وصول عدة مستخدمين لنفس البيانات في نفس الوقت"
+ },
+ {
+  "en": "Hierarchical Database",
+  "ar": "قاعدة بيانات هرمية",
+  "def": "شجرة بـ parent واحد لكل child"
+ },
+ {
+  "en": "Network Database",
+  "ar": "قاعدة بيانات شبكية",
+  "def": "graph، أكتر من parent"
+ },
+ {
+  "en": "Relational Database",
+  "ar": "قاعدة بيانات علائقية",
+  "def": "جداول مرتبطة بحقول مشتركة"
+ },
+ {
+  "en": "Object-oriented Database",
+  "ar": "قاعدة بيانات كائنية",
+  "def": "objects = data + methods"
+ },
+ {
+  "en": "Deductive Database",
+  "ar": "قاعدة بيانات استنتاجية",
+  "def": "استنتاج من قواعد وحقائق (Datalog)"
+ },
+ {
+  "en": "Physical Level",
+  "ar": "المستوى الفيزيائي",
+  "def": "بنية التخزين الفعلية (internal)"
+ },
+ {
+  "en": "Conceptual Level",
+  "ar": "المستوى المفاهيمي",
+  "def": "بنية الـ database كلها (data model)"
+ },
+ {
+  "en": "External Level",
+  "ar": "المستوى الخارجي",
+  "def": "user views"
+ },
+ {
+  "en": "Primary Key",
+  "ar": "المفتاح الأساسي",
+  "def": "unique و not null"
+ },
+ {
+  "en": "Composite Key",
+  "ar": "مفتاح مركب",
+  "def": "primary key من أكتر من عمود"
+ },
+ {
+  "en": "Foreign Key",
+  "ar": "مفتاح أجنبي",
+  "def": "بيشاور على PK في جدول تاني"
+ },
+ {
+  "en": "Normalization",
+  "ar": "التطبيع",
+  "def": "تقليل التكرار في الجداول"
+ },
+ {
+  "en": "1NF",
+  "ar": "الصيغة الأولى",
+  "def": "single-valued attributes"
+ },
+ {
+  "en": "2NF",
+  "ar": "الصيغة الثانية",
+  "def": "1NF + no partial dependency"
+ },
+ {
+  "en": "3NF",
+  "ar": "الصيغة الثالثة",
+  "def": "2NF + no transitive dependency"
+ },
+ {
+  "en": "Partial Dependency",
+  "ar": "اعتماد جزئي",
+  "def": "جزء من المفتاح بيحدد non-prime attribute"
+ },
+ {
+  "en": "Non-prime Attribute",
+  "ar": "خاصية غير أساسية",
+  "def": "مش جزء من أي candidate key"
+ }
+]

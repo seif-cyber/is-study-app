@@ -1,0 +1,34 @@
+[
+ {
+  "q": "Explain the problems of file processing and how a DBMS solves them.",
+  "a": "**File processing problems:** program-data dependence (each program keeps metadata for its files), duplication of data (separate copies), limited data sharing (private incompatible files), lengthy development times (start from scratch), excessive program maintenance.\n\nIn a file system there is also redundancy, inconsistency, difficult access, unauthorized access, no concurrency and no backup/recovery. A **DBMS** keeps one shared central database that all programs access in a controlled way, reducing redundancy and inconsistency and adding security, concurrency and recovery."
+ },
+ {
+  "q": "Compare sequential and direct access file processing.",
+  "a": "**Sequential:** records are stored and accessed in sequence (tape or disk) and must be sorted first; suitable for batch processing where a large portion of the master file changes. **Direct (random) access:** records can be reached without processing in sequence; the file must be on a direct access device (disk) and there must be a way to determine the location of a record."
+ },
+ {
+  "q": "List the characteristics of data in a database.",
+  "a": "Shared; Persistence (live beyond the creating process); Integrity (correct w.r.t. the real-world entity); Security (protected from unauthorized access); Consistency (related values agree); Non-redundancy (no two items represent the same entity); Independence (the three schema levels are independent)."
+ },
+ {
+  "q": "Describe the types of database management systems.",
+  "a": "**Hierarchical:** tree with a single root; each child has one parent; one-to-many. **Network:** graph; a node can have several parents; many-to-many. **Relational:** two-dimensional tables (relations) linked by a common field (Codd, 1970). **Object-oriented:** objects containing data and methods. **Deductive:** draws conclusions from rules and facts, using Datalog."
+ },
+ {
+  "q": "Explain the three levels of database design.",
+  "a": "**Physical (internal):** physical storage structure, from bits at physical addresses to files; internal schema. **Conceptual:** structure of the whole database for a group of users (data model), hides storage details. **External:** user views / external schemas, the part of the database needed by a user group, closest to the user."
+ },
+ {
+  "q": "Differentiate between primary key, composite key and foreign key.",
+  "a": "A **primary key** uniquely identifies a record: not NULL, unique, not changed, must be given a value on insert. A **composite key** is a primary key made of several columns (e.g. two people named Robert Phil living in different places). A **foreign key** references the primary key of another table to link tables; it may have a different name, need not be unique and can be NULL."
+ },
+ {
+  "q": "Explain the relationship types between tables.",
+  "a": "**One-to-one:** one record in each table relates to only one record in the other. **One-to-many:** one record in the first table relates to one or more in the second, but each record in the second relates to only one in the first. **Many-to-many:** records in each table can relate to many records in the other."
+ },
+ {
+  "q": "What is normalization? Explain 1NF, 2NF and 3NF.",
+  "a": "Normalization determines how much redundancy exists in a table and transforms schemas to remove it, based on functional dependencies; higher normal forms mean less redundancy and fewer update anomalies.\n\n- **1NF:** every attribute is single-valued (no composite or multi-valued attributes).\n- **2NF:** in 1NF and no partial dependency (no non-prime attribute depends on a proper subset of a candidate key). Example: COURSE_NO -> COURSE_NAME with key {STUD_NO, COURSE_NO} violates 2NF.\n- **3NF:** in 2NF and no transitive dependency: for every non-trivial FD X -> Y, X is a super key or Y is a prime attribute."
+ }
+]

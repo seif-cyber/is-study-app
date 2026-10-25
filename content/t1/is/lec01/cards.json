@@ -1,0 +1,90 @@
+[
+ {
+  "front": "IS",
+  "back": "مكونات مترابطة بتجمع وتعالج وتخزن وتوزع البيانات + feedback لتحقيق هدف"
+ },
+ {
+  "front": "Data / Information / Knowledge",
+  "back": "Data = حقائق خام · Information = حقائق معالجة ليها قيمة · Knowledge = فهم المعلومات لدعم قرار"
+ },
+ {
+  "front": "11 characteristics",
+  "back": "Accessible, Accurate, Complete, Economical, Flexible, Relevant, Reliable, Secure, Simple, Timely, Verifiable"
+ },
+ {
+  "front": "GIGO",
+  "back": "Garbage In, Garbage Out · بيانات غلط ← معلومات غلط"
+ },
+ {
+  "front": "Information overload",
+  "back": "كمية معلومات كبيرة تمنع تحديد المهم · عكس Simple"
+ },
+ {
+  "front": "Value of information",
+  "back": "القيمة = العائد − تكلفة الحصول على المعلومة"
+ },
+ {
+  "front": "System elements",
+  "back": "Input · Processing · Output · Feedback"
+ },
+ {
+  "front": "Feedback",
+  "back": "معلومات من النظام لتعديل المدخلات أو المعالجة (مثال 400 ساعة بدل 40)"
+ },
+ {
+  "front": "Control",
+  "back": "مراقبة وتقييم الـ feedback لمعرفة هل النظام ماشي لهدفه"
+ },
+ {
+  "front": "CBIS",
+  "back": "Hardware · Software · Databases · Telecommunications · Networks · People · Procedures"
+ },
+ {
+  "front": "Internet / Intranet / Extranet",
+  "back": "Internet = أكبر شبكة · Intranet = داخلية · Extranet = لشركاء وعملاء مختارين"
+ },
+ {
+  "front": "E-business",
+  "back": "استخدام الإنترنت لتمكين العمليات والـ e-commerce والتعاون = تبادل قيمة online"
+ },
+ {
+  "front": "E-commerce",
+  "back": "بيع وشراء وتسويق وخدمة المنتجات عبر الشبكات"
+ },
+ {
+  "front": "3 roles of IS",
+  "back": "دعم العمليات · دعم القرار · دعم الاستراتيجية للميزة التنافسية"
+ },
+ {
+  "front": "Operations support",
+  "back": "TPS · Process control · Enterprise collaboration"
+ },
+ {
+  "front": "Management support",
+  "back": "MIS (تقارير محددة) · DSS (تفاعلي) · EIS (للتنفيذيين)"
+ },
+ {
+  "front": "Other IS types",
+  "back": "Expert · Knowledge management · Strategic · Functional business"
+ },
+ {
+  "front": "Batch vs Real-time",
+  "back": "Batch = تجميع ومعالجة دورية · Real-time = فورًا"
+ },
+ {
+  "front": "5 IS resources",
+  "back": "People · Hardware · Software · Data · Network"
+ },
+ {
+  "front": "Software resources",
+  "back": "System software · Application software · Procedures"
+ },
+ {
+  "front": "Data forms",
+  "back": "alphanumeric · text · image · audio · وبتتخزن في databases و knowledge bases"
+ },
+ {
+  "front": "Success of IS",
+  "back": "كفاءة (efficiency) + فعالية (effectiveness) في دعم استراتيجية المنظمة"
+ }
+]

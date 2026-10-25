@@ -1,0 +1,34 @@
+[
+ {
+  "q": "Define information system and explain its four elements.",
+  "a": "An **information system (IS)** is a set of interrelated components that collect (input), manipulate (process), store, and disseminate (output) data and information and provide a feedback mechanism to meet an objective.\n\n- **Input:** gathering and capturing raw data (e.g. hours worked).\n- **Processing:** converting data into useful outputs (gross pay, overtime above 40 hours, deductions, net pay).\n- **Output:** useful information such as paychecks and reports.\n- **Feedback:** information used to change input or processing (e.g. flagging 400 hours as out of the 0-100 range). **Control** monitors and evaluates feedback."
+ },
+ {
+  "q": "Differentiate between data, information and knowledge.",
+  "a": "**Data** are raw facts (employee number, hours worked, part numbers). **Information** is a collection of facts organized and processed so that it has additional value beyond individual facts (e.g. total monthly sales). **Knowledge** is the awareness and understanding of a set of information and how it can be made useful to support a task or a decision."
+ },
+ {
+  "q": "List and explain the characteristics of valuable information.",
+  "a": "Accessible (available to authorized users in the right format and time); Accurate (error free, GIGO); Complete (all important facts); Economical (cost balanced against value); Flexible (usable for several purposes); Relevant (important to the decision maker); Reliable (trustworthy, depends on source and collection method); Secure (protected from unauthorized access); Simple (not overly complex, avoid information overload); Timely (delivered when needed); Verifiable (can be checked, e.g. across sources)."
+ },
+ {
+  "q": "What is a computer-based information system? Explain its components.",
+  "a": "A **CBIS** is a single set of hardware, software, databases, telecommunications, people and procedures configured to collect, manipulate, store and process data into information (e.g. payroll, order entry, inventory control).\n\n- **Hardware:** equipment for input, processing and output.\n- **Software:** programs that govern the computer.\n- **Databases:** organized collections of related data files.\n- **Telecommunications:** electronic transmission of signals.\n- **Networks:** connect computers locally or worldwide.\n- **People:** IS personnel and users.\n- **Procedures:** strategies, policies, methods and rules for operation, maintenance and security."
+ },
+ {
+  "q": "Explain the three fundamental roles of information systems in business.",
+  "a": "1. **Support of business processes and operations.**\n2. **Support of decision making** by employees and managers.\n3. **Support of strategies for competitive advantage.**"
+ },
+ {
+  "q": "Differentiate between Internet, intranet and extranet. What is e-business and e-commerce?",
+  "a": "**Internet:** the world's largest network of interconnected networks. **Intranet:** internal Web-based network for people within an organization. **Extranet:** Web-based network that lets selected outsiders (partners, customers) access authorized intranet resources.\n\n**E-business:** using Internet technologies to empower business processes, e-commerce and enterprise collaboration (an online exchange of value). **E-commerce:** buying, selling, marketing and servicing products, services and information over computer networks."
+ },
+ {
+  "q": "Describe the types of information systems.",
+  "a": "**Operations support:** transaction processing (batch or real-time), process control, enterprise collaboration. **Management support:** MIS (pre-specified reports), DSS (interactive ad hoc support), EIS (critical information tailored to executives). **Other:** expert systems, knowledge management systems, strategic information systems, functional business systems."
+ },
+ {
+  "q": "How should the success of an information system be measured?",
+  "a": "Not only by **efficiency** (minimizing cost, time and information resources) but also by **effectiveness**: supporting the organization's business strategies, enabling business processes, enhancing organizational structures and culture, and increasing customer and business value."
+ }
+]

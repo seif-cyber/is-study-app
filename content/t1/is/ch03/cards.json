@@ -1,0 +1,86 @@
+[
+ {
+  "front": "Data warehouse",
+  "back": "يسحب ويدمج دوريًا من الـ source لـ dimensional/normalized store · سنين history · batches · BI"
+ },
+ {
+  "front": "OLTP",
+  "back": "Online Transaction Processing · هدفه التقاط وتخزين المعاملات"
+ },
+ {
+  "front": "Data profiler",
+  "back": "بيحلل بيانات الـ source (عدد الصفوف، NULLs)"
+ },
+ {
+  "front": "ETL",
+  "back": "Extract · Transform · Load · بيجيب البيانات لـ staging ثم DDS"
+ },
+ {
+  "front": "DDS",
+  "back": "Dimensional Data Store · بيانات الـ DW بشكل مختلف عن OLTP"
+ },
+ {
+  "front": "DQ database",
+  "back": "بيحتفظ بالبيانات الوحشة للتقارير والتصحيح في الـ source"
+ },
+ {
+  "front": "Metadata",
+  "back": "معلومات عن بنية ومعنى واستخدام وجودة البيانات"
+ },
+ {
+  "front": "Control / Audit system",
+  "back": "Control = يدير الـ ETL · Audit = يسجل العمليات في الـ metadata"
+ },
+ {
+  "front": "Cube (MDB)",
+  "back": "خلايا بأبعاد · كل خلية = حدث business"
+ },
+ {
+  "front": "Cube example",
+  "back": "100×100×100 = 1,000,000 cell · Sales, Cost, Profit"
+ },
+ {
+  "front": "Minimum DW",
+  "back": "ETL + DDS"
+ },
+ {
+  "front": "Data cleansing",
+  "back": "تحديد وتصحيح البيانات الوحشة بـ data quality rules"
+ },
+ {
+  "front": "Bad data options",
+  "back": "Reject · Correct · Allow"
+ },
+ {
+  "front": "ELT",
+  "back": "Extract · Load · Transform جوه الـ DW · من غير ETL server · MPP"
+ },
+ {
+  "front": "5 consolidation issues",
+  "back": "Availability · Time ranges · Definitions · Conversion · Matching"
+ },
+ {
+  "front": "Periodically",
+  "back": "نفس تكرار تحديث الـ source، وإلا البيانات تقدم"
+ },
+ {
+  "front": "Dimensional data mart",
+  "back": "fact tables + dimension tables"
+ },
+ {
+  "front": "Star schema",
+  "back": "الـ dimension من غير sub-dimension · أبسط · ETL أسهل"
+ },
+ {
+  "front": "Snowflake schema",
+  "back": "dimensions مطبّعة (sub-dimensions) · تكرار أقل"
+ },
+ {
+  "front": "Galaxy schema",
+  "back": "fact tables متعددة + common dimensions"
+ },
+ {
+  "front": "Spectator example",
+  "back": "4 dimensions: date, spectator, location, game · measures: count, charge"
+ }
+]

@@ -1,0 +1,102 @@
+[
+ {
+  "front": "Data processing",
+  "back": "تحويل البيانات لشكل مفيد بتسلسل عمليات (يدوي أو أوتوماتيك)"
+ },
+ {
+  "front": "Data vs Information",
+  "back": "Data = خام · Information = بعد المعالجة ومفيدة للمستخدم"
+ },
+ {
+  "front": "File processing types",
+  "back": "Sequential (بالترتيب، batches) · Direct/Random access (disk + تحديد مكان السجل)"
+ },
+ {
+  "front": "File processing problems",
+  "back": "Program-data dependence · Duplication · Limited sharing · Lengthy development · Excessive maintenance"
+ },
+ {
+  "front": "DBMS",
+  "back": "نظام لإنشاء وصيانة ووصول مُتحكم فيه للـ databases (MySQL, Oracle)"
+ },
+ {
+  "front": "DBMS tasks",
+  "back": "Data Definition + Data Updating"
+ },
+ {
+  "front": "Quality of information",
+  "back": "Timeliness · Reliability · Accuracy"
+ },
+ {
+  "front": "Why database",
+  "back": "Redundancy · Inconsistency · Difficult access · Unauthorized access · No concurrency · No backup"
+ },
+ {
+  "front": "DB characteristics",
+  "back": "Shared · Persistence · Integrity · Security · Consistency · Non-redundancy · Independence"
+ },
+ {
+  "front": "5 DBMS types",
+  "back": "Hierarchical · Network · Relational · Object-oriented · Deductive"
+ },
+ {
+  "front": "Hierarchical",
+  "back": "شجرة · parent واحد · one-to-many"
+ },
+ {
+  "front": "Network DB",
+  "back": "graph · أكتر من parent · many-to-many"
+ },
+ {
+  "front": "Relational",
+  "back": "جداول (relations) · common field · Codd 1970"
+ },
+ {
+  "front": "Object-oriented",
+  "back": "objects = data + methods"
+ },
+ {
+  "front": "Deductive",
+  "back": "قواعد وحقائق · Datalog"
+ },
+ {
+  "front": "3 levels",
+  "back": "Physical (internal) · Conceptual (data model) · External (user views)"
+ },
+ {
+  "front": "Primary key",
+  "back": "unique · not null · ثابت · لازم قيمة عند الإضافة"
+ },
+ {
+  "front": "Composite key",
+  "back": "primary key من أكتر من عمود"
+ },
+ {
+  "front": "Foreign key",
+  "back": "يشاور على PK في جدول تاني · ممكن NULL · مش لازم unique"
+ },
+ {
+  "front": "Relationships",
+  "back": "One-to-One · One-to-Many · Many-to-Many"
+ },
+ {
+  "front": "Normalization",
+  "back": "تحديد وتقليل redundancy · 6 normal forms · أعلى NF = تكرار أقل"
+ },
+ {
+  "front": "1NF",
+  "back": "كل attribute single-valued (من غير composite/multi-valued)"
+ },
+ {
+  "front": "2NF",
+  "back": "1NF + no partial dependency"
+ },
+ {
+  "front": "3NF",
+  "back": "2NF + no transitive dependency (X super key أو Y prime)"
+ },
+ {
+  "front": "Partial dependency",
+  "back": "جزء من candidate key بيحدد non-prime attribute"
+ }
+]

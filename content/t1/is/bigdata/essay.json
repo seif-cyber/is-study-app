@@ -1,0 +1,34 @@
+[
+ {
+  "q": "Define Big Data and explain its Vs.",
+  "a": "Big Data (narrow sense) is sample size; (broad sense) sample size and dimensionality. Wikipedia: data sets so large and complex that traditional data-processing software is insufficient. **3Vs:** Volume (size), Velocity (production speed), Variety (many types). **4Vs** adds Value (low value density). **5Vs:** Volume, Velocity, Variety, Veracity (accuracy/trustworthiness), Value."
+ },
+ {
+  "q": "How can you recognize whether data is Big Data?",
+  "a": "For a **computer scientist**, if the computer runs low on memory or the data (e.g. over 2 TB) cannot be stored, it is Big Data. For a **statistician**, if calculations take far too long or dimensionality is too high to build a statistical model, it is Big Data. In short, trouble with processing or analyzing data on your computer signals Big Data."
+ },
+ {
+  "q": "Compare traditional database processing with Big Data processing.",
+  "a": "Scale: small (MB, GB) vs large (GB, TB, PB). Type: single, mostly structured vs structured, semi-structured and unstructured. Models and data: models come ahead of data (ponds before fishes) vs data comes first and models evolve as data increases. Processing tools: one size fits all vs no size fits all."
+ },
+ {
+  "q": "What are the challenges of traditional data processing technologies?",
+  "a": "Limited scalability; a gap between processing requirements and hardware performance; high cost of storing massive data; insufficient batch processing; lack of streaming data processing; a single data source; lack of external value-added data assets. In distributed programming there are also synchronization needs, limited bandwidth and the complexity of partial failure."
+ },
+ {
+  "q": "Describe HDFS: features and architecture.",
+  "a": "HDFS (based on GFS, on commodity hardware) offers high fault tolerance, high throughput, open source, high availability, large file storage (TB/PB) and streaming access; it is unsuitable for many small files, random writes and low-delay reads. Architecture: one **NameNode** (metadata), many **DataNodes** (actual blocks, replicated across racks) and many **Clients**."
+ },
+ {
+  "q": "Explain the HDFS write and read processes.",
+  "a": "**Write:** the client asks the NameNode to create a file node in the metadata; it gets block number/locations, builds a pipeline of DataNodes and writes to DataNode 1 which copies to 2 and then 3; DataNodes ack; the application closes the file and the client confirms completion to the NameNode so metadata is persisted. **Read:** the client opens the file, the NameNode returns block and DataNode locations, the client reads from the nearest DataNodes (multiple in parallel) and closes."
+ },
+ {
+  "q": "What is MapReduce? Explain shuffle and YARN.",
+  "a": "MapReduce is a parallel computing framework (from Google's paper) for data sets above 1 TB: easy to program, scalable by adding nodes and fault tolerant. **Shuffle** is the transfer between Map and Reduce: combine, spill/merge, copy, sort/merge, reduce. **YARN** (Yet Another Resource Negotiator) is Hadoop's resource manager giving unified resource management and scheduling, improving utilization and data sharing."
+ },
+ {
+  "q": "Trace the WordCount example for the three given sentences.",
+  "a": "Map emits <word,1> per word. After combine and shuffle, Reduce sums: Bye = 3, Hadoop = 4, Hello = 3, World = 2 (from 'Hello World Bye World', 'Hello Hadoop Bye Hadoop', 'Bye Hadoop Hello Hadoop')."
+ }
+]

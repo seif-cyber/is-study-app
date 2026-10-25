@@ -1,0 +1,117 @@
+[
+ {
+  "en": "Data Warehouse",
+  "ar": "مستودع البيانات",
+  "def": "نظام بيسحب ويدمج بيانات دوريًا للتحليل"
+ },
+ {
+  "en": "OLTP",
+  "ar": "معالجة المعاملات الفورية",
+  "def": "نظام التقاط وتخزين المعاملات"
+ },
+ {
+  "en": "Data Profiler",
+  "ar": "محلل البيانات",
+  "def": "أداة بتحلل خصائص بيانات الـ source"
+ },
+ {
+  "en": "ETL",
+  "ar": "استخراج وتحويل وتحميل",
+  "def": "Extract, Transform, Load"
+ },
+ {
+  "en": "ELT",
+  "ar": "استخراج وتحميل وتحويل",
+  "def": "التحويل جوه الـ DW"
+ },
+ {
+  "en": "Staging Area",
+  "ar": "منطقة التجهيز",
+  "def": "مكان مؤقت للبيانات قبل التحميل"
+ },
+ {
+  "en": "DDS",
+  "ar": "مخزن البيانات البُعدي",
+  "def": "Dimensional Data Store"
+ },
+ {
+  "en": "Data Quality Rules",
+  "ar": "قواعد جودة البيانات",
+  "def": "قواعد تحدد البيانات الوحشة"
+ },
+ {
+  "en": "Data Cleansing",
+  "ar": "تنظيف البيانات",
+  "def": "تحديد وتصحيح البيانات الوحشة"
+ },
+ {
+  "en": "Metadata",
+  "ar": "بيانات وصفية",
+  "def": "معلومات عن البيانات"
+ },
+ {
+  "en": "Control System",
+  "ar": "نظام التحكم",
+  "def": "بيدير الـ ETL"
+ },
+ {
+  "en": "Audit System",
+  "ar": "نظام المراجعة",
+  "def": "بيسجل عمليات الـ ETL"
+ },
+ {
+  "en": "Cube",
+  "ar": "مكعب",
+  "def": "multidimensional database"
+ },
+ {
+  "en": "Dimension",
+  "ar": "بُعد",
+  "def": "محور بيحدد موقع الخلية (Time, Store...)"
+ },
+ {
+  "en": "Fact Table",
+  "ar": "جدول الحقائق",
+  "def": "بيحتفظ بالقياسات (measures)"
+ },
+ {
+  "en": "Dimension Table",
+  "ar": "جدول الأبعاد",
+  "def": "بيوصف أبعاد الأحداث"
+ },
+ {
+  "en": "Dimensional Data Mart",
+  "ar": "data mart بُعدي",
+  "def": "fact tables + dimension tables"
+ },
+ {
+  "en": "Star Schema",
+  "ar": "مخطط النجمة",
+  "def": "dimensions من غير sub-dimensions"
+ },
+ {
+  "en": "Snowflake Schema",
+  "ar": "مخطط ندفة الثلج",
+  "def": "dimensions مطبّعة"
+ },
+ {
+  "en": "Galaxy Schema",
+  "ar": "مخطط المجرة",
+  "def": "fact tables متعددة"
+ },
+ {
+  "en": "Matching",
+  "ar": "المطابقة",
+  "def": "تحديد هل بيانين لنفس الكيان"
+ },
+ {
+  "en": "MPP",
+  "ar": "معالجة متوازية ضخمة",
+  "def": "Massively Parallel Processing"
+ },
+ {
+  "en": "Business Intelligence",
+  "ar": "ذكاء الأعمال",
+  "def": "تحليل البيانات لدعم القرار"
+ }
+]

@@ -22,8 +22,8 @@
       "id": "ch02",
       "kind": "lecture",
       "n": 2,
-      "title": "Ch2",
-      "titleAr": "",
+      "title": "Ch2: Data Processing & Databases",
+      "titleAr": "معالجة البيانات وقواعد البيانات",
       "pdf": "1PiExwzaa0Y_bmFHixGI_wnyFNDNI4KSL",
       "mid": true
     },
@@ -31,8 +31,8 @@
       "id": "ch03",
       "kind": "lecture",
       "n": 3,
-      "title": "Ch3",
-      "titleAr": "",
+      "title": "Ch3: Data Warehouse",
+      "titleAr": "مستودع البيانات",
       "pdf": "1SjyhHkQ7DJKFC3ymfB1BjcfBHsUblniE",
       "mid": true
     },

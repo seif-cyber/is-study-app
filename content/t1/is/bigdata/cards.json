@@ -1,0 +1,90 @@
+[
+ {
+  "front": "Data",
+  "back": "Objects (صفوف/عينات) × Attributes (أعمدة/dimensions)"
+ },
+ {
+  "front": "Big Data narrow vs broad",
+  "back": "ضيق = sample size · واسع = sample size + dimensionality"
+ },
+ {
+  "front": "3Vs",
+  "back": "Volume · Velocity · Variety"
+ },
+ {
+  "front": "4Vs",
+  "back": "+ Value (low value density)"
+ },
+ {
+  "front": "5Vs",
+  "back": "Volume · Velocity · Variety · Veracity · Value"
+ },
+ {
+  "front": "Veracity",
+  "back": "دقة وموثوقية البيانات"
+ },
+ {
+  "front": "Computer scientist vs statistician",
+  "back": "CS: ذاكرة/تخزين مش كفاية · Statistician: حساب طويل/dimensionality عالية"
+ },
+ {
+  "front": "Big Data sources",
+  "back": "Machine data (GPS) · Social data (Facebook 50 TB/day)"
+ },
+ {
+  "front": "DB vs Big Data",
+  "back": "MB/GB vs GB/TB/PB · structured vs متنوعة · models first vs data first · one size fits all vs no size fits all"
+ },
+ {
+  "front": "Traditional challenges",
+  "back": "scalability · تكلفة عالية · batch غير كافي · no streaming · single source"
+ },
+ {
+  "front": "Distributed programming",
+  "back": "synchronization · bandwidth محدود · partial failure"
+ },
+ {
+  "front": "HDFS",
+  "back": "على أساس GFS · commodity hardware · fault tolerance · high throughput · open source · TB/PB"
+ },
+ {
+  "front": "HDFS suitable / not",
+  "back": "مناسب: ملفات كبيرة + streaming · مش مناسب: ملفات صغيرة كتير + random write + low-delay read"
+ },
+ {
+  "front": "NameNode",
+  "back": "واحد · metadata (الاسم، replicas)"
+ },
+ {
+  "front": "DataNode",
+  "back": "كتير · البيانات الفعلية + بيبلّغ NameNode"
+ },
+ {
+  "front": "Client",
+  "back": "بيوصّل الخدمات بالـ HDFS"
+ },
+ {
+  "front": "HDFS write",
+  "back": "NameNode يعمل file node ← pipeline DN1→DN2→DN3 ← ack ← close ← NameNode يأكد"
+ },
+ {
+  "front": "HDFS read",
+  "back": "open ← NameNode يرجّع block locations ← قراءة من أقرب DataNodes ← close"
+ },
+ {
+  "front": "MapReduce",
+  "back": "parallel computing لبيانات > 1 TB · سهل البرمجة · scalable · fault tolerant"
+ },
+ {
+  "front": "Shuffle",
+  "back": "نقل البيانات بين Map و Reduce (Combine, Spill/Merge, Copy, Sort/Merge, Reduce)"
+ },
+ {
+  "front": "YARN",
+  "back": "Yet Another Resource Negotiator · إدارة وجدولة موحدة للموارد"
+ },
+ {
+  "front": "WordCount result",
+  "back": "Bye 3 · Hadoop 4 · Hello 3 · World 2"
+ }
+]
