@@ -1,0 +1,23 @@
+[
+{"front":"OSI layers 7→1","back":"Application · Presentation · Session · Transport · Network · Data-Link · Physical"},
+{"front":"Top-down approach","back":"شرح الـ OSI من Layer 7 لـ Layer 1"},
+{"front":"Application layer","back":"واجهة المستخدم مع الشبكة · HTTP/S، FTP/S، POP3/SMTP، Telnet، SNMP"},
+{"front":"Presentation layer","back":"Translation (ASCII، EBCDIC، Unicode) · Compression · Encryption (SSL)"},
+{"front":"Session layer","back":"Establish · Manage · Authenticate · Terminate sessions"},
+{"front":"Transport layer","back":"Reliable process-to-process delivery + error recovery ← **Segments**"},
+{"front":"Transport services","back":"End-to-end · Addressing (port) · Reliable delivery · Flow control · Multiplexing"},
+{"front":"Reliable delivery","back":"Error · Sequence · Loss · Duplication control + ARQ"},
+{"front":"Flow control","back":"سيرفر 100 Mbps يبطّأ لـ 10 Mbps عشان العميل"},
+{"front":"Network layer","back":"Logical addressing (IP) · Path determination · Forwarding ← **Packets**"},
+{"front":"LLC vs MAC sublayer","back":"LLC: OS/drivers، sync، flow، error · MAC: MAC addresses + FCS + CSMA/CD"},
+{"front":"Physical layer","back":"Modulation · Multiplexing · Transmission mode · Media ← **Bits**"},
+{"front":"TCP/IP layers","back":"Application (5+6+7) · Transport · Network · Link"},
+{"front":"TCP/IP Network protocols","back":"IP · IGMP · ICMP · ARP"},
+{"front":"TCP/IP Link protocols","back":"Ethernet · ATM · Frame relay"},
+{"front":"Encapsulation vs De-encapsulation","back":"إضافة headers عند المرسل · شيلها عند المستقبل"},
+{"front":"ترتيب الـ PDUs","back":"Data ← Segment ← Packet ← Frame ← Bits"},
+{"front":"مين بيضيف إيه؟","back":"Transport: port+seq · Network: IP · Data-Link: MAC + FCS"},
+{"front":"Frame switching","back":"IP ثابت · MAC بيتغير في كل hop"},
+{"front":"Switch vs Router","back":"Switch: L2 (MAC) · Router: L3 (IP + routing table)"},
+{"front":"Routing metric","back":"Hop count · Reliability · Speed · Load · Bandwidth · Latency"}
+]
