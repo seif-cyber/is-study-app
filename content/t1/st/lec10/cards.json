@@ -1,0 +1,16 @@
+[
+  {"front": "Local vs Remote replication", "back": "Local: نفس الـ array أو الـ DC · Remote: موقع بعيد"},
+  {"front": "Source vs Target LUNs", "back": "Source = production · Target = **replica**، وتعديله مش بيأثر على الـ source"},
+  {"front": "استخدامات الـ local replicas", "back": "Backup source · Fast recovery · Testing · Migration"},
+  {"front": "Consistent replica", "back": "كل البيانات اللي في **buffer الـ host** اتكتبت على الديسك قبل الـ replica"},
+  {"front": "المتطلب الأساسي لأي replication", "back": "**Consistency**"},
+  {"front": "Host-based replication أنواعه", "back": "FS-based · **LVM mirroring** (block) · Snapshot"},
+  {"front": "Array-based replication أنواعه", "back": "Full-volume mirroring · Pointer-based full-volume · Pointer-based virtual"},
+  {"front": "Full-volume mirroring", "back": "Target **مش متاح** وقت الـ sync · سعة = source · detached = PIT · incremental resync"},
+  {"front": "CoFA", "back": "Copy on First **Access**: ينسخ الـ blocks اللي اتوصل لها بس (pointer-based full)"},
+  {"front": "CoFW", "back": "Copy on First **Write**: الأصلي ← save location، وبعدين الـ source يتحدث (pointer-based virtual)"},
+  {"front": "Pointer-based virtual: العيب", "back": "**لو الـ source وقع، الـ replica بايظة**"},
+  {"front": "Synchronous replication", "back": "الطرفين مع بعض · **RPO = 0** · < 100–200 km · غالي"},
+  {"front": "Asynchronous replication", "back": "Ack فوري والبعيد بعدين · **RPO > 0** · مسافات طويلة · أرخص"},
+  {"front": "SAN-based remote replication", "back": "على مستوى **شبكة التخزين** · **block level** (التغييرات بس) · الـ array بيتحكم"}
+]

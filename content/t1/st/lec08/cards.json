@@ -1,0 +1,18 @@
+[
+  {"front": "Business Continuity", "back": "**Proactive planning + Reactive recovery**: الشغل يكمّل بأقل تعطيل"},
+  {"front": "معايير الـ IA", "back": "Reliability · Accessibility · Timeliness"},
+  {"front": "نسب أسباب عدم التوافر", "back": "Planned **80%** · Unplanned **20%** · Disaster **< 1%**"},
+  {"front": "Backup و reporting نوع إيه من الانقطاع؟", "back": "**Planned outage**"},
+  {"front": "MTTR", "back": "Mean Time To Repair = **downtime** (detection + diagnosis + repair + restoration) ← أقل أحسن"},
+  {"front": "MTBF", "back": "Mean Time Between Failures = **uptime** ← أعلى أحسن"},
+  {"front": "IA formula", "back": "MTBF / (MTBF + MTTR)"},
+  {"front": "Cost of downtime/hour", "back": "Productivity loss/hr + Revenue loss/hr"},
+  {"front": "Disaster recovery vs restart", "back": "Recovery ← **backup** + logs · Restart ← **replication** (mirrored)"},
+  {"front": "RPO", "back": "أقصى **فقد بيانات** مقبول (data) · RPO 1h ← backup كل ساعة"},
+  {"front": "RTO", "back": "أقصى **downtime** مقبول (application) · RTO 4h ← الرجوع خلال 4 ساعات"},
+  {"front": "BCP lifecycle", "back": "Establish ← Analyze (BIA) ← Design ← Implement ← Train/Test/Maintain"},
+  {"front": "SPOF", "back": "مكون عطله **يوقف النظام كله**"},
+  {"front": "Server clustering", "back": "سيرفرات بتتبادل **heartbeats**، ولو واحد وقع التاني ياخد الحمل"},
+  {"front": "Multipathing", "back": "Path failover + **load sharing**"},
+  {"front": "BIA", "back": "يقيّم التأثير (فلوس/وقت)، ويحدد **max tolerable outage + RTO/RPO** لكل عملية"}
+]

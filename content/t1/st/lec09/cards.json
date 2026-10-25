@@ -1,0 +1,19 @@
+[
+  {"front": "Backup", "back": "نسخة من بيانات الإنتاج لاسترجاع **المحذوف أو الفاسد**"},
+  {"front": "أغراض الـ backup", "back": "Disaster recovery · Operational · Archival"},
+  {"front": "Operational backup مثال", "back": "Backup للـ database **قبل bulk update**"},
+  {"front": "ملفات كبيرة ولا صغيرة أكفأ؟", "back": "**الكبيرة**، لأن الصغيرة الكتير بتزوّد الـ catalog وبتعمل start/stop في الـ tape"},
+  {"front": "Compression", "back": "كويس للـ **text**، وضعيف للـ **JPEG/ZIP**"},
+  {"front": "Incremental", "back": "من آخر **full أو incremental** · backup سريع · restore = full + **كل** الـ incrementals"},
+  {"front": "Cumulative / Differential", "back": "من آخر **full** · backup أبطأ · restore = full + **آخر** cumulative"},
+  {"front": "Full backup", "back": "كل البيانات · backup بطيء · **restore أبسط**"},
+  {"front": "Hot vs Cold backup", "back": "Hot: شغال، **مفيش downtime** · Cold: واقف، **متسق**، فيه downtime"},
+  {"front": "PIT copy", "back": "**Snapshot** بـ pointers، وتوقف لحظي، والـ backup في الخلفية"},
+  {"front": "BMR", "back": "**Bare-Metal Recovery**: OS + partitions + apps + configs + data، حتى على هاردوير مختلف"},
+  {"front": "Backup server", "back": "يدير العمليات، والـ **catalog**، والـ **policies**، ويستقبل الـ metadata"},
+  {"front": "Storage node", "back": "**Media server**: يتحكم في الأجهزة ويكتب البيانات"},
+  {"front": "Client بيبعت إيه لمين؟", "back": "Metadata ← **backup server** · Data ← **storage node**"},
+  {"front": "SAN-based backup", "back": "= **LAN-free**: البيانات على الـ SAN والـ metadata بس على الـ LAN"},
+  {"front": "NDMP 2-way vs 3-way", "back": "2-way: tape على **نفس** الـ NAS · 3-way: tape على **NAS تاني** (private network)"},
+  {"front": "Serverless NAS backup", "back": "الـ storage node يقرا من الـ NAS مباشرة (**مفيش application server**)"}
+]

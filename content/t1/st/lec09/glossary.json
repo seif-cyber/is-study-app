@@ -1,0 +1,17 @@
+[
+  {"en": "Backup", "ar": "نسخة احتياطية", "def": "نسخة لاسترجاع البيانات"},
+  {"en": "Operational Backup", "ar": "نسخ تشغيلي", "def": "حماية من الفقد الروتيني"},
+  {"en": "Archival", "ar": "أرشفة", "def": "حفظ طويل المدى للـ compliance"},
+  {"en": "Retention Period", "ar": "فترة الاحتفاظ", "def": "مدة حفظ النسخ"},
+  {"en": "Full Backup", "ar": "نسخ كامل", "def": "نسخ كل البيانات"},
+  {"en": "Incremental Backup", "ar": "نسخ تزايدي", "def": "التغييرات من آخر backup"},
+  {"en": "Differential (Cumulative) Backup", "ar": "نسخ تفاضلي", "def": "التغييرات من آخر full"},
+  {"en": "Hot Backup", "ar": "نسخ ساخن", "def": "backup والتطبيق شغال"},
+  {"en": "Cold Backup", "ar": "نسخ بارد", "def": "backup والتطبيق واقف"},
+  {"en": "PIT Copy", "ar": "نسخة نقطة زمنية", "def": "snapshot في لحظة معينة"},
+  {"en": "Bare-Metal Recovery", "ar": "الاسترجاع من الصفر", "def": "استرجاع النظام كله على هاردوير فاضي"},
+  {"en": "Backup Catalog", "ar": "فهرس النسخ", "def": "معلومات وmetadata الـ backups"},
+  {"en": "Storage Node", "ar": "عقدة التخزين", "def": "media server بيكتب على أجهزة الـ backup"},
+  {"en": "LAN-free Backup", "ar": "نسخ بدون LAN", "def": "SAN-based backup"},
+  {"en": "NDMP", "ar": "بروتوكول إدارة بيانات الشبكة", "def": "Network Data Management Protocol لـ backup الـ NAS"}
+]

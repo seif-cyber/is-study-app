@@ -1,0 +1,18 @@
+[
+  {"en": "Business Continuity (BC)", "ar": "استمرارية الأعمال", "def": "استمرار الشغل بأقل تعطيل وقت الأزمات"},
+  {"en": "Information Availability (IA)", "ar": "توافر المعلومات", "def": "قدرة البنية على العمل حسب توقعات البيزنس"},
+  {"en": "Planned Outage", "ar": "انقطاع مخطط", "def": "زي backup و reporting (80%)"},
+  {"en": "Unplanned Outage", "ar": "انقطاع غير مخطط", "def": "أعطال وأخطاء بشرية (20%)"},
+  {"en": "MTTR", "ar": "متوسط زمن الإصلاح", "def": "Mean Time To Repair (downtime)"},
+  {"en": "MTBF", "ar": "متوسط الزمن بين الأعطال", "def": "Mean Time Between Failures (uptime)"},
+  {"en": "Downtime", "ar": "وقت التوقف", "def": "فترة عدم توافر النظام"},
+  {"en": "Disaster Recovery", "ar": "التعافي من الكوارث", "def": "استعادة البيانات من backup"},
+  {"en": "Disaster Restart", "ar": "إعادة التشغيل بعد الكارثة", "def": "إعادة التشغيل من نسخ replicated"},
+  {"en": "RPO", "ar": "هدف نقطة الاسترداد", "def": "أقصى فقد بيانات مقبول"},
+  {"en": "RTO", "ar": "هدف زمن الاسترداد", "def": "أقصى وقت توقف مقبول"},
+  {"en": "BIA", "ar": "تحليل تأثير الأعمال", "def": "Business Impact Analysis"},
+  {"en": "SPOF", "ar": "نقطة فشل وحيدة", "def": "مكون عطله يوقف النظام كله"},
+  {"en": "Fault Tolerance", "ar": "تحمّل الأعطال", "def": "استمرار العمل رغم عطل مكون"},
+  {"en": "Heartbeat", "ar": "نبضة القلب", "def": "رسالة دورية بين سيرفرات الـ cluster"},
+  {"en": "Multipathing", "ar": "تعدد المسارات", "def": "أكتر من مسار I/O للبيانات"}
+]

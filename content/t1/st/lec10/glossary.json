@@ -1,0 +1,16 @@
+[
+  {"en": "Replica", "ar": "نسخة مطابقة", "def": "نسخة طبق الأصل من البيانات"},
+  {"en": "Production Host", "ar": "مضيف الإنتاج", "def": "الـ host اللي بيستخدم الـ source LUNs"},
+  {"en": "Source LUN", "ar": "وحدة المصدر", "def": "الـ LUN الأصلي"},
+  {"en": "Target LUN", "ar": "وحدة الهدف", "def": "الـ LUN اللي البيانات بتتنسخ عليه"},
+  {"en": "Data Consistency", "ar": "اتساق البيانات", "def": "الـ replica كاملة ومطابقة للـ source"},
+  {"en": "LVM Mirroring", "ar": "نسخ مدير الوحدات المنطقية", "def": "host-based block mirroring"},
+  {"en": "Snapshot", "ar": "لقطة", "def": "نسخة في نقطة زمنية"},
+  {"en": "Full-Volume Mirroring", "ar": "النسخ الكامل للوحدة", "def": "نسخ الـ volume كله على الـ target"},
+  {"en": "CoFA", "ar": "النسخ عند أول وصول", "def": "Copy on First Access"},
+  {"en": "CoFW", "ar": "النسخ عند أول كتابة", "def": "Copy on First Write"},
+  {"en": "Save Location", "ar": "مكان الحفظ", "def": "مكان البيانات الأصلية في الـ virtual replication"},
+  {"en": "Synchronous Replication", "ar": "النسخ المتزامن", "def": "الكتابة على الطرفين مع بعض (RPO = 0)"},
+  {"en": "Asynchronous Replication", "ar": "النسخ غير المتزامن", "def": "الكتابة على البعيد بعد تأخير (RPO > 0)"},
+  {"en": "Resynchronization", "ar": "إعادة المزامنة", "def": "نسخ التغييرات بس عشان الـ target يرجع مطابق"}
+]
