@@ -1,0 +1,15 @@
+[
+  {"en": "NAS Head", "ar": "رأس الـ NAS", "def": "CPU و memory الـ NAS (المخ)"},
+  {"en": "NFS", "ar": "نظام ملفات الشبكة", "def": "Network File System لـ UNIX"},
+  {"en": "CIFS / SMB", "ar": "نظام ملفات الإنترنت المشترك", "def": "بروتوكول مشاركة ملفات لـ Windows"},
+  {"en": "File I/O", "ar": "إدخال/إخراج الملفات", "def": "طلب بيحدد الملف من غير عنوان الـ block"},
+  {"en": "Mount Point", "ar": "نقطة التحميل", "def": "جذر شجرة الـ file system"},
+  {"en": "DFS", "ar": "نظام ملفات موزع", "def": "Distributed File System على كذا host"},
+  {"en": "SFTP", "ar": "نقل ملفات آمن", "def": "FTP مشفّر عن طريق SSH"},
+  {"en": "Integrated NAS", "ar": "NAS متكامل", "def": "head و storage و OS في جهاز واحد"},
+  {"en": "Gateway NAS", "ar": "NAS بوابة", "def": "NAS head متوصل بـ SAN"},
+  {"en": "LACP", "ar": "تجميع الروابط", "def": "Link Aggregation Control Protocol"},
+  {"en": "LDAP", "ar": "بروتوكول الدليل الخفيف", "def": "خدمة authentication في الشبكة"},
+  {"en": "Global Namespace", "ar": "مساحة أسماء موحّدة", "def": "مسار منطقي واحد لكل الملفات"},
+  {"en": "File-level Virtualization", "ar": "المحاكاة على مستوى الملفات", "def": "إخفاء المكان الفعلي للملفات"}
+]

@@ -1,0 +1,17 @@
+[
+  {"front": "NAS", "back": "**IP-based file-sharing device** متوصل بالـ LAN (file-level)"},
+  {"front": "NFS vs CIFS/SMB", "back": "NFS ← **UNIX/Linux** · CIFS/SMB ← **Windows**"},
+  {"front": "NAS vs general-purpose server", "back": "NAS: single-purpose و OS متخصص للملفات · Server: OS عام و applications كتير"},
+  {"front": "مميزات الـ NAS", "back": "Efficiency · Flexibility · Centralized · Simplified · Scalability · HA · Security"},
+  {"front": "عيوب الـ NAS", "back": "أبطأ من DAS · محتاج معرفة شبكات · بيعتمد على الـ firmware"},
+  {"front": "File I/O", "back": "بيحدد **الملف** من غير LBA، والـ NAS OS يحوّله block I/O"},
+  {"front": "Mounting", "back": "رابط بين الـ **file system** والـ **OS** (لازم قبل الوصول)"},
+  {"front": "FTP vs SFTP", "back": "FTP: **مش مشفّر** · SFTP: FTP over **SSH** (مشفّر)"},
+  {"front": "NAS head", "back": "**المخ**: CPU + memory، ويشغّل الـ OS ويدير الـ I/O"},
+  {"front": "Integrated NAS", "back": "All-in-one (head + storage + OS)، و plug-and-play، للبيئات الصغيرة والمتوسطة"},
+  {"front": "Gateway NAS", "back": "NAS head + **SAN backend** (FC/iSCSI)، للمؤسسات المتوسطة والكبيرة"},
+  {"front": "خطوات NAS I/O", "back": "Request (TCP/IP) ← Block I/O ← Process ← Response"},
+  {"front": "عوامل latency الـ NAS", "back": "Congestion · Hops · LDAP · Retransmissions · Routers · Metadata · NAS · Clients"},
+  {"front": "File-level virtualization", "back": "يخبّي المكان الفعلي ← **global namespace** + file mobility"},
+  {"front": "NAS vs SAN", "back": "NAS: **file**، Ethernet، رخيص · SAN: **block**، FC، غالي"}
+]

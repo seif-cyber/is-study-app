@@ -1,0 +1,19 @@
+[
+  {"front": "EFS / EBS / S3", "back": "File / Block / **Object**"},
+  {"front": "بروتوكولات File / Block / Object", "back": "SMB, NFS / iSCSI, FC, FCoE / **REST over HTTP**"},
+  {"front": "OSD", "back": "Objects في **flat address space** حسب المحتوى والخصائص"},
+  {"front": "مكونات الـ object", "back": "**Data** + **Metadata** + **Unique Object ID**"},
+  {"front": "Self-describing object", "back": "الـ metadata بتخلّي الـ object **مستقل** عن الفولدرات والـ blocks"},
+  {"front": "Traditional vs Object: Best for", "back": "Traditional: databases و structured · Object: **cloud و unstructured**"},
+  {"front": "مكونات الـ OSD", "back": "OSD nodes · Internal network · Storage pool"},
+  {"front": "OSD node services", "back": "**Metadata service** + **Storage service**"},
+  {"front": "Object ID بيتولد من", "back": "الـ **user data**"},
+  {"front": "Benefits of OSD", "back": "Security & reliability · Platform independence · Scalability · Manageability"},
+  {"front": "Retention / Tiering / Replication policy", "back": "المدة قبل المسح / نقل للأرخص / نسخ لمناطق تانية"},
+  {"front": "CAS", "back": "Content Address Storage: للمحتوى **الثابت**، والعنوان = **hash** من المحتوى"},
+  {"front": "CAS API", "back": "Store(content) → CA · Retrieve(CA) · **Verify(CA)**"},
+  {"front": "Single instance storage", "back": "نفس المحتوى ← نفس الـ hash ← **نسخة واحدة** (dedup)"},
+  {"front": "Unified storage", "back": "**Multiprotocol**: block + file + object من منصة واحدة"},
+  {"front": "مكونات الـ Unified storage", "back": "Storage controller · NAS head · OSD node · Storage pool"},
+  {"front": "NAS mode vs SAN mode", "back": "NAS: NFS/SMB، ملفات · SAN: FC/iSCSI، **LUN كديسك محلي**"}
+]

@@ -1,0 +1,16 @@
+[
+  {"en": "Object Storage", "ar": "التخزين الكائني", "def": "تخزين البيانات كـ objects في flat space"},
+  {"en": "OSD", "ar": "جهاز التخزين الكائني", "def": "Object-Based Storage Device"},
+  {"en": "Object ID", "ar": "معرّف الكائن", "def": "رقم فريد للوصول المباشر للـ object"},
+  {"en": "Flat Address Space", "ar": "مساحة عناوين مسطحة", "def": "كل الـ objects في مستوى واحد من غير فولدرات"},
+  {"en": "Metadata", "ar": "البيانات الوصفية", "def": "بيانات بتوصف البيانات"},
+  {"en": "REST API", "ar": "واجهة REST", "def": "وصول للـ objects عن طريق HTTP (PUT/GET/DELETE)"},
+  {"en": "Amazon S3", "ar": "خدمة التخزين البسيطة", "def": "object storage من AWS"},
+  {"en": "Retention Policy", "ar": "سياسة الاحتفاظ", "def": "مدة الاحتفاظ بالبيانات"},
+  {"en": "Tiering", "ar": "التدرّج", "def": "نقل البيانات القليلة الاستخدام لتخزين أرخص"},
+  {"en": "CAS", "ar": "التخزين بعنوان المحتوى", "def": "Content Address Storage للمحتوى الثابت"},
+  {"en": "Content Address", "ar": "عنوان المحتوى", "def": "hash مشتق من محتوى البيانات"},
+  {"en": "Cryptographic Hash", "ar": "دالة تجزئة مشفّرة", "def": "MD5 أو SHA-1 أو SHA-256"},
+  {"en": "Deduplication", "ar": "إزالة التكرار", "def": "تخزين نسخة واحدة من المحتوى المتطابق"},
+  {"en": "Unified Storage", "ar": "التخزين الموحّد", "def": "block و file و object في منصة واحدة"}
+]
