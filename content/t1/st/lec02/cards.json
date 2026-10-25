@@ -1,0 +1,22 @@
+[
+  {"front": "ترتيب تطور التخزين", "back": "Punch cards ← Tapes ← HDD ← Optical ← Flash ← SSD ← NVMe"},
+  {"front": "NVMe", "back": "Non-Volatile Memory Express: **ultra-low latency** و throughput عالي"},
+  {"front": "Data center environment", "back": "Temperature · Humidity · Airflow"},
+  {"front": "تصنيفات الـ applications", "back": "Business · Infrastructure management · Data protection · Security"},
+  {"front": "DBMS", "back": "**Bridge** بين الـ applications والتخزين"},
+  {"front": "مكونات الـ host (software)", "back": "OS · File system · **LVM** · Device drivers"},
+  {"front": "Physical connectivity", "back": "**Bus** (جوه الكمبيوتر) · **Port** (مخرج) · **Cable** (copper/fiber)"},
+  {"front": "PCI / IDE-ATA / SCSI", "back": "Expansion cards و plug-and-play / الأشهر والأرخص / high-end وأغلى"},
+  {"front": "Tape limitations", "back": "Sequential access · application واحد · management overhead"},
+  {"front": "WORM", "back": "**Write Once, Read Many** (optical) ← data integrity"},
+  {"front": "Platter", "back": "قرص مغناطيسي على الوجهين، جوه **HDA**"},
+  {"front": "Spindle speeds", "back": "7,200 · 10,000 · 15,000 rpm"},
+  {"front": "Head crash", "back": "الـ head يلمس الـ platter بره الـ landing zone ← فقد بيانات"},
+  {"front": "Track / Sector / Cylinder", "back": "دايرة / أصغر وحدة (512B) / نفس الـ track على كل الأسطح"},
+  {"front": "ZBR", "back": "Zones: الخارجية فيها **sectors أكتر**"},
+  {"front": "عوامل أداء الديسك", "back": "Seek time · Rotational latency (½ rotation) · Data transfer rate"},
+  {"front": "LBA", "back": "Logical Block Address: الـ controller بيحوله لـ track/sector/head"},
+  {"front": "NCQ", "back": "SATA: يعيد ترتيب الأوامر، ومش مفيد للـ sequential"},
+  {"front": "NAND vs NOR", "back": "**NAND** المسيطرة في الـ SSD والـ USB"},
+  {"front": "HDD vs Flash", "back": "HDD: أرخص وأكبر، و moving parts · Flash: أسرع، صامت، أغلى لكل GB"}
+]

@@ -1,0 +1,18 @@
+[
+  {"front": "Data vs Information", "back": "Data = raw facts (اللي بنخزنه) · Information = knowledge بعد المعالجة بسياق"},
+  {"front": "أسباب نمو البيانات الرقمية", "back": "Processing capabilities ↑ · Storage cost ↓ · Communication أرخص وأسرع"},
+  {"front": "Structured vs Unstructured", "back": "Structured: rows/columns و DBMS (~20%) · Unstructured: > **80%** من بيانات الشركات"},
+  {"front": "Big Data", "back": "بيانات أكبر من قدرة الأدوات التقليدية، ومحتاجة **real-time** analysis"},
+  {"front": "Big Data Ecosystem", "back": "Devices ← Data Collectors ← Data Aggregators ← Data Users/Buyers"},
+  {"front": "DAS", "back": "Direct-Attached: متوصل بالسيرفر، **بسيط ورخيص**، محدود في التوسع والمشاركة"},
+  {"front": "NAS", "back": "**File-level** storage عن طريق **LAN**"},
+  {"front": "SAN", "back": "**Block-level** عن طريق شبكة مخصصة (**Fibre Channel**)، غالية"},
+  {"front": "IP-SAN", "back": "Block-level storage عن طريق **IP** (LAN/WAN)، أرخص"},
+  {"front": "JBOD", "back": "**Just a Bunch of Disks**"},
+  {"front": "Server-centric", "back": "تخزين جوه كل server ← **islands of information** + downtime"},
+  {"front": "Information-centric", "back": "تخزين **مركزي**، مستقل ومتشارك، ويتوسع ديناميكيًا"},
+  {"front": "عناصر الـ Data Center الخمسة", "back": "Application · DBMS · Server & OS · Network · Storage Array"},
+  {"front": "خصائص عناصر الـ Data Center", "back": "Availability · Security · Scalability · Performance · Data Integrity · Capacity · Manageability"},
+  {"front": "Managing storage infrastructure", "back": "Monitoring · Reporting · Provisioning (Capacity + Resource planning)"},
+  {"front": "Cloud computing", "back": "On-demand + **pay-as-you-go**، وقايم على **virtualization**"}
+]

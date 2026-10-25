@@ -1,0 +1,22 @@
+[
+  {"en": "Punch Card", "ar": "كارت مثقوب", "def": "أقدم وسيط تخزين"},
+  {"en": "NVMe", "ar": "ذاكرة غير متطايرة سريعة", "def": "Non-Volatile Memory Express، أحدث وأسرع تقنية تخزين"},
+  {"en": "Host Bus Adapter (HBA)", "ar": "محوّل ناقل المضيف", "def": "كارت بيوصل الـ host بالتخزين"},
+  {"en": "Bus", "ar": "ناقل", "def": "مسارات نقل البيانات جوه الكمبيوتر"},
+  {"en": "SCSI", "ar": "واجهة SCSI", "def": "بروتوكول للأنظمة الـ high-end"},
+  {"en": "IDE/ATA", "ar": "واجهة ATA", "def": "أشهر بروتوكول للديسكات، رخيص وسريع"},
+  {"en": "Platter", "ar": "طبق", "def": "القرص المغناطيسي جوه الهارد"},
+  {"en": "Spindle", "ar": "محور الدوران", "def": "بيلف الـ platters بسرعة ثابتة"},
+  {"en": "Actuator Arm", "ar": "ذراع المشغّل", "def": "بيحرك رؤوس القراءة والكتابة"},
+  {"en": "Head Crash", "ar": "اصطدام الرأس", "def": "الـ head يلمس سطح الـ platter"},
+  {"en": "Track", "ar": "مسار", "def": "دايرة متحدة المركز على الـ platter"},
+  {"en": "Sector", "ar": "قطاع", "def": "أصغر وحدة تخزين ليها عنوان"},
+  {"en": "Cylinder", "ar": "أسطوانة", "def": "نفس الـ track على كل الأسطح"},
+  {"en": "Zoned Bit Recording", "ar": "التسجيل بالمناطق", "def": "zones بعدد sectors مختلف"},
+  {"en": "Seek Time", "ar": "زمن البحث", "def": "وقت تحرك الـ head للـ track"},
+  {"en": "Rotational Latency", "ar": "تأخير الدوران", "def": "وقت لف الـ sector تحت الـ head"},
+  {"en": "LBA", "ar": "عنوان الكتلة المنطقي", "def": "Logical Block Address"},
+  {"en": "NCQ", "ar": "ترتيب الأوامر الأصلي", "def": "Native Command Queuing في SATA"},
+  {"en": "Wear-leveling", "ar": "توزيع الاستهلاك", "def": "توزيع الكتابة على الـ flash لإطالة عمرها"},
+  {"en": "WORM", "ar": "اكتب مرة واقرأ كثيرًا", "def": "Write Once Read Many"}
+]

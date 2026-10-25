@@ -13,8 +13,8 @@
       "id": "lec01",
       "kind": "lecture",
       "n": 1,
-      "title": "Lec 1",
-      "titleAr": "",
+      "title": "Ch1: Introduction to Information Storage",
+      "titleAr": "مقدمة في تخزين المعلومات",
       "pdf": "1DpDb752OryZChMfh-WomdVcdFzPwb_rk",
       "mid": true
     },
@@ -22,8 +22,8 @@
       "id": "lec02",
       "kind": "lecture",
       "n": 2,
-      "title": "Lec 2",
-      "titleAr": "",
+      "title": "Ch2: Storage Technologies & Data Center Environment",
+      "titleAr": "تطور التخزين وبيئة مركز البيانات",
       "pdf": "10CRwhFBt2NpR2jkme_fTugRRKnK2YHQe",
       "mid": true
     },
@@ -31,8 +31,8 @@
       "id": "lec03",
       "kind": "lecture",
       "n": 3,
-      "title": "Lec 3",
-      "titleAr": "",
+      "title": "Ch3: Data Protection — RAID",
+      "titleAr": "حماية البيانات: RAID",
       "pdf": "1R2znqjWFbCuSJrF1BAQoROf5X-_GPWO4",
       "mid": true
     },
@@ -40,8 +40,8 @@
       "id": "lec04",
       "kind": "lecture",
       "n": 4,
-      "title": "Lec 4",
-      "titleAr": "",
+      "title": "Ch4: Intelligent Storage System",
+      "titleAr": "نظام التخزين الذكي",
       "pdf": "1Op1fYc67oIJTccKPfKFffEwv3TSmOVkB",
       "mid": true
     },
@@ -49,8 +49,8 @@
       "id": "lec05",
       "kind": "lecture",
       "n": 5,
-      "title": "Lec 5",
-      "titleAr": "",
+      "title": "Ch5: Storage Area Networks (SAN)",
+      "titleAr": "شبكات منطقة التخزين",
       "pdf": "1zQM0m34FVDZM0lWdSTA8ZlKUPerATOox",
       "mid": true
     },
@@ -58,40 +58,40 @@
       "id": "lec06",
       "kind": "lecture",
       "n": 6,
-      "title": "Lec 6",
-      "titleAr": "",
+      "title": "Ch6: Network-Attached Storage (NAS)",
+      "titleAr": "التخزين المتصل بالشبكة",
       "pdf": "1RW8fgg3mhXvWuw89saHPOrc1CtuI47_u"
     },
     {
       "id": "lec07",
       "kind": "lecture",
       "n": 7,
-      "title": "Lec 7",
-      "titleAr": "",
+      "title": "Ch7: Object-Based & Unified Storage",
+      "titleAr": "التخزين الكائني والموحّد",
       "pdf": "1S08jm9O77uIW41OAkXJQVYhkOeVW0viu"
     },
     {
       "id": "lec08",
       "kind": "lecture",
       "n": 8,
-      "title": "Lec 8",
-      "titleAr": "",
+      "title": "Ch8: Introduction to Business Continuity",
+      "titleAr": "استمرارية الأعمال",
       "pdf": "1Ccd__qRCj8Bya0CXhqH6baHDVyQI2TMb"
     },
     {
       "id": "lec09",
       "kind": "lecture",
       "n": 9,
-      "title": "Lec 9",
-      "titleAr": "",
+      "title": "Ch9: Backup and Recovery",
+      "titleAr": "النسخ الاحتياطي والاسترجاع",
       "pdf": "1i37CPTSz0DxNCIAJRkhCMVxhLsWcB2zG"
     },
     {
       "id": "lec10",
       "kind": "lecture",
       "n": 10,
-      "title": "Lec 10",
-      "titleAr": "",
+      "title": "Ch10: Local & Remote Replication",
+      "titleAr": "النسخ المحلي والبعيد",
       "pdf": "1AHueAqO0pyT32ZPnP6dP161m6QzA1pij"
     }
   ]
