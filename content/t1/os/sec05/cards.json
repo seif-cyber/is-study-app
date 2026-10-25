@@ -1,0 +1,12 @@
+[
+  {"front": "Git", "back": "**Distributed version control system** بيتتبّع التغييرات في الكود"},
+  {"front": "ليه Git؟", "back": "Version history · Collaboration · Branching · Backup · Industry standard"},
+  {"front": "الحالات التلاتة", "back": "Working Directory · Staging Area · Repository"},
+  {"front": "الـ Workflow", "back": "modify ← `git add` ← `git commit` ← `git push`"},
+  {"front": "git init vs git clone", "back": "init: repo جديد · clone: نسخ repo موجود"},
+  {"front": "git status / log / diff", "back": "حالة الملفات / تاريخ الـ commits / تغييرات متعملهاش stage"},
+  {"front": "git checkout -b", "back": "Create + switch لـ branch جديد"},
+  {"front": "git merge", "back": "دمج branch في الـ branch الحالي"},
+  {"front": "pull vs fetch", "back": "pull = **fetch + merge** · fetch = تحميل بس"},
+  {"front": "git push -u origin main", "back": "أول رفع للـ remote وربط الـ branch"}
+]

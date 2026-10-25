@@ -1,0 +1,19 @@
+[
+  {"topic": "File System", "q": "In Linux, which statement is TRUE?", "choices": ["Everything is treated as a file", "Only documents are files", "Devices are not accessible", "Settings are stored in the BIOS"], "explain": "**Everything in Linux — documents, devices, programs, even settings — is treated as a file**.", "answer": 0},
+  {"topic": "File System", "q": "The Linux file system starts from a single root directory called:", "choices": ["/root", "/", "/home", "C:\\"], "explain": "الشجرة بتبدأ من **/** واسمه **root**.", "answer": 1},
+  {"topic": "FHS", "q": "Which directory contains user home directories?", "choices": ["/root", "/etc", "/home", "/bin"], "explain": "**/home = user home directories**.", "answer": 2},
+  {"topic": "FHS", "q": "Host-specific system configuration files are stored in:", "choices": ["/var", "/tmp", "/dev", "/etc"], "explain": "**/etc = host-specific system configuration**.", "answer": 3},
+  {"topic": "FHS", "q": "Device files such as /dev/sda are stored in:", "choices": ["/dev", "/boot", "/media", "/lib"], "explain": "**/dev = device files**.", "answer": 0},
+  {"topic": "FHS", "q": "Temporary files are stored in:", "choices": ["/var", "/tmp", "/opt", "/srv"], "explain": "**/tmp = temporary files**.", "answer": 1},
+  {"topic": "FHS", "q": "The home directory for the root user is:", "choices": ["/", "/home/root", "/root", "/sbin"], "explain": "**/root = home directory for the root user**. ومتلخبطش بينه وبين **/**.", "answer": 2},
+  {"topic": "FHS", "q": "Static files of the boot loader are in:", "choices": ["/bin", "/etc", "/mnt", "/boot"], "explain": "**/boot = static files of the boot loader**.", "answer": 3},
+  {"topic": "FHS", "q": "Which directory is a virtual filesystem documenting kernel and process status as text files?", "choices": ["/proc", "/dev", "/var", "/usr"], "explain": "**/proc** = virtual filesystem، زي **/proc/1234** للـ process رقم 1234.", "answer": 0},
+  {"topic": "FHS", "q": "Essential user command binaries (like ls, cp) are in:", "choices": ["/sbin", "/bin", "/lib", "/opt"], "explain": "**/bin = essential user command binaries**. و **/sbin** = system binaries.", "answer": 1},
+  {"topic": "FHS", "q": "Mount point for removable media (like USB drives) is:", "choices": ["/boot", "/proc", "/media", "/etc"], "explain": "**/media = mount point for removable media**.", "answer": 2},
+  {"topic": "FHS", "q": "Variable files such as logs are stored in:", "choices": ["/tmp", "/usr", "/bin", "/var"], "explain": "**/var = variable files**.", "answer": 3},
+  {"topic": "Key Concepts", "q": "Because Linux is case-sensitive:", "choices": ["File.txt and file.txt are different files", "File.txt and file.txt are the same file", "Uppercase names are not allowed", "Only lowercase commands work"], "explain": "**Case-sensitive: File.txt and file.txt are different**.", "answer": 0},
+  {"topic": "Key Concepts", "q": "Devices like USBs must be ______ to a directory to access them.", "choices": ["deleted", "mounted", "compiled", "zipped"], "explain": "**Mounting: Devices (like USBs) must be mounted to a directory to access them**.", "answer": 1},
+  {"topic": "Key Concepts", "q": "Each file in Linux has permissions for:", "choices": ["Admin, guest, visitor", "Read, write only", "Owner, group, others", "Kernel, user"], "explain": "**Permissions: Each file has permissions for owner, group, others**.", "answer": 2},
+  {"topic": "Command Structure", "q": "In the command `$ ls -F /`, the `-F` is the:", "choices": ["Command", "Argument", "Prompt", "Option"], "explain": "**$** prompt · **ls** command · **-F** option · **/** argument.", "answer": 3},
+  {"topic": "Command Structure", "q": "In the command `$ ls -F /`, the `/` is the:", "choices": ["Argument", "Option", "Prompt", "Command"], "explain": "الـ **/** هو الـ **argument**: الحاجة اللي الأمر بيشتغل عليها.", "answer": 0}
+]

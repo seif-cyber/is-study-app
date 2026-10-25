@@ -20,8 +20,8 @@ for (const term of fs.readdirSync(ROOT)) {
       const at = `${courseId}/${u.id}`;
       if (!fs.existsSync(path.join(ud, 'lesson.md'))) continue;
 
-      for (const f of ['summary.md', 'quiz.json', 'cards.json', 'essay.json', 'glossary.json'])
-        if (!fs.existsSync(path.join(ud, f))) warn(at, `missing ${f}`);
+      const expected = u.kind === 'lecture' ? ['summary.md', 'quiz.json', 'cards.json', 'essay.json', 'glossary.json'] : ['quiz.json', 'cards.json'];
+      for (const f of expected) if (!fs.existsSync(path.join(ud, f))) warn(at, `missing ${f}`);
 
       for (const f of ['lesson.md', 'summary.md']) {
         const p = path.join(ud, f);
@@ -40,7 +40,7 @@ for (const term of fs.readdirSync(ROOT)) {
           const w = `${at} Q${i + 1}`;
           if (!q.q?.trim()) err(w, 'empty question');
           if (!Array.isArray(q.choices) || q.choices.length < 2) err(w, 'needs choices');
-          else if (new Set(q.choices.map((c) => String(c).trim().toLowerCase())).size !== q.choices.length) err(w, 'duplicate choices');
+          else if (new Set(q.choices.map((c) => String(c).trim())).size !== q.choices.length) err(w, 'duplicate choices');
           if (!Number.isInteger(q.answer) || q.answer < 0 || q.answer >= (q.choices?.length || 0)) err(w, 'bad answer index');
           else keys[q.answer]++;
           if (!q.explain?.trim()) err(w, 'missing explanation');

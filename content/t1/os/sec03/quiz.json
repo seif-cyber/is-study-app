@@ -1,0 +1,15 @@
+[
+  {"topic": "ls options", "q": "Which ls option shows all files including hidden ones (starting with a dot)?", "choices": ["-a", "-s", "-S", "-h"], "explain": "**ls -a** بيعرض كل الملفات حتى المخفية اللي بتبدأ بـ **.**.", "answer": 0},
+  {"topic": "ls options", "q": "In Linux, the options -s and -S for ls are:", "choices": ["Exactly the same", "Different: -s displays size, -S sorts by size", "Both delete files", "Invalid options"], "explain": "الـ options **case-sensitive**: **-s** يعرض الحجم، و **-S** يرتّب حسب الحجم.", "answer": 1},
+  {"topic": "ls options", "q": "Which is a valid way to combine the -s and -h options?", "choices": ["ls -s+h", "ls s h", "ls -sh", "ls --s--h"], "explain": "طريقتين: **ls -s -h** أو dash واحدة **ls -sh** أو **ls -hs**.", "answer": 2},
+  {"topic": "Help", "q": "Which command opens the detailed manual of a command with all its options?", "choices": ["whatis", "pwd", "cat", "man"], "explain": "**man** = manual: وصف تفصيلي وكل الـ options.", "answer": 3},
+  {"topic": "Help", "q": "Inside the man pager, which symbol is used to search for an option?", "choices": ["/", "#", "$", "%"], "explain": "في الـ man pager بتدوّر بـ **/**.", "answer": 0},
+  {"topic": "Help", "q": "Which command describes the function of a given command in one line?", "choices": ["apropos", "whatis", "man -k", "cd"], "explain": "**whatis** بيوصف وظيفة الأمر.", "answer": 1},
+  {"topic": "Help", "q": "Which command searches for commands given a description and is often paired with grep?", "choices": ["whatis", "echo", "apropos", "touch"], "explain": "**apropos** بيدوّر على أوامر بالوصف، وغالبًا مع **grep**.", "answer": 2},
+  {"topic": "Help", "q": "The --help option:", "choices": ["Deletes the command", "Installs the command", "Runs the command as root", "Displays a brief description and usage guide for a command"], "explain": "**help option** = وصف مختصر وطريقة الاستخدام.", "answer": 3},
+  {"topic": "cp", "q": "Which option is needed to copy a directory with cp?", "choices": ["-r", "-a only", "-S", "-h"], "explain": "**cp -r** (recursive) لنسخ فولدر.", "answer": 0},
+  {"topic": "cp", "q": "The cp command is used to:", "choices": ["Change permissions", "Copy a file or directory from a source to a destination", "Print working directory", "Create an empty file"], "explain": "**cp** = copy من source لـ destination.", "answer": 1},
+  {"topic": "mv", "q": "The function of the mv command (rename or move) depends on:", "choices": ["The file size", "The user's password", "The destination part", "The time of day"], "explain": "**mv** بيعمل rename أو move، و**ده بيعتمد على الـ destination**.", "answer": 2},
+  {"topic": "mv", "q": "What does `mv old.txt new.txt` do (both in the same directory)?", "choices": ["Copies old.txt", "Deletes both files", "Moves to /tmp", "Renames old.txt to new.txt"], "explain": "نفس المكان واسم جديد ← **rename**.", "answer": 3},
+  {"topic": "mv", "q": "What does `mv notes.txt Documents/` do?", "choices": ["Moves notes.txt into the Documents folder", "Renames Documents", "Copies notes.txt", "Deletes Documents"], "explain": "الـ destination فولدر ← **move**.", "answer": 0}
+]

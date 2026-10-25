@@ -1,0 +1,13 @@
+[
+  {"front": "Everything is a ___", "back": "**File**: حتى الأجهزة (/dev/sda) والـ processes (/proc/1234)"},
+  {"front": "/ vs /root", "back": "**/** = جذر الشجرة · **/root** = home الـ root user"},
+  {"front": "/etc", "back": "System configuration"},
+  {"front": "/home", "back": "User home directories"},
+  {"front": "/dev", "back": "Device files"},
+  {"front": "/tmp · /var", "back": "Temporary files · Variable files (logs)"},
+  {"front": "/bin · /sbin", "back": "User command binaries · System binaries"},
+  {"front": "/proc", "back": "Virtual FS: kernel & process status"},
+  {"front": "/media · /mnt", "back": "Removable media mount · Temporary mount"},
+  {"front": "Command structure", "back": "**Prompt** ($) + **Command** (ls) + **Option** (-F) + **Argument** (/)"},
+  {"front": "Case-sensitive", "back": "`File.txt` ≠ `file.txt`"}
+]

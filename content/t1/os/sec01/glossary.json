@@ -1,0 +1,9 @@
+[
+  {"en": "Hypervisor", "ar": "مدير الأجهزة الافتراضية", "def": "طبقة سوفتوير بتعمل الـ virtualization"},
+  {"en": "Bare Metal (Type 1)", "ar": "على العتاد مباشرة", "def": "hypervisor بيشتغل على الهاردوير"},
+  {"en": "Hosted (Type 2)", "ar": "مستضاف", "def": "hypervisor بيشتغل فوق OS"},
+  {"en": "Container", "ar": "حاوية", "def": "OS-level virtualization زي Docker"},
+  {"en": "Snapshot", "ar": "لقطة", "def": "حفظ حالة الـ VM للرجوع لها"},
+  {"en": "Guest OS", "ar": "نظام ضيف", "def": "OS شغال جوه VM"},
+  {"en": "Host OS", "ar": "نظام مضيف", "def": "OS الأساسي اللي شغّال عليه الـ hypervisor"}
+]

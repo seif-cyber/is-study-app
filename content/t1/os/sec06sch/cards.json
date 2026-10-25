@@ -1,0 +1,10 @@
+[
+  {"front": "Task scheduling", "back": "البرنامج يشغّل مهام **أوتوماتيك** في أوقات محددة (smart timer)"},
+  {"front": "OS vs Coding scheduling", "back": "OS: النظام كله، processes و threads، CPU/RAM/I/O، و RR/SJF/Priority · Coding: جوه البرنامج، functions، timer"},
+  {"front": "Static / Dynamic / Real-time", "back": "جدول ثابت / حسب شروط وقت التشغيل / deadlines (airbags)"},
+  {"front": "مكونات الـ scheduler", "back": "Tasks · Scheduler (library) · Resources · Priority"},
+  {"front": "every(0.1).minutes", "back": "كل **6 ثواني**"},
+  {"front": "run_pending()", "back": "يشيّك لو فيه task جه وقتها"},
+  {"front": "sleep(0.2) في الـ loop", "back": "يمنع **استهلاك CPU عالي**"},
+  {"front": "عيوب coding scheduling", "back": "مش للمهام التقيلة · CPU management محدود · loop واحدة · بيقف لو البرنامج قفل · مش real-time"}
+]

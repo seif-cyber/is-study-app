@@ -1,0 +1,14 @@
+[
+  {"front": "Race condition", "back": "كذا process **يعدّلوا بيانات مشتركة في نفس الوقت**، والنتيجة تعتمد على التوقيت"},
+  {"front": "Critical section", "back": "كود بيوصل لموارد مشتركة، و**process واحدة بس** في المرة"},
+  {"front": "Problem / Place / Solution", "back": "Race condition / Critical section / **Semaphore**"},
+  {"front": "wait() = P() = acquire()", "back": "**ينقّص** العداد، و **block** لو مفيش مورد"},
+  {"front": "signal() = V() = release()", "back": "**يزوّد** العداد، و **يصحّي** process مستنية"},
+  {"front": "Binary semaphore", "back": "0 أو 1 = **lock**"},
+  {"front": "Counting semaphore", "back": "> 1 = **pool** موارد (playroom بـ 5 أماكن)"},
+  {"front": "من غير wait()", "back": "**Race condition**"},
+  {"front": "من غير signal()", "back": "**Deadlock**"},
+  {"front": "ترتيب غلط (signal قبل wait)", "back": "**Inconsistency / Starvation**"},
+  {"front": "Deadlock", "back": "كل thread **ماسك مورد ومستني** مورد التاني"},
+  {"front": "start() vs join()", "back": "start: يبدأ الـ thread · join: يستنى لحد ما يخلص"}
+]

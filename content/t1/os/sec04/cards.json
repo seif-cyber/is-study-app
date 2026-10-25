@@ -1,0 +1,12 @@
+[
+  {"front": "top", "back": "معلومات **real-time** عن CPU و memory و processes = Task Manager"},
+  {"front": "PR في top", "back": "Priority، و**الأقل = أولوية أعلى**"},
+  {"front": "VIRT / RES / SHR", "back": "Virtual / Physical RAM / Shared memory"},
+  {"front": "S column", "back": "R = Running · S = Sleeping · Z = Zombie"},
+  {"front": "أول حرف في ls -l", "back": "- file · d directory · l link · c char device · b block device · s socket · p pipe"},
+  {"front": "r / w / x بالأرقام", "back": "r = **4** · w = **2** · x = **1**"},
+  {"front": "755", "back": "rwxr-xr-x"},
+  {"front": "640", "back": "rw-r-----"},
+  {"front": "chmod u+w / o-r / g=r", "back": "إضافة write للـ owner / شيل read من others / الـ group = read بالظبط"},
+  {"front": "Permission denied", "back": "محاولة access أو modify أو execute من غير الصلاحية"}
+]

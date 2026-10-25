@@ -1,0 +1,23 @@
+[
+  {"front": "Thread — تعريف", "back": "**Basic unit of CPU utilization**"},
+  {"front": "مكونات الـ thread الخاصة بيه", "back": "Thread ID · Program counter · Register set · **Stack**"},
+  {"front": "الـ threads بيشاركوا إيه؟", "back": "**Code section · Data section · OS resources** (open files, signals)"},
+  {"front": "مثال الـ web browser", "back": "Thread يعرض الصور والنص، و thread يجيب البيانات من الشبكة"},
+  {"front": "مثال الـ word processor", "back": "Graphics thread · keystrokes thread · spelling & grammar thread في الخلفية"},
+  {"front": "Multithreaded server", "back": "(1) request ← (2) create new thread to service ← (3) resume listening"},
+  {"front": "Kernel threads بتعمل إيه؟", "back": "Managing devices · managing memory · interrupt handling"},
+  {"front": "Concurrency vs Parallelism", "back": "Concurrency: **single-core** بيتبادل · Parallelism: **multi-core** في نفس اللحظة"},
+  {"front": "User threads", "back": "Supported **above the kernel**، ومن غير دعم الـ kernel"},
+  {"front": "Kernel threads", "back": "Supported and managed **directly by the OS**"},
+  {"front": "One-to-One", "back": "كل user thread ← kernel thread · parallel · عيبه overhead · **Linux, Windows**"},
+  {"front": "One-to-One — العيب الوحيد", "back": "عمل user thread **بيتطلب عمل kernel thread**، فعدد الـ threads بيتحدد"},
+  {"front": "Many-to-One", "back": "كذا user ← **kernel thread واحد**: مفيش parallelism، و blocking call يوقف الكل"},
+  {"front": "Many-to-Many", "back": "كذا user ← كذا kernel، والـ OS يعمل **sufficient** kernel threads"},
+  {"front": "Two-level model", "back": "زي Many-to-Many + user thread **bound** لـ kernel thread"},
+  {"front": "فوائد الـ threads الأربعة", "back": "Responsiveness · Resource sharing · Economy · Scalability"},
+  {"front": "Responsiveness", "back": "يكمّل تنفيذ لو جزء من الـ process **blocked**، ومهم للـ UI"},
+  {"front": "Economy", "back": "**أرخص من process creation**، و thread switching أقل overhead من context switching"},
+  {"front": "Scalability", "back": "الاستفادة من **multiprocessor architectures**"},
+  {"front": "Thread library", "back": "**API** لعمل وإدارة الـ threads"},
+  {"front": "أشهر 3 thread libraries", "back": "**POSIX Pthreads · Windows · Java**"}
+]

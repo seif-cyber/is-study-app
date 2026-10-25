@@ -1,0 +1,10 @@
+[
+  {"front": "echo", "back": "يطبع نص على الـ terminal"},
+  {"front": "pwd", "back": "**Present working directory**: إنت فين"},
+  {"front": "ls", "back": "يعرض محتوى الفولدر"},
+  {"front": "cd", "back": "Change directory · `cd ..` لفوق · `cd ~` للهوم"},
+  {"front": "mkdir / rmdir", "back": "يعمل فولدر / يمسح فولدر **فاضي**"},
+  {"front": "touch / rm", "back": "يعمل ملف فاضي / يمسح ملف"},
+  {"front": "cat", "back": "يعرض محتوى ملف (و `cat > file` يكتب فيه)"},
+  {"front": "> vs >>", "back": "`>` يكتب ويمسح القديم · `>>` يضيف في الآخر"}
+]

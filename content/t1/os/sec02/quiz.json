@@ -1,0 +1,17 @@
+[
+  {"topic": "Basic Commands", "q": "Which command prints text to the terminal?", "choices": ["echo", "pwd", "cat", "touch"], "explain": "**echo** بيطبع content على الـ terminal.", "answer": 0},
+  {"topic": "Basic Commands", "q": "Which command shows your current location in the Linux file system tree?", "choices": ["ls", "pwd", "cd", "echo"], "explain": "**pwd = present working directory**.", "answer": 1},
+  {"topic": "Basic Commands", "q": "Which command lists the content of a directory?", "choices": ["cd", "rm", "ls", "pwd"], "explain": "**ls** بيعرض كل اللي جوه الـ directory.", "answer": 2},
+  {"topic": "Basic Commands", "q": "Which command changes your position in the Linux tree?", "choices": ["pwd", "mkdir", "cat", "cd"], "explain": "**cd = change directory**.", "answer": 3},
+  {"topic": "Basic Commands", "q": "Which command creates an empty directory?", "choices": ["mkdir", "touch", "rmdir", "cat"], "explain": "**mkdir** = make directory.", "answer": 0},
+  {"topic": "Basic Commands", "q": "Which command deletes an EMPTY directory?", "choices": ["rm", "rmdir", "mkdir", "del"], "explain": "**rmdir** بيمسح directory **فاضي**.", "answer": 1},
+  {"topic": "Basic Commands", "q": "Which command creates an empty file?", "choices": ["mkdir", "echo", "touch", "pwd"], "explain": "**touch** بيعمل ملف فاضي.", "answer": 2},
+  {"topic": "Basic Commands", "q": "Which command deletes a file?", "choices": ["rmdir", "cd", "ls", "rm"], "explain": "**rm** بيمسح ملف.", "answer": 3},
+  {"topic": "Basic Commands", "q": "Which command views the content of a file?", "choices": ["cat", "touch", "mkdir", "pwd"], "explain": "**cat** بيعرض محتوى الملف.", "answer": 0},
+  {"topic": "Redirection", "q": "The symbol used to put content into a file (overwriting it) is:", "choices": [">>", ">", "|", "&"], "explain": "**>** بيكتب في الملف ويمسح القديم. أما **>>** فبيضيف في الآخر.", "answer": 1},
+  {"topic": "Redirection", "q": "What does `echo \"hi\" >> notes.txt` do?", "choices": ["Deletes notes.txt", "Overwrites notes.txt with 'hi'", "Appends 'hi' to the end of notes.txt", "Prints notes.txt"], "explain": "**>>** بيضيف (append) من غير ما يمسح المحتوى القديم.", "answer": 2},
+  {"topic": "Navigation", "q": "Which command moves you one level up to the parent directory?", "choices": ["cd ~", "cd /", "cd .", "cd .."], "explain": "**cd ..** = اطلع مستوى لفوق.", "answer": 3},
+  {"topic": "Navigation", "q": "Which command takes you to your home directory?", "choices": ["cd ~", "cd /", "cd ..", "pwd"], "explain": "**cd ~** (أو cd لوحده) بترجّعك للـ home.", "answer": 0},
+  {"topic": "Navigation", "q": "In the prompt `student@ubuntu:~$`, the `~` means:", "choices": ["You are root", "You are in your home directory", "The command failed", "You are in /tmp"], "explain": "**~** = الـ home directory. و **$** = مستخدم عادي.", "answer": 1},
+  {"topic": "Basic Commands", "q": "To delete a directory that contains files you should use:", "choices": ["rmdir folder", "touch folder", "rm -r folder", "cat folder"], "explain": "**rmdir** للفولدر الفاضي بس. للفولدر اللي فيه ملفات استخدم **rm -r**.", "answer": 2}
+]

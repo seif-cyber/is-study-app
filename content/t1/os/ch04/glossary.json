@@ -1,0 +1,19 @@
+[
+  {"en": "Thread", "ar": "خيط / سلسلة تنفيذ", "def": "أصغر وحدة بتستخدم الـ CPU"},
+  {"en": "Multithreaded", "ar": "متعدد الخيوط", "def": "process فيها أكتر من thread"},
+  {"en": "Thread ID", "ar": "معرّف الخيط", "def": "رقم فريد لكل thread"},
+  {"en": "Concurrency", "ar": "التزامن", "def": "تبادل تنفيذ الـ threads على core واحد"},
+  {"en": "Parallelism", "ar": "التوازي", "def": "تنفيذ فعلي في نفس اللحظة على cores مختلفة"},
+  {"en": "Multicore", "ar": "متعدد الأنوية", "def": "أكتر من core على نفس الشريحة"},
+  {"en": "User Thread", "ar": "خيط المستخدم", "def": "thread بيتدار فوق الـ kernel من غير دعمه"},
+  {"en": "Kernel Thread", "ar": "خيط النواة", "def": "thread بيديره الـ OS مباشرة"},
+  {"en": "One-to-One Model", "ar": "نموذج واحد لواحد", "def": "كل user thread ليه kernel thread"},
+  {"en": "Many-to-One Model", "ar": "نموذج كثير لواحد", "def": "كذا user thread على kernel thread واحد"},
+  {"en": "Many-to-Many Model", "ar": "نموذج كثير لكثير", "def": "كذا user thread على كذا kernel thread"},
+  {"en": "Two-level Model", "ar": "النموذج ثنائي المستوى", "def": "Many-to-Many مع إمكانية الربط (bound)"},
+  {"en": "Bound Thread", "ar": "خيط مربوط", "def": "user thread متربط بـ kernel thread لوحده"},
+  {"en": "Responsiveness", "ar": "سرعة الاستجابة", "def": "البرنامج يكمّل حتى لو جزء منه blocked"},
+  {"en": "Scalability", "ar": "قابلية التوسع", "def": "الاستفادة من المعالجات المتعددة"},
+  {"en": "Thread Library", "ar": "مكتبة الخيوط", "def": "API لعمل وإدارة الـ threads"},
+  {"en": "Pthreads", "ar": "خيوط POSIX", "def": "مكتبة threads لأنظمة UNIX و Linux"}
+]

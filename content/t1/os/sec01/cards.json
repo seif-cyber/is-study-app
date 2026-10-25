@@ -1,0 +1,12 @@
+[
+  {"front": "وظايف الـ OS الستة (Lab 1)", "back": "Process · Memory · File System · Device management · Security & Access Control · User Interface"},
+  {"front": "Linux vs Windows: التكلفة", "back": "Linux **مجاني و open-source** · Windows **paid license**"},
+  {"front": "أسباب أمان Linux", "back": "Open-source · User privileges by default · Less targeted by malware · Frequent updates · Customizability"},
+  {"front": "Virtualization", "back": "عمل **virtual version** من OS أو server أو storage أو network، عشان تشغّل كذا OS على جهاز واحد"},
+  {"front": "أنواع الـ Virtualization", "back": "System/Hardware (VMs) · OS-level (Docker containers) · Storage & Network"},
+  {"front": "Hypervisor", "back": "Software layer that **enables virtualization**"},
+  {"front": "Type 1 hypervisor", "back": "**Bare metal**: على الهاردوير مباشرة، زي ESXi و Hyper-V"},
+  {"front": "Type 2 hypervisor", "back": "**Hosted**: فوق host OS، زي VirtualBox و VMware Workstation"},
+  {"front": "مميزات الـ Virtualization", "back": "Isolation · Resource efficiency · Easier testing · Snapshot & rollback"},
+  {"front": "VirtualBox", "back": "Type 2، مجاني، من **Oracle**، وفيه Snapshots و Shared folders و NAT / Bridged / Host-only"}
+]

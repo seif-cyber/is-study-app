@@ -1,0 +1,23 @@
+[
+  {"en": "Command Interpreter (CLI)", "ar": "مفسّر الأوامر", "def": "واجهة بتاخد أوامر مكتوبة من المستخدم وتنفذها"},
+  {"en": "Shell", "ar": "الصدفة", "def": "نوع (flavor) من الـ command interpreter، زي bash"},
+  {"en": "GUI", "ar": "الواجهة الرسومية", "def": "واجهة بفكرة سطح المكتب والأيقونات"},
+  {"en": "Gesture", "ar": "إيماءة / حركة لمس", "def": "طريقة اختيار وتنفيذ الأوامر في شاشات اللمس"},
+  {"en": "API", "ar": "واجهة برمجة التطبيقات", "def": "مجموعة دوال بيستخدمها المبرمج بدل الـ system calls المباشرة"},
+  {"en": "POSIX", "ar": "معيار POSIX", "def": "API لأنظمة UNIX و Linux و Mac OS X"},
+  {"en": "Win32 API", "ar": "واجهة Win32", "def": "API بتاع Windows"},
+  {"en": "File Descriptor", "ar": "واصف الملف", "def": "رقم بيمثّل ملف مفتوح"},
+  {"en": "Buffer", "ar": "منطقة تخزين مؤقت", "def": "مكان في الميموري بتتحط فيه البيانات"},
+  {"en": "Accounting", "ar": "المحاسبة", "def": "تتبّع استخدام الموارد لكل مستخدم"},
+  {"en": "Error Detection", "ar": "اكتشاف الأخطاء", "def": "خدمة الـ OS لمراقبة الأخطاء والتصرف فيها"},
+  {"en": "Message Passing", "ar": "تمرير الرسائل", "def": "تواصل بين العمليات عن طريق رسائل بينقلها الـ OS"},
+  {"en": "Shared Memory", "ar": "الذاكرة المشتركة", "def": "منطقة ميموري بتشترك فيها أكتر من process"},
+  {"en": "Process Control", "ar": "التحكم في العمليات", "def": "نوع system calls زي fork و exit و wait"},
+  {"en": "Information Maintenance", "ar": "صيانة المعلومات", "def": "system calls زي getpid و time و date"},
+  {"en": "System Programs", "ar": "برامج النظام", "def": "برامج بتوفر بيئة لتطوير وتشغيل البرامج"},
+  {"en": "Background Services (Daemons)", "ar": "خدمات الخلفية", "def": "برامج بتشتغل من وقت الإقلاع"},
+  {"en": "Monolithic Kernel", "ar": "نواة متجانسة", "def": "kernel فيه كل الوظايف في مستوى واحد زي UNIX"},
+  {"en": "Layered Approach", "ar": "الهيكل الطبقي", "def": "الـ OS متقسم طبقات، layer 0 = hardware"},
+  {"en": "Microkernel", "ar": "النواة المصغّرة", "def": "kernel صغير والخدمات في user space، زي Mach"},
+  {"en": "Darwin", "ar": "داروين", "def": "kernel بتاع Mac OS X، مبني جزئيًا على Mach"}
+]

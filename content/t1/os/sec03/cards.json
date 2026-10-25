@@ -1,0 +1,9 @@
+[
+  {"front": "ls -a", "back": "كل الملفات **حتى المخفية** (.file)"},
+  {"front": "ls -s vs ls -S", "back": "-s يعرض **الحجم** · -S **يرتّب** بالحجم (case-sensitive)"},
+  {"front": "دمج الـ options", "back": "`ls -s -h` = `ls -sh` = `ls -hs`"},
+  {"front": "man", "back": "Manual تفصيلي، والبحث جواه بـ **/**"},
+  {"front": "whatis vs apropos", "back": "whatis: الأمر ده بيعمل إيه · apropos: دوّر على أمر بوصف (مع grep)"},
+  {"front": "cp -r", "back": "نسخ **فولدر** (recursive)"},
+  {"front": "mv", "back": "**Rename** أو **move** حسب الـ destination"}
+]
