@@ -1,0 +1,22 @@
+[
+  {"front": "RAID", "back": "Redundant Array of **Independent/Inexpensive** Disks"},
+  {"front": "Software RAID", "back": "OS level + **host CPU** · رخيص وسهل · بيستهلك CPU ومميزاته محدودة"},
+  {"front": "Hardware RAID", "back": "**Controller** (processor + cache) على PCI/PCIe · offload للـ CPU · غالي"},
+  {"front": "Logical array", "back": "= **RAID set** = **RAID group**"},
+  {"front": "Logical volume (LV)", "back": "الـ OS بيشوفها **كأنها ديسك عادي**"},
+  {"front": "Strip vs Stripe", "back": "Strip: blocks **على ديسك واحد** · Stripe: strips متراصة **على كل الديسكات**"},
+  {"front": "Stripe size", "back": "**Strip size × عدد الديسكات**"},
+  {"front": "Mirroring: Read / Write", "back": "Read **أسرع** · Write **أبطأ** · 50% سعة · مش بديل للـ backup"},
+  {"front": "Parity بيتحسب بـ", "back": "**Bitwise XOR** بواسطة الـ RAID controller"},
+  {"front": "RAID 0", "back": "Striping · 100% · **مفيش حماية**: ديسك يقع ← كل البيانات تضيع"},
+  {"front": "RAID 1", "back": "Mirroring · 50% · min 2"},
+  {"front": "RAID 10 vs 01", "back": "10: **mirror ثم stripe** (rebuild الـ mirror بس ✅) · 01: **stripe ثم mirror** (rebuild الـ stripe كله ❌)"},
+  {"front": "RAID 3", "back": "**Byte-level** + dedicated parity · large sequential (video)"},
+  {"front": "RAID 4", "back": "**Block-level** + dedicated parity · وصول مستقل للـ blocks"},
+  {"front": "RAID 5", "back": "Block + **distributed** parity · min 3 · يستحمل ديسك واحد"},
+  {"front": "RAID 6", "back": "Block + **double** distributed parity · min **4** · يستحمل **ديسكين** · write penalty very high"},
+  {"front": "RAID 50", "back": "Striping (RAID 0) فوق مجموعات **RAID 5**"},
+  {"front": "Efficiency RAID 5 / RAID 6", "back": "(n−1)/n · (n−2)/n"},
+  {"front": "Hot spare", "back": "ديسك احتياطي **مساوي أو أكبر** بياخد مكان اللي وقع"},
+  {"front": "Automatic vs User-initiated hot spare", "back": "Auto: الـ controller يكتشف وينسخ قبل العطل · User: الأدمن يختار الوقت (off-peak) بس النظام عرضة للخطر"}
+]

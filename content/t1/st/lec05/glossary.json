@@ -1,0 +1,20 @@
+[
+  {"en": "Fibre Channel (FC)", "ar": "القناة الليفية", "def": "تقنية شبكات سريعة للـ SAN"},
+  {"en": "FC-AL", "ar": "حلقة FC التحكيمية", "def": "Fibre Channel Arbitrated Loop بالـ hubs"},
+  {"en": "Switched Fabric", "ar": "النسيج المحوّل", "def": "SAN بالـ FC switches"},
+  {"en": "Node", "ar": "عقدة", "def": "أي جهاز في FC (host أو storage)"},
+  {"en": "Multi-Mode Fiber", "ar": "ألياف متعددة الأنماط", "def": "كذا شعاع ضوء، مسافة قصيرة"},
+  {"en": "Single-Mode Fiber", "ar": "ألياف أحادية النمط", "def": "شعاع واحد، مسافة طويلة"},
+  {"en": "Modal Dispersion", "ar": "التشتت النمطي", "def": "ضعف الإشارة في MMF"},
+  {"en": "Director", "ar": "مدير (switch كبير)", "def": "FC switch كبير للـ enterprise"},
+  {"en": "ISL", "ar": "رابط بين المحولات", "def": "Inter-Switch Link بين E_ports"},
+  {"en": "Zoning", "ar": "التقسيم لمناطق", "def": "تقسيم الـ fabric منطقيًا"},
+  {"en": "WWN", "ar": "الاسم العالمي", "def": "World-Wide Name فريد لكل جهاز"},
+  {"en": "LUN Masking", "ar": "إخفاء الـ LUN", "def": "تحديد الـ LUNs اللي كل host يشوفها"},
+  {"en": "Core-Edge", "ar": "نواة-حافة", "def": "طوبولوجيا بطبقتين"},
+  {"en": "iSCSI Initiator / Target", "ar": "المبادر / الهدف", "def": "الـ host اللي بيطلب / التخزين اللي بينفذ"},
+  {"en": "FCIP", "ar": "FC عبر IP", "def": "ربط SANs بعيدة عبر IP"},
+  {"en": "FCoE", "ar": "FC عبر Ethernet", "def": "FC frames جوه Ethernet frames"},
+  {"en": "DCB", "ar": "جسر مركز البيانات", "def": "Data Center Bridging: Ethernet بدون فقد"},
+  {"en": "CNA", "ar": "محوّل شبكة مدمج", "def": "Converged Network Adapter للـ FCoE"}
+]

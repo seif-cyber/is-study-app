@@ -1,0 +1,21 @@
+[
+  {"en": "Intelligent Storage System (ISS)", "ar": "نظام التخزين الذكي", "def": "array متقدم بسوفتوير و cache و virtualization"},
+  {"en": "Front End", "ar": "الواجهة الأمامية", "def": "بيوصل التخزين بالـ hosts"},
+  {"en": "Back End", "ar": "الواجهة الخلفية", "def": "واجهة بين الـ cache والديسكات"},
+  {"en": "Command Queuing", "ar": "ترتيب الأوامر", "def": "تحديد ترتيب تنفيذ الأوامر لتقليل حركة الـ head"},
+  {"en": "Tag RAM", "ar": "ذاكرة العلامات", "def": "metadata الـ cache: dirty bit و last access time"},
+  {"en": "Dirty Bit", "ar": "بت الاتساخ", "def": "بيوضح إن بيانات الـ cache لسه متكتبتش على الديسك"},
+  {"en": "Cache Hit / Miss", "ar": "إصابة / إخفاق الكاش", "def": "البيانات موجودة / مش موجودة في الـ cache"},
+  {"en": "Write-Back", "ar": "الكتابة المؤجلة", "def": "ack فوري والكتابة على الديسك بعدين"},
+  {"en": "Write-Through", "ar": "الكتابة المباشرة", "def": "الكتابة على الـ cache والديسك قبل الـ ack"},
+  {"en": "De-stage", "ar": "التفريغ للديسك", "def": "نقل البيانات من الـ cache للديسك"},
+  {"en": "LRU", "ar": "الأقل استخدامًا مؤخرًا", "def": "يفضّي الصفحات الأقدم"},
+  {"en": "MRU", "ar": "الأكثر استخدامًا مؤخرًا", "def": "يفضّي الصفحات الأحدث"},
+  {"en": "Watermark", "ar": "علامة الامتلاء", "def": "حدود (LWM / HWM) بتحدد وقت الـ flushing"},
+  {"en": "Cache Vaulting", "ar": "خزنة الكاش", "def": "تفريغ الـ cache لـ vault drives وقت انقطاع الكهربا"},
+  {"en": "LUN", "ar": "رقم الوحدة المنطقية", "def": "logical volume بيتعرض للـ host كديسك"},
+  {"en": "Thin Provisioning", "ar": "التوفير الرفيع", "def": "حجز المساحة حسب الاستخدام الفعلي"},
+  {"en": "Thick Provisioning", "ar": "التوفير الكثيف", "def": "حجز المساحة كلها من الأول"},
+  {"en": "Active-Active", "ar": "نشط-نشط", "def": "كل المسارات شغالة (high-end)"},
+  {"en": "Active-Passive", "ar": "نشط-خامل", "def": "مسار نشط واحتياطي (midrange)"}
+]

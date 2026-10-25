@@ -1,0 +1,20 @@
+[
+  {"front": "ISS", "back": "Intelligent Storage System: سوفتوير + cache + virtualization، والذكاء في الـ controller"},
+  {"front": "مكونات الـ ISS", "back": "Front end · Cache · Back end · Physical disks"},
+  {"front": "Front-end ports", "back": "بروتوكولات SCSI / FC / iSCSI + redundancy"},
+  {"front": "FIFO / Seek / Access time optimization", "back": "بالترتيب / يقلل حركة الـ head / seek + rotational (**الأحسن**)"},
+  {"front": "Tag RAM", "back": "**Dirty bit** (اتكتبت؟) + **Last access time**"},
+  {"front": "Read hit vs miss", "back": "Hit: من الـ cache (~1 ms) · Miss: الـ back-end يجيبها من الديسك"},
+  {"front": "Write-back", "back": "Ack فورًا وبعدين de-stage · سريع بس **خطر فقد**"},
+  {"front": "Write-through", "back": "Cache + disk وبعدين ack · **آمن وأبطأ**"},
+  {"front": "Write-around", "back": "الكتابة الكبيرة (> write-aside size) **تتجاوز الـ cache**"},
+  {"front": "Dedicated vs Global cache", "back": "Dedicated: read/write منفصلين ثابت · Global: pool واحد (static/dynamic)"},
+  {"front": "LRU vs MRU", "back": "LRU: يفضّي الأقدم (الأشهر) · MRU: يفضّي الأحدث (sequential)"},
+  {"front": "أنواع الـ Flushing", "back": "Idle (LWM) · High watermark (HWM) · Forced (طوارئ)"},
+  {"front": "Cache mirroring vs vaulting", "back": "Mirroring: الكتابة على كارتين · Vaulting: تفريغ الـ cache على vault drives وقت انقطاع الكهربا"},
+  {"front": "Back-end controllers", "back": "Read/write مع الديسكات + RAID + error detection/correction"},
+  {"front": "LUN", "back": "Logical volume بيتعرض للـ host **كديسك فعلي**"},
+  {"front": "Meta-LUN", "back": "تجميع كذا LUN في LUN أكبر"},
+  {"front": "Thick vs Thin provisioning", "back": "Thick: كله upfront (underutilization) · Thin: just-in-time (over-provisioning risk)"},
+  {"front": "High-end vs Midrange", "back": "High-end: **Active-Active** · Midrange: **Active-Passive**"}
+]

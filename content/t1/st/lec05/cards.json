@@ -1,0 +1,22 @@
+[
+  {"front": "SAN", "back": "شبكة **مخصصة وسريعة** بتدّي أجهزة التخزين network access"},
+  {"front": "أنواع الـ SAN", "back": "FC (سريع وغالي) · iSCSI (رخيص وأبطأ) · FCoE · NVMe-oF"},
+  {"front": "FC-AL vs Switched fabric", "back": "FC-AL: **hubs** ← SAN islands · Switched: **FC switches**"},
+  {"front": "مكونات الـ SAN الخمسة", "back": "Node ports · Cabling · Interconnect devices · Storage arrays · Management software"},
+  {"front": "MMF", "back": "كذا شعاع، و **~500m**، و modal dispersion، وأرخص"},
+  {"front": "SMF", "back": "شعاع واحد، و core **9µm**، و **10km**، وأغلى"},
+  {"front": "SC / LC / ST", "back": "1 Gb/s / **4 Gb/s، الأشهر** / bayonet (patch panels)"},
+  {"front": "Hubs vs Switches vs Directors", "back": "Shared bandwidth / dedicated path / أكبر و fault tolerant"},
+  {"front": "N_port / NL_port", "back": "End device / end device في loop"},
+  {"front": "F_port / FL_port", "back": "Switch ← N_port / Switch ← NL_ports (public loop)"},
+  {"front": "E_port", "back": "Switch ← switch، والرابط **ISL**"},
+  {"front": "G_port", "back": "Generic: يشتغل **E أو F**"},
+  {"front": "FC specs", "back": "1–128 Gb/s · full duplex · ~15M nodes · **ANSI T11**"},
+  {"front": "Zoning hierarchy", "back": "Members ← Zones ← **Zone set** (واحد active)"},
+  {"front": "Hard vs Soft zoning", "back": "Hard = **Port** (آمن) · Soft = **WWN** (مرن، spoofing)"},
+  {"front": "Core-Edge", "back": "Hosts ← **edge** · Storage ← **core** · dual-core = HA + load balancing"},
+  {"front": "Full vs Partial mesh", "back": "Full: كل switch بكل switch، hop واحد، ≤ 4 · Partial: hops أكتر"},
+  {"front": "iSCSI", "back": "**SCSI commands over IP**: initiator ← target"},
+  {"front": "FCIP", "back": "**FC frames over IP**: ربط SANs **بعيدة**"},
+  {"front": "FCoE", "back": "**FC frames over Ethernet**: محتاج **DCB (lossless)** + **CNA**"}
+]
