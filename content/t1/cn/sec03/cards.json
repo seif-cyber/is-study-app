@@ -1,0 +1,50 @@
+[
+ {
+  "front": "Console access",
+  "back": "PC (RS232) ← Console cable ← console port الـ switch · Desktop → Terminal → OK → Enter"
+ },
+ {
+  "front": "User EXEC",
+  "back": "Switch> · أوامر أساسية محدودة"
+ },
+ {
+  "front": "Privileged EXEC",
+  "back": "Switch# · كل الـ commands"
+ },
+ {
+  "front": "Global Config",
+  "back": "Switch(config)# · كل الـ configurations"
+ },
+ {
+  "front": "enable",
+  "back": "Switch> → Switch#"
+ },
+ {
+  "front": "configure terminal",
+  "back": "Switch# → Switch(config)# (conf t)"
+ },
+ {
+  "front": "exit",
+  "back": "يرجّعك mode واحد لورا"
+ },
+ {
+  "front": "hostname",
+  "back": "Switch(config)# hostname <name> · no hostname يرجّع الافتراضي"
+ },
+ {
+  "front": "Console password",
+  "back": "line console 0 → password <pw> → login"
+ },
+ {
+  "front": "login",
+  "back": "بيخلّي الجهاز يطلب الباسورد"
+ },
+ {
+  "front": "Hub",
+  "back": "Physical layer · broadcast · 4–12 ports"
+ },
+ {
+  "front": "Switch",
+  "back": "Data Link layer · unicast/multicast/broadcast · 24–48 ports"
+ }
+]

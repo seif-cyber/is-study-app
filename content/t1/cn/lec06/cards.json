@@ -1,0 +1,118 @@
+[
+ {
+  "front": "Wireless network",
+  "back": "شبكة بتستخدم **RF connections** بين الـ nodes"
+ },
+ {
+  "front": "Two wireless challenges",
+  "back": "**Wireless** (الاتصال عبر link لاسلكي) + **Mobility** (المستخدم بيغيّر نقطة الاتصال)"
+ },
+ {
+  "front": "Ionosphere",
+  "back": "منطقة مشحونة في الغلاف الجوي · بتمنع UV/X/Gamma · وبتعكس RF (طبقتي E و F)"
+ },
+ {
+  "front": "Skywaves / Space waves / Ground wave",
+  "back": "Skywaves = RF بترتد بين الأرض والـ ionosphere · Space waves = microwaves للأقمار · Ground wave = low/medium freq على سطح الأرض (TV/AM/FM)"
+ },
+ {
+  "front": "Microwave range",
+  "back": "**3 GHz → 300 GHz**"
+ },
+ {
+  "front": "LF / VHF / UHF / SHF uses",
+  "back": "LF = AM radio · VHF = FM radio · UHF = TV, mobile, GPS · SHF = satellite, wireless"
+ },
+ {
+  "front": "Wavelength vs frequency",
+  "back": "λ = c / f · التردد أعلى ← الطول الموجي أقصر"
+ },
+ {
+  "front": "2.4 GHz band",
+  "back": "**14 channels × 20 MHz** · مدى أطول واختراق أحسن · narrow، congestion، interference"
+ },
+ {
+  "front": "5 GHz band",
+  "back": "**24 non-overlapping channels × 20 MHz** · مدى أقل واختراق أضعف · U-NII-1/2A/2C/3 + ISM"
+ },
+ {
+  "front": "U-NII",
+  "back": "Unlicensed National Information Infrastructure"
+ },
+ {
+  "front": "Wireless hosts",
+  "back": "Laptop, smartphone, IoT · بيشغّلوا applications · ثابتين أو متحركين"
+ },
+ {
+  "front": "Base station",
+  "back": "relay بين الـ wired والـ wireless · cell tower / 802.11 AP"
+ },
+ {
+  "front": "Infrastructure mode",
+  "back": "base station بتوصّل الأجهزة بالشبكة السلك · فيه **handoff**"
+ },
+ {
+  "front": "Handoff",
+  "back": "الجهاز المتحرك بيغيّر الـ base station اللي بتوفّر له الاتصال"
+ },
+ {
+  "front": "Ad-hoc mode",
+  "back": "مفيش base stations · الـ nodes بتنظّم نفسها وبتعمل routing بين بعض"
+ },
+ {
+  "front": "Wireless taxonomy",
+  "back": "Infra+single hop = Wi-Fi/cellular · Infra+multi hop = mesh · No infra+single = Bluetooth · No infra+multi = MANET/VANET"
+ },
+ {
+  "front": "Wireless vs wired link",
+  "back": "path loss (ضعف الإشارة) · interference · multipath propagation"
+ },
+ {
+  "front": "Multipath propagation",
+  "back": "الإشارة بتنعكس على الأجسام وبتوصل المستقبل في أوقات مختلفة شوية"
+ },
+ {
+  "front": "SNR and BER",
+  "back": "SNR أكبر ← BER أقل · SNR بيتغير مع الحركة ← الجهاز بيتأقلم بتغيير الـ modulation"
+ },
+ {
+  "front": "BPSK / QAM16 / QAM256 rates",
+  "back": "**1 / 4 / 8 Mbps** (في السلايد)"
+ },
+ {
+  "front": "QPSK",
+  "back": "**2 bits per symbol** · 4 phases (45°, 135°, 225°, 315°) · ضعف PSK"
+ },
+ {
+  "front": "QAM",
+  "back": "phase + amplitude modulation · مستخدم في Wi-Fi · 16-QAM = 4 bits · 64-QAM = 6 bits"
+ },
+ {
+  "front": "bits per symbol",
+  "back": "log₂(عدد الـ symbols)"
+ },
+ {
+  "front": "Rate adaptation",
+  "back": "الجهاز بيبعد ← بيقلل الـ modulation rate عشان يحافظ على الـ BER"
+ },
+ {
+  "front": "Hidden terminal problem",
+  "back": "B بيسمع A و C لكن A و C مش سامعين بعض ← collision عند B"
+ },
+ {
+  "front": "802.11b / a / g",
+  "back": "b = 11 Mbps · 2.4 GHz · a = 54 Mbps · 5 GHz · g = 54 Mbps · 2.4 GHz"
+ },
+ {
+  "front": "802.11n / ac / ax",
+  "back": "n = Wi-Fi 4 · 600 Mbps · 2.4+5 · ac = Wi-Fi 5 · 1.3 Gbps · 5 GHz · ax = Wi-Fi 6 · 10 Gbps · 2.4+5"
+ },
+ {
+  "front": "802.11af / ah",
+  "back": "af = TV bands (54–790 MHz) · 35–560 Mbps · ah = 900 MHz · 347 Mbps · الاتنين مداهم 1 Km"
+ },
+ {
+  "front": "802.11 multiple access",
+  "back": "كلهم بيستخدموا **CSMA/CA** · وليهم نسخة infrastructure ونسخة ad-hoc"
+ }
+]

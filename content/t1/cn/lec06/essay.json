@@ -1,0 +1,42 @@
+[
+ {
+  "q": "What is a wireless network? State the two main challenges it faces.",
+  "a": "A **wireless network** is a computer network that uses **Radio Frequency (RF)** connections between nodes. Wireless subscribers now outnumber wired phone subscribers about 5 to 1, and wireless Internet devices equal wireline ones.\n\nTwo different challenges:\n1. **Wireless:** communication over the wireless link (attenuation, interference, multipath).\n2. **Mobility:** handling the mobile user who changes point of attachment to the network (handoff)."
+ },
+ {
+  "q": "Why are RF waves used for communication rather than other electromagnetic waves?",
+  "a": "RF waves are **not harmful** to humans, while ultraviolet, X-rays and gamma rays are hazardous (X-ray and gamma cause gene mutation) and are used in industry and medicine instead.\n\nThe **ionosphere** (a charged region full of ions and free electrons) blocks UV, X-rays and gamma rays from reaching the earth but **reflects RF waves** (E and F layers), so they bounce between the earth and the ionosphere for thousands of kilometers (**skywaves**). **Microwaves** reach satellites as **space waves**, and low/medium frequency waves travel along the surface as **ground waves** (TV/AM/FM)."
+ },
+ {
+  "q": "Compare the 2.4 GHz and 5 GHz Wi-Fi bands.",
+  "a": "**2.4 GHz:** 14 channels, each 20 MHz wide. Better signal over long distances and through solid objects. Drawbacks: narrow band, more congestion and noise, interference from other devices.\n\n**5 GHz:** 24 non-overlapping 20 MHz channels organized as U-NII-1, U-NII-2A, U-NII-2C, U-NII-3 and ISM, with channel bonding at 40/80/160 MHz. Less congestion, but it covers less distance and penetrates solid objects less well than 2.4 GHz."
+ },
+ {
+  "q": "Describe the elements of a wireless network and the two operating modes.",
+  "a": "**Elements:**\n- **Wireless hosts:** laptop, smartphone, IoT; run applications; stationary or mobile.\n- **Base station:** typically connected to the wired network; relays packets between wired and wireless hosts in its area (cell tower, 802.11 AP).\n- **Wireless link:** connects mobiles to the base station (or acts as a backbone); a multiple access protocol coordinates access; varied rates, distances and frequency bands.\n\n**Modes:**\n- **Infrastructure mode:** the base station connects mobiles to the wired network; **handoff** happens when a mobile changes base station.\n- **Ad-hoc mode:** no base stations; nodes transmit only to nodes within link coverage and organize themselves, routing among themselves."
+ },
+ {
+  "q": "Explain the wireless network taxonomy with examples.",
+  "a": "The taxonomy has two axes: infrastructure vs no infrastructure, and single vs multiple hops.\n- **Infrastructure, single hop:** host connects to a base station (Wi-Fi, cellular) that connects to the larger Internet.\n- **Infrastructure, multiple hops:** host may relay through several wireless nodes to reach the Internet: **mesh net**.\n- **No infrastructure, single hop:** no base station and no connection to the Internet: **Bluetooth**, ad hoc nets.\n- **No infrastructure, multiple hops:** relay through nodes to reach a given node: **MANET, VANET**."
+ },
+ {
+  "q": "List the important differences between wireless and wired links.",
+  "a": "1. **Decreased signal strength:** the radio signal attenuates as it propagates through matter (**path loss**).\n2. **Interference from other sources:** frequencies such as 2.4 GHz are shared by many devices (Wi-Fi, cellular, motors).\n3. **Multipath propagation:** the signal reflects off objects and the ground and reaches the destination at slightly different times.\n\nThese make communication, even over a point-to-point wireless link, much more difficult."
+ },
+ {
+  "q": "Explain the relationship between SNR and BER and how a wireless device adapts.",
+  "a": "**SNR** (signal-to-noise ratio): a larger SNR makes it easier to extract the signal from noise. For a given physical layer, **increasing power increases SNR and decreases BER**.\n\nFor a given SNR, choose the physical layer (modulation technique and rate) that meets the BER requirement while giving the highest throughput. Since SNR changes with mobility, the device must **dynamically adapt** its modulation: e.g. BPSK (1 Mbps), QAM16 (4 Mbps), QAM256 (8 Mbps). Moving away from the source lowers the modulation rate to preserve the desired BER."
+ },
+ {
+  "q": "Explain QPSK and QAM modulation.",
+  "a": "**Modulation** loads digital bits onto a carrier wave. With simple PSK each symbol carries **one bit**.\n\n**QPSK** (Quadrature Phase Shift Keying) encodes data as one of **four phases**, so each symbol carries **two bits** (e.g. 135° = 01, 225° = 00, 315° = 10), twice as much data as PSK.\n\n**QAM** (Quadrature Amplitude Modulation) combines **phase modulation and amplitude modulation** and is widely used in Wi-Fi. 16-QAM sends 4 bits per symbol (16 symbols), 64-QAM sends 6 bits. Bits per symbol = log₂(number of symbols)."
+ },
+ {
+  "q": "What is the hidden terminal problem?",
+  "a": "With multiple wireless senders and receivers, A and C can both hear B but **cannot hear each other** (because of distance or signal attenuation). So A and C are **unaware of their interference at B**: both transmit to B at the same time and their frames **collide at B**. This is why 802.11 uses **CSMA/CA** (collision avoidance)."
+ },
+ {
+  "q": "Summarize the IEEE 802.11 standards.",
+  "a": "- **802.11b (Wi-Fi 1):** 1999, 11 Mbps, 30 m, 2.4 GHz.\n- **802.11a (Wi-Fi 2):** 1999, 54 Mbps, 70 m, 5 GHz.\n- **802.11g (Wi-Fi 3):** 2003, 54 Mbps, 30 m, 2.4 GHz.\n- **802.11n (Wi-Fi 4):** 2009, 600 Mbps, 70 m, 2.4 and 5 GHz.\n- **802.11ac (Wi-Fi 5):** 2013, 1.3 Gbps, 70 m, 5 GHz.\n- **802.11ax (Wi-Fi 6):** 2019, 10 Gbps, 70 m, 2.4 and 5 GHz.\n- **802.11af:** 2014, 35-560 Mbps, 1 Km, unused TV bands (54-790 MHz).\n- **802.11ah:** 2017, 347 Mbps, 1 Km, 900 MHz.\n\nAll use **CSMA/CA** for multiple access and have base-station and ad-hoc versions."
+ }
+]

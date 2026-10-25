@@ -1,0 +1,30 @@
+[
+ {
+  "front": "hostname",
+  "back": "Router(config)# hostname <name>"
+ },
+ {
+  "front": "enable secret",
+  "back": "Router(config)# enable secret <pw> · باسورد الـ privileged mode"
+ },
+ {
+  "front": "service password-encryption",
+  "back": "بيشفّر الباسوردات الـ plain text"
+ },
+ {
+  "front": "Secure user EXEC",
+  "back": "line console 0 → password <pw> → login"
+ },
+ {
+  "front": "show ip interface brief",
+  "back": "بيوري الـ IPs بتاعة الـ interfaces"
+ },
+ {
+  "front": "show interfaces",
+  "back": "بيجيب كل الـ interfaces المتوصلة بالراوتر بالتفصيل"
+ },
+ {
+  "front": "show ip route",
+  "back": "بيوري الـ gateways وجداول الـ routing"
+ }
+]

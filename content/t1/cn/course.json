@@ -48,32 +48,32 @@
       "id": "lec06",
       "kind": "lecture",
       "n": 5,
-      "title": "Lec 10: Wireless & Cellular Networks",
-      "titleAr": "الشبكات اللاسلكية والخلوية",
+      "title": "Lec 10: Wireless Networks",
+      "titleAr": "الشبكات اللاسلكية",
       "pdf": "1O_5IMB5Y4dLv20B8QABHRgnEs_MOdXCg"
     },
     {
       "id": "sec01",
       "kind": "section",
       "n": 1,
-      "title": "Section 1",
-      "titleAr": "",
+      "title": "Section 1: Network Devices",
+      "titleAr": "أجهزة الشبكة والكابلات",
       "pdf": "1sCG3XYu62nND5W4p2eQlr5RF3f7I033u"
     },
     {
       "id": "sec02",
       "kind": "section",
       "n": 2,
-      "title": "Section 2",
-      "titleAr": "",
+      "title": "Section 2: Cables & Topologies",
+      "titleAr": "الكابلات والـ Topologies",
       "pdf": "1ndBA33iRm6D5wGVfLM7GRTj4Kfilc1ol"
     },
     {
       "id": "sec03",
       "kind": "section",
       "n": 3,
-      "title": "Section 3",
-      "titleAr": "",
+      "title": "Section 3: Switch Configuration",
+      "titleAr": "إعداد الـ Switch",
       "pdf": "1AUisIRrd7nfAdnKlhCniRF3aFJhc7hei"
     },
     {
@@ -81,7 +81,7 @@
       "kind": "section",
       "n": 4,
       "title": "Section 4: IP Configuration",
-      "titleAr": "إعداد IP",
+      "titleAr": "إعداد IP والـ Subnetting",
       "pdf": "1ysjMNc9bUxPO_PxwU4ml_W2I4Q_6oe5x"
     },
     {

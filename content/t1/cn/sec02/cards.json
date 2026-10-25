@@ -1,0 +1,50 @@
+[
+ {
+  "front": "Straight-through cable",
+  "back": "PC ↔ Switch/Hub · Router ↔ Switch (أجهزة مختلفة)"
+ },
+ {
+  "front": "Crossover cable",
+  "back": "PC ↔ PC بدون switch · Switch ↔ Switch (أجهزة نفس النوع)"
+ },
+ {
+  "front": "Fiber optic",
+  "back": "اتصالات مسافات طويلة في الـ data centers"
+ },
+ {
+  "front": "Console cable",
+  "back": "configuring وtroubleshooting · initial setup وrecovery"
+ },
+ {
+  "front": "Serial DCE/DTE",
+  "back": "توصيل routers في شبكة serial"
+ },
+ {
+  "front": "Rolled cable",
+  "back": "initial config وrecovery · وصول مباشر للـ CLI لما الشبكة تقع"
+ },
+ {
+  "front": "Set IP (method 1)",
+  "back": "Computer → Config → FastEthernet → IPv4 address"
+ },
+ {
+  "front": "Set IP (method 2)",
+  "back": "Desktop → IP Configuration → IPv4 (مثال 192.168.1.10) → Enter"
+ },
+ {
+  "front": "Ping test",
+  "back": "Desktop → Command Prompt → ping <IP الجهاز التاني>"
+ },
+ {
+  "front": "Packet test",
+  "back": "mail icon → الجهاز الأول والتاني → Simulation (أسفل يمين) → Start"
+ },
+ {
+  "front": "Topology",
+  "back": "شكل الشبكة وإزاي الأجهزة متوصلة ببعض"
+ },
+ {
+  "front": "Star topology",
+  "back": "كل الأجهزة على نفس الـ switch وبتتواصل من خلاله"
+ }
+]

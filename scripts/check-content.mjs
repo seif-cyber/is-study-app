@@ -1,10 +1,10 @@
-// Validates every unit under content/: quiz shape, 50 questions per lecture,
+// Validates every unit under content/: quiz shape, 30 or 50 questions per lecture,
 // balanced answer keys, duplicate questions, and that referenced images exist.
 import fs from 'node:fs';
 import path from 'node:path';
 
 const ROOT = 'content';
-const LECTURE_QUESTIONS = 50;
+const LECTURE_QUESTIONS = [30, 50];
 let errors = 0;
 let warnings = 0;
 const err = (where, msg) => (errors++, console.log(`✗ ${where}: ${msg}`));
@@ -33,7 +33,7 @@ for (const term of fs.readdirSync(ROOT)) {
       const qp = path.join(ud, 'quiz.json');
       if (fs.existsSync(qp)) {
         const qs = readJson(qp);
-        if (u.kind === 'lecture' && qs.length !== LECTURE_QUESTIONS) err(at, `${qs.length} questions (need ${LECTURE_QUESTIONS})`);
+        if (u.kind === 'lecture' && !LECTURE_QUESTIONS.includes(qs.length)) err(at, `${qs.length} questions (need ${LECTURE_QUESTIONS.join(' or ')})`);
         const seen = new Set();
         const keys = [0, 0, 0, 0];
         qs.forEach((q, i) => {

@@ -1,0 +1,54 @@
+[
+ {
+  "front": "Network",
+  "back": "شبكة = nodes بتتشارك الموارد عن طريق data links (cable أو wireless)"
+ },
+ {
+  "front": "Client",
+  "back": "جهاز بيستخدم خدمة بيوفّرها server"
+ },
+ {
+  "front": "Server",
+  "back": "جهاز بيوفّر وظائف أو خدمات للـ clients"
+ },
+ {
+  "front": "Client vs Server role",
+  "back": "نفس الجهاز ممكن يكون client في موقف و server في موقف تاني"
+ },
+ {
+  "front": "Switch",
+  "back": "ports كتير (24+) · اتصال جوه نفس الـ LAN · مش بين الـ LANs · Catalyst 7200/3650"
+ },
+ {
+  "front": "Router",
+  "back": "ports أقل · اتصال بين الـ LANs وعلى الإنترنت · ISR 1000/700/4000"
+ },
+ {
+  "front": "Firewall",
+  "back": "بيراقب ويتحكم في الـ traffic بـ rules · ASA 5500-X · Firepower 2100"
+ },
+ {
+  "front": "Next-Generation Firewall",
+  "back": "firewall فيه filtering أحدث وأكثر تقدمًا"
+ },
+ {
+  "front": "Network vs host-based firewall",
+  "back": "Network = hardware بين الشبكات · Host-based = software على PC"
+ },
+ {
+  "front": "RJ-45",
+  "back": "Registered Jack · connector كابلات Ethernet"
+ },
+ {
+  "front": "Auto-MDIX",
+  "back": "الـ port بيتأقلم تلقائيًا مع نوع الكابل"
+ },
+ {
+  "front": "Ethernet",
+  "back": "مجموعة network protocols/standards (ركّزنا على أنواع الكابلات)"
+ },
+ {
+  "front": "Why standards?",
+  "back": "عشان الكابلات والـ connectors والأجهزة من شركات مختلفة تشتغل مع بعض"
+ }
+]

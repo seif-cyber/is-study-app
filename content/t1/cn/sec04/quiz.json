@@ -1,0 +1,22 @@
+[
+  {"topic": "Protocol suites", "q": "Which protocol suite is the most common and is maintained by the IETF?", "choices": ["TCP/IP (Internet Protocol Suite)", "AppleTalk", "Novell NetWare", "OSI only"], "explain": "**TCP/IP** هي الأشهر وبتتدار بواسطة **IETF**.", "answer": 0},
+  {"topic": "Protocol suites", "q": "OSI protocols were developed by:", "choices": ["Apple Inc.", "ISO and ITU", "Novell Inc.", "IETF"], "explain": "OSI من **ISO** و **ITU**.", "answer": 1},
+  {"topic": "Protocol suites", "q": "AppleTalk and Novell NetWare are:", "choices": ["Open standards from IETF", "Layers of OSI", "Proprietary protocol suites", "Types of cables"], "explain": "الاتنين **proprietary** (Apple / Novell).", "answer": 2},
+  {"topic": "Protocols", "q": "Which protocol is used to open websites and display their content?", "choices": ["TCP", "IP", "Ethernet", "HTTP"], "explain": "**HTTP** لفتح الـ websites وعرض الـ content.", "answer": 3},
+  {"topic": "Protocols", "q": "Which protocol manages individual conversations between devices?", "choices": ["TCP", "HTTP", "IP", "Ethernet"], "explain": "**TCP** بيدير المحادثات الفردية.", "answer": 0},
+  {"topic": "Protocols", "q": "Which protocol gives each device a unique global address on the Internet?", "choices": ["TCP", "IP", "HTTP", "MAC"], "explain": "**IP** = العنوان المميز على الإنترنت.", "answer": 1},
+  {"topic": "MAC vs IP", "q": "MAC address is a ______ identification and IP address is a ______ identification.", "choices": ["Global, Local", "Logical, Physical", "Local, Global", "Public, Private"], "explain": "**MAC = Local** (جوه الـ LAN) · **IP = Global**.", "answer": 2},
+  {"topic": "IPv4", "q": "An IPv4 address is made of how many bits?", "choices": ["16", "64", "128", "32"], "explain": "**IPv4 = 32 bits**.", "answer": 3},
+  {"topic": "IPv4", "q": "The subnet mask is used to:", "choices": ["Determine the network and host portions", "Encrypt the address", "Find the MAC address", "Select the cable"], "explain": "**Subnet mask** بيحدد الـ network والـ host portions.", "answer": 0},
+  {"topic": "IPv4", "q": "The Network IP is obtained by performing which operation between the IP and the subnet mask?", "choices": ["OR", "AND", "XOR", "NOT"], "explain": "**Network IP = IP AND Subnet**.", "answer": 1},
+  {"topic": "IPv4", "q": "For IP 192.168.10.10 with mask 255.255.255.0, the network IP is:", "choices": ["192.168.0.0", "192.168.10.10", "192.168.10.0", "192.0.0.0"], "explain": "الـ host octet الأخير بيتصفّر ← **192.168.10.0**.", "answer": 2},
+  {"topic": "IPv4", "q": "The mask 255.255.255.0 is written in prefix-length notation as:", "choices": ["/16", "/8", "/27", "/24"], "explain": "24 واحد ← **/24**.", "answer": 3},
+  {"topic": "IPv4", "q": "The mask 255.255.255.224 corresponds to:", "choices": ["/27", "/24", "/26", "/28"], "explain": "**/27**: آخر octet = 111 00000 = 224.", "answer": 0},
+  {"topic": "Classes", "q": "Class A first octet range is:", "choices": ["128–191", "0–127", "192–223", "224–239"], "explain": "**A = 0–127**، **B = 128–191**، **C = 192–223**.", "answer": 1},
+  {"topic": "Classes", "q": "IP 120.15.6.7 belongs to which class and what is its default network ID?", "choices": ["Class B, 120.15.0.0", "Class C, 120.15.6.0", "Class A, 120.0.0.0", "Class A, 120.15.6.7"], "explain": "120 بين 0 و127 ← **Class A** ← /8 ← **120.0.0.0**.", "answer": 2},
+  {"topic": "Classes", "q": "The default prefix length of Class B is:", "choices": ["/8", "/24", "/32", "/16"], "explain": "**B = /16** (10NNNNNN).", "answer": 3},
+  {"topic": "Hosts", "q": "For 192.168.1.0/24, the last usable host is:", "choices": ["192.168.1.254", "192.168.1.255", "192.168.1.253", "192.168.1.0"], "explain": "آخر عنوان 255 = **broadcast** فآخر host هو **254**.", "answer": 0},
+  {"topic": "Hosts", "q": "The number of usable hosts in a /24 network is:", "choices": ["256", "254", "255", "253"], "explain": "2⁸ − 2 = **254**.", "answer": 1},
+  {"topic": "Subnetting", "q": "To split a network into 4 subnets you borrow:", "choices": ["4 bits", "1 bit", "2 bits", "8 bits"], "explain": "2ⁿ ≥ 4 ← **n = 2**.", "answer": 2},
+  {"topic": "Subnetting", "q": "Subnetting 192.168.1.0/24 into 4 networks gives the prefix:", "choices": ["/25", "/27", "/28", "/26"], "explain": "24 + 2 = **/26**.", "answer": 3}
+]

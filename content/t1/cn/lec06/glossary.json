@@ -1,0 +1,167 @@
+[
+ {
+  "en": "Wireless Network",
+  "ar": "شبكة لاسلكية",
+  "def": "شبكة حاسب بتستخدم اتصالات RF بين الـ nodes"
+ },
+ {
+  "en": "Radio Frequency (RF)",
+  "ar": "التردد الراديوي",
+  "def": "موجات كهرومغناطيسية آمنة بتتستخدم للاتصال"
+ },
+ {
+  "en": "Ionosphere",
+  "ar": "الأيونوسفير",
+  "def": "منطقة مشحونة في الغلاف الجوي بتمنع UV/X/Gamma وبتعكس RF"
+ },
+ {
+  "en": "Skywave",
+  "ar": "موجة سماوية",
+  "def": "RF بترتد بين الأرض والـ ionosphere آلاف الكيلومترات"
+ },
+ {
+  "en": "Space Wave",
+  "ar": "موجة فضائية",
+  "def": "Microwaves للاتصال بالأقمار الصناعية"
+ },
+ {
+  "en": "Ground Wave",
+  "ar": "موجة أرضية",
+  "def": "موجات low/medium freq بتمشي على سطح الأرض"
+ },
+ {
+  "en": "Microwave",
+  "ar": "موجات الميكروويف",
+  "def": "من 3 GHz لـ 300 GHz"
+ },
+ {
+  "en": "Channel",
+  "ar": "قناة",
+  "def": "جزء من النطاق عرضه 20 MHz في Wi-Fi"
+ },
+ {
+  "en": "2.4 GHz Band",
+  "ar": "نطاق 2.4 جيجا",
+  "def": "14 قناة · مدى أطول · زحمة أكتر"
+ },
+ {
+  "en": "5 GHz Band",
+  "ar": "نطاق 5 جيجا",
+  "def": "24 قناة non-overlapping · مدى أقل"
+ },
+ {
+  "en": "U-NII",
+  "ar": "البنية المعلوماتية الوطنية غير المرخصة",
+  "def": "مجموعات قنوات 5 GHz: 1، 2A، 2C، 3"
+ },
+ {
+  "en": "ISM",
+  "ar": "صناعي علمي طبي",
+  "def": "Industrial, Scientific, and Medical band"
+ },
+ {
+  "en": "Wireless Host",
+  "ar": "جهاز لاسلكي",
+  "def": "Laptop/smartphone/IoT بيشغّل applications"
+ },
+ {
+  "en": "Base Station",
+  "ar": "محطة الاتصال",
+  "def": "relay بين wired و wireless (cell tower / AP)"
+ },
+ {
+  "en": "Access Point (AP)",
+  "ar": "نقطة الوصول",
+  "def": "base station لشبكات 802.11"
+ },
+ {
+  "en": "Wireless Link",
+  "ar": "الوصلة اللاسلكية",
+  "def": "بتوصّل الأجهزة المتحركة بالـ base station"
+ },
+ {
+  "en": "Infrastructure Mode",
+  "ar": "وضع البنية التحتية",
+  "def": "base station بتوصّل الأجهزة بالشبكة السلك"
+ },
+ {
+  "en": "Handoff",
+  "ar": "التسليم",
+  "def": "الجهاز بيغيّر الـ base station"
+ },
+ {
+  "en": "Ad-hoc Mode",
+  "ar": "الوضع الارتجالي",
+  "def": "مفيش base stations والـ nodes بتعمل routing"
+ },
+ {
+  "en": "Mesh Network",
+  "ar": "شبكة شبكية",
+  "def": "infrastructure + multiple hops"
+ },
+ {
+  "en": "MANET / VANET",
+  "ar": "شبكات متنقلة / مركبات ad hoc",
+  "def": "no infrastructure + multiple hops"
+ },
+ {
+  "en": "Path Loss",
+  "ar": "فقد المسار",
+  "def": "ضعف الإشارة وهي بتعدّي في المادة"
+ },
+ {
+  "en": "Interference",
+  "ar": "التداخل",
+  "def": "أجهزة تانية على نفس التردد"
+ },
+ {
+  "en": "Multipath Propagation",
+  "ar": "الانتشار متعدد المسارات",
+  "def": "الإشارة بتنعكس وبتوصل في أوقات مختلفة"
+ },
+ {
+  "en": "SNR",
+  "ar": "نسبة الإشارة للضوضاء",
+  "def": "كل ما تزيد، استخراج الإشارة أسهل"
+ },
+ {
+  "en": "BER",
+  "ar": "معدل خطأ البتات",
+  "def": "نسبة البتات الغلط في الاستقبال"
+ },
+ {
+  "en": "Modulation",
+  "ar": "التضمين",
+  "def": "تحميل البتات الرقمية على carrier wave"
+ },
+ {
+  "en": "BPSK / PSK",
+  "ar": "تضمين إزاحة الطور",
+  "def": "1 bit per symbol"
+ },
+ {
+  "en": "QPSK",
+  "ar": "تضمين إزاحة الطور الرباعي",
+  "def": "4 phases = 2 bits per symbol"
+ },
+ {
+  "en": "QAM",
+  "ar": "تضمين السعة التربيعي",
+  "def": "phase + amplitude · مستخدم في Wi-Fi"
+ },
+ {
+  "en": "Hidden Terminal Problem",
+  "ar": "مشكلة الطرف المخفي",
+  "def": "A و C مش سامعين بعض ويتصادموا عند B"
+ },
+ {
+  "en": "CSMA/CA",
+  "ar": "وصول متعدد بتجنب التصادم",
+  "def": "طريقة الـ multiple access في 802.11"
+ },
+ {
+  "en": "IEEE 802.11",
+  "ar": "معيار Wi-Fi",
+  "def": "عائلة معايير الـ wireless LANs"
+ }
+]

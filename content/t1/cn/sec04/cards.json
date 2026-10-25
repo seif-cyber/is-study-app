@@ -1,0 +1,70 @@
+[
+ {
+  "front": "TCP/IP",
+  "back": "أشهر protocol suite · بتتدار بواسطة IETF"
+ },
+ {
+  "front": "OSI protocols",
+  "back": "اتطورت بواسطة ISO و ITU"
+ },
+ {
+  "front": "Proprietary suites",
+  "back": "AppleTalk (Apple) · Novell NetWare (Novell)"
+ },
+ {
+  "front": "TCP/IP layers & examples",
+  "back": "Application = HTTP · Transport = TCP · Internet = IP · Network Access = Ethernet"
+ },
+ {
+  "front": "HTTP",
+  "back": "فتح websites وعرض الـ content"
+ },
+ {
+  "front": "TCP",
+  "back": "بيدير المحادثات الفردية"
+ },
+ {
+  "front": "IP vs MAC",
+  "back": "IP = Global identification · MAC = Local identification"
+ },
+ {
+  "front": "IPv4",
+  "back": "32-bit = Network portion + Host portion"
+ },
+ {
+  "front": "Network IP",
+  "back": "IP AND Subnet mask"
+ },
+ {
+  "front": "Prefix length",
+  "back": "/عدد الـ 1s في الـ mask · /24 = 255.255.255.0 · /16 = 255.255.0.0 · /27 = 255.255.255.224"
+ },
+ {
+  "front": "Class A",
+  "back": "0–127 · /8 · 0NNNNNNN"
+ },
+ {
+  "front": "Class B",
+  "back": "128–191 · /16 · 10NNNNNN"
+ },
+ {
+  "front": "Class C",
+  "back": "192–223 · /24 · 110NNNNN"
+ },
+ {
+  "front": "First / last host / broadcast",
+  "back": "192.168.1.0/24 ← first .1 · last .254 · broadcast .255"
+ },
+ {
+  "front": "Number of hosts",
+  "back": "2^h − 2 (h = host bits) · /24 = 254"
+ },
+ {
+  "front": "Subnetting n",
+  "back": "2ⁿ ≥ عدد الشبكات · prefix الجديد = القديم + n"
+ },
+ {
+  "front": "192.168.1.0/24 into 4 subnets",
+  "back": "/26: .0 · .64 · .128 · .192"
+ }
+]
