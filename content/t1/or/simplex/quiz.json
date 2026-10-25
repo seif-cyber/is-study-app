@@ -1,0 +1,18 @@
+[
+  {"topic": "Simplex", "q": "In the simplex method, a <= constraint is converted to an equation by adding:", "choices": ["A slack variable", "A surplus variable", "An artificial variable only", "Nothing"], "explain": "slack.", "answer": 0},
+  {"topic": "Simplex", "q": "A >= constraint needs:", "choices": ["Only a slack", "A surplus variable and an artificial variable", "Only a surplus", "Nothing"], "explain": "surplus + artificial.", "answer": 1},
+  {"topic": "Simplex", "q": "In the Big-M method the artificial variable has objective coefficient:", "choices": ["+M in a max problem", "Zero", "-M in a max problem", "One"], "explain": "**−M** (للـ max).", "answer": 2},
+  {"topic": "Simplex", "q": "Min Z is converted to a maximization problem by:", "choices": ["Maximizing Z + 1", "Doubling Z", "Dividing Z", "Maximizing -Z"], "explain": "Max(−Z).", "answer": 3},
+  {"topic": "Problem 1", "q": "Problem 1 (Max 40X1 + 50X2) has optimum:", "choices": ["X1 = 24, X2 = 8, Z = 1360", "X1 = 30, X2 = 0, Z = 1200", "X1 = 0, X2 = 20, Z = 1000", "X1 = 8, X2 = 24, Z = 1600"], "explain": "(24,8) ⇒ 1360.", "answer": 0},
+  {"topic": "Problem 1", "q": "In problem 1, the first entering variable is:", "choices": ["X1 (coefficient -40)", "X2 (coefficient -50)", "s1", "s2"], "explain": "−50 الأكبر.", "answer": 1},
+  {"topic": "Problem 1", "q": "In problem 1, the first leaving variable is:", "choices": ["s2 (ratio 30)", "X1", "s1 (ratio 20)", "X2"], "explain": "40/2 = 20 < 120/3 = 40.", "answer": 2},
+  {"topic": "Problem 1", "q": "The shadow prices of problem 1 (z-row slack coefficients) are:", "choices": ["25 and 0", "50 and 40", "20 and 8", "16 and 6"], "explain": "s₁ = 16، s₂ = 6.", "answer": 3},
+  {"topic": "Problem 2", "q": "Problem 2 (Max 4X1 + 3X2 + 6X3) optimum is:", "choices": ["X1 = 0, X2 = 10, X3 = 20/3, Z = 70", "X1 = 10, X2 = 0, X3 = 0, Z = 40", "X1 = 0, X2 = 0, X3 = 10, Z = 60", "X1 = 5, X2 = 5, X3 = 5, Z = 65"], "explain": "Z = 70.", "answer": 0},
+  {"topic": "Problem 2", "q": "In problem 2, the first entering variable is:", "choices": ["X1", "X3 (coefficient -6)", "X2", "s1"], "explain": "أكبر سالب −6.", "answer": 1},
+  {"topic": "Problem 2", "q": "In problem 2, the leaving variable in iteration 1 is:", "choices": ["s2 (40/3)", "X1", "s1 (30/3 = 10)", "X2"], "explain": "10 < 13.3.", "answer": 2},
+  {"topic": "Problem 3", "q": "Problem 3 (Min 6X1 + 3X2, two >= constraints) optimum is:", "choices": ["X1 = 8, X2 = 0, Z = 48", "X1 = 4.8, X2 = 1.6, Z = 33.6", "X1 = 4, X2 = 4, Z = 36", "X1 = 0, X2 = 8, Z = 24"], "explain": "(0,8) ⇒ 24.", "answer": 3},
+  {"topic": "Problem 3", "q": "In problem 3 the RHS of the z-row in the final tableau is -24, which means:", "choices": ["Z = 24", "Z = -24", "Z = 0", "The problem is infeasible"], "explain": "Z = −RHS = 24.", "answer": 0},
+  {"topic": "Problem 4", "q": "Problem 4 (Min 2X1 - 3X2 + X3, ...) has optimum Z =", "choices": ["-15", "10", "0", "5"], "explain": "X₁ = 5 ⇒ Z = 10.", "answer": 1},
+  {"topic": "Problem 4", "q": "In the optimal tableau of problem 4 the artificial variable is:", "choices": ["Positive (infeasible)", "Non-basic", "Basic at value 0 (degenerate)", "Negative"], "explain": "A₂ = 0 ⇒ feasible.", "answer": 2},
+  {"topic": "Problem 4", "q": "If an artificial variable stays positive at the optimum, the problem is:", "choices": ["Unbounded", "Degenerate", "Optimal", "Infeasible"], "explain": "**Infeasible**.", "answer": 3}
+]

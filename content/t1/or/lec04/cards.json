@@ -1,0 +1,50 @@
+[
+ {
+  "front": "Special cases",
+  "back": "Degeneracy · Alternative optima · Unbounded · Infeasible"
+ },
+ {
+  "front": "Degeneracy",
+  "back": "basic variable = 0 · tie في ratio test (مثال: z=18 عند (0,2))"
+ },
+ {
+  "front": "Alternative optima",
+  "back": "معامل 0 لـ non-basic في صف z · مثال Max 2x1+4x2: (0,5/2) و (3,1) ⇒ 10"
+ },
+ {
+  "front": "Unbounded",
+  "back": "عمود الـ entering كله ≤ 0 (مفيش ratio)"
+ },
+ {
+  "front": "Infeasible",
+  "back": "artificial variable > 0 في الحل النهائي (Big-M)"
+ },
+ {
+  "front": "Primal / Dual",
+  "back": "Dual = transpose · Max↔Min · c↔b · n متغيرات ⇒ n قيود"
+ },
+ {
+  "front": "Dual rules",
+  "back": "قيد ≤ في Min نضربه في −1 · m قيود ⇒ m متغيرات dual"
+ },
+ {
+  "front": "Slide error",
+  "back": "dual المثال 2: 6Y1+2Y2−3Y3+Y4 ≥ 5 (ناقص +Y4)"
+ },
+ {
+  "front": "Sensitivity analysis",
+  "back": "أثر تغيير RHS / معاملات الهدف / معاملات القيود"
+ },
+ {
+  "front": "RHS change",
+  "back": "x_new = B^-1 b_new · لازم ≥ 0"
+ },
+ {
+  "front": "Sensitivity example",
+  "back": "Max 30X1+50X2: (7,2) Z=310 · b1:16→20 ⇒ (29/3, 2/3) Z=323.33"
+ },
+ {
+  "front": "Chairs & tables",
+  "back": "Max 40c+50t · (12,18) Z=1380 · slack machine 21"
+ }
+]

@@ -1,0 +1,62 @@
+[
+ {
+  "en": "Graphical Method",
+  "ar": "الطريقة البيانية",
+  "def": "حل LP برسم القيود"
+ },
+ {
+  "en": "Solution Space",
+  "ar": "فضاء الحلول",
+  "def": "المنطقة الممكنة"
+ },
+ {
+  "en": "Corner Point",
+  "ar": "نقطة ركن",
+  "def": "رأس المنطقة"
+ },
+ {
+  "en": "Simplex Method",
+  "ar": "طريقة السمبلكس",
+  "def": "خوارزمية للانتقال بين الأركان"
+ },
+ {
+  "en": "Slack Variable",
+  "ar": "متغير راكد",
+  "def": "يحوّل ≤ لمعادلة"
+ },
+ {
+  "en": "Basic Variable",
+  "ar": "متغير أساسي",
+  "def": "في الـ basis"
+ },
+ {
+  "en": "Entering Variable",
+  "ar": "المتغير الداخل",
+  "def": "أكتر سالب في z"
+ },
+ {
+  "en": "Leaving Variable",
+  "ar": "المتغير الخارج",
+  "def": "أصغر نسبة"
+ },
+ {
+  "en": "Pivot Element",
+  "ar": "عنصر المحور",
+  "def": "تقاطع عمود الداخل وصف الخارج"
+ },
+ {
+  "en": "Minimum Ratio Test",
+  "ar": "اختبار أصغر نسبة",
+  "def": "RHS÷العمود"
+ },
+ {
+  "en": "Tableau",
+  "ar": "جدول السمبلكس",
+  "def": "تمثيل الحل في كل iteration"
+ },
+ {
+  "en": "Optimal Tableau",
+  "ar": "الجدول الأمثل",
+  "def": "كل معاملات z ≥ 0"
+ }
+]

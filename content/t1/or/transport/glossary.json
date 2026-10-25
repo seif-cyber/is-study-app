@@ -1,0 +1,67 @@
+[
+ {
+  "en": "Transportation Model",
+  "ar": "نموذج النقل",
+  "def": "شحن بأقل تكلفة"
+ },
+ {
+  "en": "Source / Plant",
+  "ar": "مصدر / مصنع",
+  "def": "نقطة العرض"
+ },
+ {
+  "en": "Destination",
+  "ar": "وجهة",
+  "def": "نقطة الطلب"
+ },
+ {
+  "en": "Dummy Source",
+  "ar": "مصدر وهمي",
+  "def": "للموازنة لو الطلب أكبر"
+ },
+ {
+  "en": "Dummy Destination",
+  "ar": "وجهة وهمية",
+  "def": "للموازنة لو العرض أكبر"
+ },
+ {
+  "en": "Balanced Model",
+  "ar": "نموذج متوازن",
+  "def": "supply = demand"
+ },
+ {
+  "en": "Starting Basic Solution",
+  "ar": "حل أساسي ابتدائي",
+  "def": "m+n−1 basic variable"
+ },
+ {
+  "en": "MODI / u-v Method",
+  "ar": "طريقة ui-vj",
+  "def": "اختبار الأمثلية"
+ },
+ {
+  "en": "Entering Variable",
+  "ar": "المتغير الداخل",
+  "def": "أكبر ui+vj−cij موجب"
+ },
+ {
+  "en": "Loop",
+  "ar": "حلقة",
+  "def": "لتحديد المتغير الخارج"
+ },
+ {
+  "en": "Transshipment",
+  "ar": "النقل بالعبور",
+  "def": "نقل عبر nodes وسيطة"
+ },
+ {
+  "en": "Buffer",
+  "ar": "مخزن مؤقت",
+  "def": "B = إجمالي العرض"
+ },
+ {
+  "en": "Production-Inventory Model",
+  "ar": "نموذج الإنتاج والمخزون",
+  "def": "تطبيق نقل غير تقليدي"
+ }
+]

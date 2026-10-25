@@ -1,0 +1,34 @@
+[
+ {
+  "front": "VAM idea",
+  "back": "penalty = فرق أقل تكلفتين لكل صف وعمود · أكبر penalty ⇒ أقل تكلفة فيه"
+ },
+ {
+  "front": "VAM steps",
+  "back": "1) penalties 2) أكبر penalty 3) أقل تكلفة فيه 4) min(supply, demand) 5) ألغِ وكرر"
+ },
+ {
+  "front": "Penalties (iteration 1)",
+  "back": "Rows: O1=2, O2=3, O3=1 · Cols: D1=1, D2=2, D3=2, D4=2"
+ },
+ {
+  "front": "VAM allocations",
+  "back": "(O2,D1)=250 · (O1,D2)=300 · (O3,D4)=200 · (O3,D2)=50 · (O3,D3)=250 · (O2,D3)=150"
+ },
+ {
+  "front": "VAM total cost",
+  "back": "2850 (= optimal) مقابل NW 4400"
+ },
+ {
+  "front": "Penalty selection order",
+  "back": "3 (O2) ثم 3 (O1) ثم 7 (D4) ثم 3 (D2) ثم باقي عمود واحد"
+ },
+ {
+  "front": "Tie in penalties",
+  "back": "اختار أي واحد · النتيجة ممكن تختلف لكن حل ممكن"
+ },
+ {
+  "front": "Methods comparison",
+  "back": "NW (بدون تكلفة) ← LC ← VAM (الأقرب غالبًا)"
+ }
+]

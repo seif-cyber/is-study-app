@@ -1,0 +1,52 @@
+[
+ {
+  "en": "Vogel's Approximation Method",
+  "ar": "طريقة فوجل التقريبية",
+  "def": "طريقة بالـ penalties للحل الابتدائي"
+ },
+ {
+  "en": "Penalty",
+  "ar": "غرامة",
+  "def": "فرق أقل تكلفتين"
+ },
+ {
+  "en": "Row Difference",
+  "ar": "فرق الصف",
+  "def": "penalty الصف"
+ },
+ {
+  "en": "Column Difference",
+  "ar": "فرق العمود",
+  "def": "penalty العمود"
+ },
+ {
+  "en": "Maximum Penalty",
+  "ar": "أكبر غرامة",
+  "def": "تحدد صف/عمود التخصيص"
+ },
+ {
+  "en": "Allocation",
+  "ar": "التخصيص",
+  "def": "الكمية المشحونة في خلية"
+ },
+ {
+  "en": "Cancelled Row/Column",
+  "ar": "صف/عمود ملغي",
+  "def": "استوفى عرضه/طلبه"
+ },
+ {
+  "en": "Total Cost",
+  "ar": "التكلفة الكلية",
+  "def": "مجموع (الكمية × التكلفة)"
+ },
+ {
+  "en": "Initial Solution",
+  "ar": "الحل الابتدائي",
+  "def": "نقطة بداية"
+ },
+ {
+  "en": "Tie",
+  "ar": "تعادل",
+  "def": "تساوي penalties"
+ }
+]

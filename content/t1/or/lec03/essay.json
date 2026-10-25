@@ -1,0 +1,18 @@
+[
+ {
+  "q": "Formulate the Reddy Mikks model.",
+  "a": "Let x1 and x2 be tons of exterior and interior paint per day. Maximize Z = 5x1 + 4x2 subject to 6x1 + 4x2 <= 24 (M1), x1 + 2x2 <= 6 (M2), -x1 + x2 <= 1 (market limit), x2 <= 2 (demand limit), x1, x2 >= 0."
+ },
+ {
+  "q": "Solve the Reddy Mikks model graphically.",
+  "a": "Plot each constraint line, find the feasible region and evaluate the corner points: (0,0)=0, (4,0)=20, (3,1.5)=21, (2,2)=18, (1,2)=13, (0,1)=4. The optimum is x1 = 3, x2 = 1.5 with Z = 21 (i.e. $21,000)."
+ },
+ {
+  "q": "Explain the simplex method steps and apply the first iteration to Reddy Mikks.",
+  "a": "Add slack variables, write z - 5x1 - 4x2 = 0, pick the entering variable with the most negative z coefficient (x1), compute ratios (s1: 24/6 = 4 smallest) so s1 leaves, divide the pivot row by 6 and eliminate x1 from other rows, giving z = 20 and x1 = 4."
+ },
+ {
+  "q": "Show the optimal tableau of Reddy Mikks and interpret it.",
+  "a": "Optimal: z = 21, x1 = 3, x2 = 3/2, s3 = 5/2, s4 = 1/2; z-row coefficients for s1 and s2 are 3/4 and 1/2 (the value of one extra ton of M1 and M2). The constraints on M1 and M2 are binding; the market and demand limits are not."
+ }
+]

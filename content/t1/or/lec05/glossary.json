@@ -1,0 +1,62 @@
+[
+ {
+  "en": "Transportation Problem",
+  "ar": "مشكلة النقل",
+  "def": "LP لشحن بضاعة بأقل تكلفة"
+ },
+ {
+  "en": "Source",
+  "ar": "مصدر",
+  "def": "نقطة العرض"
+ },
+ {
+  "en": "Destination",
+  "ar": "وجهة",
+  "def": "نقطة الطلب"
+ },
+ {
+  "en": "Supply",
+  "ar": "العرض",
+  "def": "المتاح في المصدر"
+ },
+ {
+  "en": "Demand",
+  "ar": "الطلب",
+  "def": "المطلوب في الوجهة"
+ },
+ {
+  "en": "Balanced Problem",
+  "ar": "مسألة متوازنة",
+  "def": "supply = demand"
+ },
+ {
+  "en": "Unbalanced Problem",
+  "ar": "مسألة غير متوازنة",
+  "def": "supply ≠ demand"
+ },
+ {
+  "en": "Dummy Row/Column",
+  "ar": "صف/عمود وهمي",
+  "def": "لتوازن المسألة بتكلفة صفر"
+ },
+ {
+  "en": "Northwest Corner Method",
+  "ar": "طريقة الركن الشمالي الغربي",
+  "def": "تخصيص من أعلى اليسار"
+ },
+ {
+  "en": "Least Cost Method",
+  "ar": "طريقة أقل تكلفة",
+  "def": "تخصيص من أقل تكلفة"
+ },
+ {
+  "en": "Initial Basic Feasible Solution",
+  "ar": "حل ابتدائي ممكن",
+  "def": "نقطة بداية للتحسين"
+ },
+ {
+  "en": "Basic Cell",
+  "ar": "خلية أساسية",
+  "def": "خلية مخصص فيها"
+ }
+]

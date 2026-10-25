@@ -1,0 +1,18 @@
+[
+  {"topic": "Graphical", "q": "In the graphical method, the first thing to draw is:", "choices": ["The constraint lines (as equalities)", "The dual", "The slack", "The tableau"], "explain": "نرسم خطوط القيود.", "answer": 0},
+  {"topic": "Graphical", "q": "Model 1 (Max 6X1+4X2) corner points are:", "choices": ["(0,0), (10,0), (14,0)", "(0,0), (0,10), (3,7), (6,0)", "(3,7) only", "(0,0), (7,3)"], "explain": "4 نقاط.", "answer": 1},
+  {"topic": "Graphical", "q": "Model 1: the intersection of X1+X2 = 10 and 7X1+3X2 = 42 is:", "choices": ["(7, 3)", "(6, 4)", "(3, 7)", "(4, 6)"], "explain": "3 + 7 = 10 · 21 + 21 = 42.", "answer": 2},
+  {"topic": "Graphical", "q": "Model 2: the intersection of 3X1+5X2 = 150 and 10X1+4X2 = 200 gives X1 =", "choices": ["20", "10", "150/19", "200/19"], "explain": "X₁ = 200/19 ≈ 10.53.", "answer": 3},
+  {"topic": "Graphical", "q": "Model 3 (Min 3X1+5X2) value at (0, 10) is:", "choices": ["50", "28", "22", "30"], "explain": "5×10 = 50.", "answer": 0},
+  {"topic": "Graphical", "q": "Model 3 value at (1, 5) is:", "choices": ["22", "28", "50", "30"], "explain": "3 + 25 = 28.", "answer": 1},
+  {"topic": "Graphical", "q": "Model 3's feasible region is:", "choices": ["Empty", "A single point", "Unbounded", "A triangle"], "explain": "فوق الخطوط (unbounded).", "answer": 2},
+  {"topic": "Graphical", "q": "Model 4 value of Z at (6, 3.2) is:", "choices": ["2400", "2171.43", "600", "2720"], "explain": "2400 + 320.", "answer": 3},
+  {"topic": "Graphical", "q": "Model 4 value at (30/7, 32/7) is approximately:", "choices": ["2171.43", "2720", "2400", "600"], "explain": "15200/7.", "answer": 0},
+  {"topic": "Graphical", "q": "Model 5 value of Z at (2, 3) is:", "choices": ["20", "17", "5", "0"], "explain": "2 + 15 = 17.", "answer": 1},
+  {"topic": "Graphical", "q": "Model 5 value at (5, 0) is:", "choices": ["20", "17", "5", "25"], "explain": "1×5.", "answer": 2},
+  {"topic": "Graphical", "q": "Model 6 value at (2, 4) is:", "choices": ["2400", "1600", "1800", "2200"], "explain": "600 + 1600.", "answer": 3},
+  {"topic": "Graphical", "q": "Model 6 value at (6, 0) is:", "choices": ["1800", "2400", "2200", "1600"], "explain": "300×6.", "answer": 0},
+  {"topic": "Graphical", "q": "Model 7 value at (12/5, 24/5) is:", "choices": ["0.24", "0.264", "0.6", "0.12"], "explain": "0.12 + 0.144.", "answer": 1},
+  {"topic": "Graphical", "q": "Model 7 (Min) optimum is at:", "choices": ["(12, 0)", "(2.4, 4.8)", "(0, 8)", "(0, 6)"], "explain": "أقل Z = 0.24.", "answer": 2},
+  {"topic": "Graphical", "q": "For a Min problem, the optimal corner point has:", "choices": ["The largest Z", "Z = 0", "Z negative", "The smallest Z"], "explain": "Min ⇒ أصغر Z.", "answer": 3}
+]

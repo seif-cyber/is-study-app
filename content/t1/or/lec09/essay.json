@@ -1,0 +1,18 @@
+[
+ {
+  "q": "Define dynamic programming and its stages.",
+  "a": "Dynamic programming decomposes a large problem into smaller, easier subproblems, each associated with a stage; solving all stages gives the optimal solution of the large problem. It suits multistage decision problems, e.g. a one-year problem split into 12 monthly stages; the subproblems are not completely independent."
+ },
+ {
+  "q": "Write the forward recursive equation of the shortest-route problem.",
+  "a": "f_i(x_i) = min over routes (x_{i-1}, x_i) of { d(x_{i-1}, x_i) + f_{i-1}(x_{i-1}) }, i = 1, 2, 3, where f_i(x_i) is the shortest distance to node x_i at stage i and d is the distance between nodes."
+ },
+ {
+  "q": "Solve the 7-node shortest route example.",
+  "a": "Stage 1: f(2)=7, f(3)=8, f(4)=5. Stage 2: f(5) = min{7+12, 8+8, 5+7} = 12 (from 4); f(6) = min{8+9, 5+13} = 17 (from 3). Stage 3: f(7) = min{12+9, 17+6} = 21 (from 5). Tracing back, the shortest route is 1-4-5-7 with 21 miles."
+ },
+ {
+  "q": "How do you recover the optimal route from the stage summaries?",
+  "a": "Start at the destination and follow the stage summaries backward: node 7 links to node 5, node 5 links to node 4, node 4 links to node 1, giving 1-4-5-7."
+ }
+]

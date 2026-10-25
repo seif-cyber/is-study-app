@@ -1,0 +1,46 @@
+[
+ {
+  "front": "Transportation model",
+  "back": "شحن من sources لـ destinations بأقل تكلفة · خطواته = خطوات simplex"
+ },
+ {
+  "front": "MG Auto",
+  "back": "Supply 1000/1500/1200 · Demand 2300/1400 · Optimum: LA→D 1000, Det→D 1300, Det→M 200, NO→M 1200 ⇒ $313,200"
+ },
+ {
+  "front": "Balancing",
+  "back": "demand>supply ⇒ dummy source · supply>demand ⇒ dummy destination · تكلفة 0"
+ },
+ {
+  "front": "MG with dummy",
+  "back": "Detroit 1300 ⇒ dummy plant 200 ⇒ Miami short 200 · cost $291,600"
+ },
+ {
+  "front": "Boralis costs",
+  "back": "i=j:40 · i<j: 40+0.5(j−i) · i>j: 40+2(i−j) · optimal $31,455"
+ },
+ {
+  "front": "Tool sharpening",
+  "back": "new $12 · overnight $6 · 2-day $3 · demand total 124 · optimal $840 (rotational $372)"
+ },
+ {
+  "front": "SunRay",
+  "back": "Supply 15/25/10 · Demand 5/15/15/15 · NW 520 · LC/VAM 475 · optimal 435"
+ },
+ {
+  "front": "MODI test",
+  "back": "ui+vj=cij للـ basic · nonbasic: ui+vj−cij · optimal لو كلها ≤0"
+ },
+ {
+  "front": "NW start evaluations",
+  "back": "x13=−16, x14=+4, x21=+3, x31=+9 (entering), x32=−9, x33=−9"
+ },
+ {
+  "front": "Assignment model",
+  "back": "transportation بعرض/طلب = 1 · Hungarian"
+ },
+ {
+  "front": "Transshipment",
+  "back": "nodes وسيطة · buffer B = إجمالي العرض · تكلفة النفس = 0"
+ }
+]

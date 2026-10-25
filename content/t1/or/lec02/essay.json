@@ -1,0 +1,22 @@
+[
+ {
+  "q": "Formulate and solve the Par, Inc. problem.",
+  "a": "Variables S (standard) and D (deluxe). Max 10S + 9D subject to (7/10)S + D <= 630, (1/2)S + (5/6)D <= 600, S + (2/3)D <= 708, (1/10)S + (1/4)D <= 135, S, D >= 0. The graphical solution gives the optimum at the intersection of the cutting-and-dyeing and finishing lines: S = 540, D = 252, profit $7,668."
+ },
+ {
+  "q": "Explain slack variables and compute them for Par, Inc.",
+  "a": "A slack variable is added to a <= constraint to turn it into an equality and equals the unused resource. At S = 540, D = 252: C&D uses 630 of 630 (slack 0), sewing 480 of 600 (slack 120), finishing 708 of 708 (slack 0), inspection 117 of 135 (slack 18)."
+ },
+ {
+  "q": "Explain extreme points and the optimal solution.",
+  "a": "Extreme points are feasible solution points where constraint lines intersect. The optimal solution of an LP can always be found at an extreme point, so we can evaluate the objective at every extreme point: for Par the five points give 0, 7080, 7668, 6780 and 4860."
+ },
+ {
+  "q": "Solve the M&D Chemicals problem and explain surplus variables.",
+  "a": "Min 2A + 3B s.t. A >= 125, A + B = 350, 2A + B <= 600. Extreme points (125,225) cost 925 and (250,100) cost 800, so the optimum is A = 250, B = 100 with cost 800. The demand constraint has surplus 250 - 125 = 125; surplus is subtracted from >= constraints to make them equalities."
+ },
+ {
+  "q": "Describe the special cases: alternative optima, infeasibility and unbounded.",
+  "a": "Alternative optima: the objective line is parallel to a binding constraint, so two or more extreme points (and the segment between them) are optimal, e.g. 6.3S + 9D gives 5670 at (300,420) and (540,252). Infeasibility: no point satisfies all constraints (no feasible region). Unbounded: the objective can improve indefinitely, usually because a constraint was omitted."
+ }
+]

@@ -1,0 +1,30 @@
+[
+ {
+  "front": "Dummy rule",
+  "back": "S > D ⇒ dummy column (S−D) · D > S ⇒ dummy row (D−S) · تكلفة 0"
+ },
+ {
+  "front": "Answer 1 (NW)",
+  "back": "1180"
+ },
+ {
+  "front": "Answer 2 (Min cell)",
+  "back": "20,650"
+ },
+ {
+  "front": "Answer 3 (VAM)",
+  "back": "2,480"
+ },
+ {
+  "front": "Answer 4 (VAM)",
+  "back": "1310 في الشيت (dummy بدون penalty) · 1290 VAM قياسي = optimal"
+ },
+ {
+  "front": "Answer 6 (Min cell)",
+  "back": "3,050"
+ },
+ {
+  "front": "Answers 5, 7 (computed)",
+  "back": "5: NW 1542 · 7: VAM 250"
+ }
+]

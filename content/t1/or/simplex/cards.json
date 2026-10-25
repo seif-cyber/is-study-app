@@ -1,0 +1,34 @@
+[
+ {
+  "front": "Slack / Surplus / Artificial",
+  "back": "≤: slack · ≥: surplus + artificial · =: artificial"
+ },
+ {
+  "front": "Big-M",
+  "back": "artificial بمعامل −M في Max · Min Z = Max(−Z) · Z = −RHS"
+ },
+ {
+  "front": "Entering / Leaving",
+  "back": "أكتر سالب في z · أصغر ratio موجب"
+ },
+ {
+  "front": "Problem 1",
+  "back": "Max 40X1+50X2 ⇒ (24,8) Z=1360 · shadow prices 16, 6"
+ },
+ {
+  "front": "Problem 2",
+  "back": "Max 4X1+3X2+6X3 ⇒ (0,10,20/3) Z=70"
+ },
+ {
+  "front": "Problem 3",
+  "back": "Min 6X1+3X2 ⇒ (0,8) Z=24 (Big-M, 3 iterations)"
+ },
+ {
+  "front": "Problem 4",
+  "back": "Min 2X1−3X2+X3 ⇒ (5,0,0) Z=10 · A2=0 (degenerate)"
+ },
+ {
+  "front": "Infeasible",
+  "back": "artificial > 0 في الحل النهائي"
+ }
+]

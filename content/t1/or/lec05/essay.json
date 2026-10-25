@@ -1,0 +1,18 @@
+[
+ {
+  "q": "Define the transportation problem and its types.",
+  "a": "The transportation problem is an LP in which goods are shipped from sources to destinations subject to supply and demand such that total transportation cost is minimized. It is balanced when total supply equals total demand and unbalanced otherwise; a dummy row or column (zero cost) is added to balance it."
+ },
+ {
+  "q": "Explain the least cost method and apply it to the lecture example.",
+  "a": "Find the cheapest cell, allocate min(supply, demand), cancel the exhausted row or column, and repeat. Example: (O1,D2)=300, (O2,D1)=250, (O3,D4)=200, (O3,D2)=50, (O3,D3)=250, (O2,D3)=150; cost = 300x1+250x2+150x5+50x3+250x3+200x2 = 2850."
+ },
+ {
+  "q": "Explain the northwest corner method and apply it to the lecture example.",
+  "a": "Start at the top-left cell regardless of cost, allocate min(supply, demand), then move down if the row is exhausted or right if the column is exhausted. Example: (O1,D1)=250, (O1,D2)=50, (O2,D2)=300, (O2,D3)=100, (O3,D3)=300, (O3,D4)=200; cost = 750+50+1800+500+900+400 = 4400."
+ },
+ {
+  "q": "How is an unbalanced transportation problem solved? Give the example.",
+  "a": "Add a dummy destination (if supply > demand) or dummy source (if demand > supply) with the difference as its demand/supply and zero costs. Example: supplies 15, 25, 42, 35 (117) and demands 30, 20, 15, 10, 20 (95): add a dummy column with demand 22; then solve by NW (547), least cost (472) or VAM (374)."
+ }
+]

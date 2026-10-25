@@ -1,0 +1,18 @@
+[
+ {
+  "q": "Explain Vogel's approximation method step by step.",
+  "a": "For each row and column compute the penalty (difference of the two smallest costs). Choose the row or column with the largest penalty, allocate min(supply, demand) to its least-cost cell, cancel the satisfied row or column, recompute penalties and repeat until all supply and demand are allocated (when one row/column is left allocate by least cost)."
+ },
+ {
+  "q": "Apply VAM to the lecture example.",
+  "a": "Penalties: rows 2, 3, 1; columns 1, 2, 2, 2. Largest 3 (O2): allocate 250 to (O2,D1). Then O1 has penalty 3: 300 to (O1,D2). Then D4 has penalty 7: 200 to (O3,D4). Then D2 penalty 3: 50 to (O3,D2). Remaining column D3: 250 to (O3,D3) and 150 to (O2,D3). Cost = 300 + 500 + 150 + 750 + 400 + 750 = 2850."
+ },
+ {
+  "q": "Compare NW, least cost and VAM on the example.",
+  "a": "NW ignores costs and gives 4400; least cost picks the cheapest cell each time and gives 2850; VAM uses penalties and gives 2850, which here is also the optimal cost."
+ },
+ {
+  "q": "Why does VAM use penalties?",
+  "a": "A large penalty means that if the cheapest cell of that row/column is not used, a much more expensive cell must be used instead, so allocating there first avoids a large extra cost."
+ }
+]

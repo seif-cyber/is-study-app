@@ -1,0 +1,18 @@
+[
+ {
+  "q": "List the steps of the scientific method for problem solving.",
+  "a": "Observation, problem definition, model construction, model solution (using management science techniques) and implementation, with information and feedback returning to earlier steps."
+ },
+ {
+  "q": "Formulate the Beaver Creek Pottery problem as an LP.",
+  "a": "Decision variables: x1 = number of bowls, x2 = number of mugs per day. Objective: maximize Z = 40x1 + 50x2. Constraints: x1 + 2x2 <= 40 (labor hours), 4x1 + 3x2 <= 120 (clay pounds), x1, x2 >= 0."
+ },
+ {
+  "q": "Solve the Beaver Creek problem and interpret the result.",
+  "a": "Evaluate the corner points: (0,0) = 0; (30,0) = 1200; (0,20) = 1000; (24,8) = 1360. The best solution is 24 bowls and 8 mugs with profit $1,360. At this point both labor (24 + 2x8 = 40) and clay (4x24 + 3x8 = 120) are fully used."
+ },
+ {
+  "q": "What are the summary steps of LP model formulation?",
+  "a": "Step 1: define the decision variables (how many bowls and mugs to produce). Step 2: define the objective function (maximize profit). Step 3: define the constraints (resources clay and labor available)."
+ }
+]

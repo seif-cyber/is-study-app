@@ -1,0 +1,67 @@
+[
+ {
+  "en": "Integer Programming",
+  "ar": "البرمجة الصحيحة",
+  "def": "LP بمتغيرات صحيحة"
+ },
+ {
+  "en": "Pure Integer",
+  "ar": "صحيح بحت",
+  "def": "كل المتغيرات integer"
+ },
+ {
+  "en": "Mixed Integer",
+  "ar": "صحيح مختلط",
+  "def": "بعض المتغيرات integer"
+ },
+ {
+  "en": "Binary (0-1)",
+  "ar": "ثنائي",
+  "def": "قيمته 0 أو 1"
+ },
+ {
+  "en": "LP Relaxation",
+  "ar": "استرخاء LP",
+  "def": "إسقاط شرط integer"
+ },
+ {
+  "en": "Branch-and-Bound",
+  "ar": "التفرع والتحديد",
+  "def": "طريقة لحل ILP بشجرة"
+ },
+ {
+  "en": "Branching",
+  "ar": "التفرع",
+  "def": "تقسيم لمسألتين"
+ },
+ {
+  "en": "Fathoming",
+  "ar": "القطع",
+  "def": "إنهاء فرع"
+ },
+ {
+  "en": "Lower Bound",
+  "ar": "الحد الأدنى",
+  "def": "أفضل حل integer حاليًا (max)"
+ },
+ {
+  "en": "Upper Bound",
+  "ar": "الحد الأعلى",
+  "def": "للـ minimization"
+ },
+ {
+  "en": "Cutting Plane",
+  "ar": "المستوى القاطع",
+  "def": "قيد يقطع الحل الكسري"
+ },
+ {
+  "en": "Cut",
+  "ar": "قطع",
+  "def": "قيد مضاف"
+ },
+ {
+  "en": "Continuous Optimum",
+  "ar": "الأمثل المستمر",
+  "def": "حل الـ LP relaxation"
+ }
+]

@@ -1,0 +1,22 @@
+[
+ {
+  "q": "Define the types of integer programs and the LP relaxation.",
+  "a": "An ILP requires one or more variables to be integer: pure (all integer), mixed (some integer) and 0-1 (binary). The LP relaxation drops the integer requirements (binary variables relax to 0 <= Y <= 1). ILPs are much harder than LPs."
+ },
+ {
+  "q": "Explain the general strategy of ILP algorithms.",
+  "a": "Relax the integer restrictions to get an ordinary LP, solve it to find the continuous optimum, then from that point add special constraints iteratively (branch-and-bound or cutting planes) that change the solution space until an optimal extreme point satisfies the integer requirements."
+ },
+ {
+  "q": "Solve Max 5x1 + 4x2, x1 + x2 <= 5, 10x1 + 6x2 <= 45 (integers) by branch-and-bound.",
+  "a": "LP1: x1 = 3.75, x2 = 1.25, z = 23.75. Branch on x1: LP2 (x1 <= 3) gives (3,2), z = 23 (integer, lower bound 23); LP3 (x1 >= 4) gives (4, 0.83), z = 23.33. Branch LP3 on x2: x2 <= 0 gives (4,0), z = 20 < 23, and x2 >= 1 is infeasible. Optimum: x1 = 3, x2 = 2, z = 23."
+ },
+ {
+  "q": "Summarize the B&B algorithm (maximization).",
+  "a": "Start with lower bound -infinity. Solve the next subproblem and fathom it if its z cannot beat the bound, it gives a better integer solution (update the bound), or it is infeasible. If not fathomed, branch on a fractional integer variable into x <= floor and x >= floor + 1. Stop when all subproblems are fathomed; the optimum is the current bound. For minimization use an upper bound (+infinity)."
+ },
+ {
+  "q": "Illustrate the cutting plane method with an example.",
+  "a": "Max x1 + 2x2 s.t. -x1 + 2x2 <= 2, x1 + x2 <= 5, x1 <= 3 (integers). The LP optimum is D(8/3, 7/3) with z = 22/3. Adding the cut x2 <= 2 removes D without removing integer points; the new optimum is C(3, 2) with z = 7, which is integer and therefore optimal."
+ }
+]

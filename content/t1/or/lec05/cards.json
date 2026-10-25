@@ -1,0 +1,46 @@
+[
+ {
+  "front": "Transportation problem",
+  "back": "LP خاص: نقل من sources لـ destinations بأقل تكلفة (supply/demand)"
+ },
+ {
+  "front": "Balanced vs Unbalanced",
+  "back": "Balanced: supply = demand · Unbalanced: dummy row/column بتكلفة 0"
+ },
+ {
+  "front": "Dummy",
+  "back": "supply > demand ⇒ dummy column (فرق) · demand > supply ⇒ dummy row"
+ },
+ {
+  "front": "Initial solution methods",
+  "back": "Northwest corner · Least cost · VAM"
+ },
+ {
+  "front": "Basic cells",
+  "back": "m + n − 1"
+ },
+ {
+  "front": "Example data",
+  "back": "Supply 300, 400, 500 · Demand 250, 350, 400, 200 · Costs O1: 3,1,7,4 · O2: 2,6,5,9 · O3: 8,3,3,2"
+ },
+ {
+  "front": "Least cost steps",
+  "back": "أقل تكلفة ← خصص min(supply, demand) ← ألغِ الصف/العمود ← كرر"
+ },
+ {
+  "front": "Least cost result",
+  "back": "(O1,D2)=300 · (O2,D1)=250 · (O3,D4)=200 · (O3,D2)=50 · (O3,D3)=250 · (O2,D3)=150 ⇒ 2850"
+ },
+ {
+  "front": "NW steps",
+  "back": "من الركن الشمالي الغربي · min(supply, demand) · صف خلص ⇒ تحت · عمود خلص ⇒ يمين"
+ },
+ {
+  "front": "NW result",
+  "back": "250,50 / 300,100 / 300,200 ⇒ 4400"
+ },
+ {
+  "front": "Unbalanced example",
+  "back": "supply 117 vs demand 95 ⇒ dummy column 22 · NW 547 · LC 472 · VAM 374"
+ }
+]

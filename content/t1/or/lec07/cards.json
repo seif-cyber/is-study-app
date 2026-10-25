@@ -1,0 +1,42 @@
+[
+ {
+  "front": "Assignment problem",
+  "back": "n jobs ⇔ n facilities · واحد لواحد · أقل تكلفة · xij ∈ {0,1}"
+ },
+ {
+  "front": "Model constraints",
+  "back": "Σj xij = 1 · Σi xij = 1"
+ },
+ {
+  "front": "Hungarian steps",
+  "back": "1) row reduction 2) column reduction 3) assign zeros 4) optimal test 5) cover zeros 6) adjust by k 7) repeat"
+ },
+ {
+  "front": "Optimal test",
+  "back": "كل صف وعمود فيه صفر واحد محاط بدايرة · lines = n"
+ },
+ {
+  "front": "Adjustment (k)",
+  "back": "اطرح k من غير المغطى · اجمعه عند تقاطع خطين · الباقي ثابت"
+ },
+ {
+  "front": "Maximization",
+  "back": "اطرح كل العناصر من أكبر عنصر ثم minimize"
+ },
+ {
+  "front": "Unbalanced",
+  "back": "dummy row/column بتكلفة 0 لحد ما تبقى مربعة"
+ },
+ {
+  "front": "Example 1 result",
+  "back": "1-II, 2-IV, 3-I, 4-V, 5-III ⇒ 86 hours"
+ },
+ {
+  "front": "Max example result",
+  "back": "A-I 42 · B-II 25 · C-III 20 · D-IV 12 ⇒ 99"
+ },
+ {
+  "front": "Unbalanced example result",
+  "back": "A-III 19 · B-I 7 · C-dummy 0 · D-II 12 · E-IV 16 ⇒ 54"
+ }
+]

@@ -1,0 +1,62 @@
+[
+ {
+  "en": "Degeneracy",
+  "ar": "التحلل",
+  "def": "basic variable = 0"
+ },
+ {
+  "en": "Alternative Optima",
+  "ar": "حلول مثلى بديلة",
+  "def": "أكثر من حل أمثل"
+ },
+ {
+  "en": "Unbounded Solution",
+  "ar": "حل غير محدود",
+  "def": "Z بلا حد"
+ },
+ {
+  "en": "Infeasible Solution",
+  "ar": "حل غير ممكن",
+  "def": "مفيش feasible region"
+ },
+ {
+  "en": "Artificial Variable",
+  "ar": "متغير اصطناعي",
+  "def": "يستخدم في Big-M"
+ },
+ {
+  "en": "Primal",
+  "ar": "الأولية",
+  "def": "المسألة الأصلية"
+ },
+ {
+  "en": "Dual",
+  "ar": "الثنائية",
+  "def": "المسألة المقابلة (transpose)"
+ },
+ {
+  "en": "Sensitivity Analysis",
+  "ar": "تحليل الحساسية",
+  "def": "أثر تغيير المعاملات"
+ },
+ {
+  "en": "Shadow Price",
+  "ar": "السعر الظل",
+  "def": "قيمة وحدة إضافية من المورد"
+ },
+ {
+  "en": "Right-hand Side (RHS)",
+  "ar": "الطرف الأيمن",
+  "def": "قيمة الموارد"
+ },
+ {
+  "en": "Basis",
+  "ar": "الأساس",
+  "def": "مجموعة المتغيرات الأساسية"
+ },
+ {
+  "en": "Tie",
+  "ar": "تعادل",
+  "def": "في minimum ratio test"
+ }
+]

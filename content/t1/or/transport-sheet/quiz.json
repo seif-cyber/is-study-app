@@ -1,0 +1,17 @@
+[
+  {"topic": "Answer key", "q": "If supply > demand we add a:", "choices": ["Dummy column with demand = S − D", "Dummy row with supply = S − D", "Slack variable", "Surplus variable"], "explain": "S > D ⇒ dummy column.", "answer": 0},
+  {"topic": "Answer key", "q": "If demand > supply we add a:", "choices": ["Dummy column", "Dummy row with supply = D − S", "Artificial variable", "Nothing"], "explain": "D > S ⇒ dummy row.", "answer": 1},
+  {"topic": "Answer key", "q": "Problem 1 NW total cost in the answer key is:", "choices": ["1,080", "1,020", "1,180", "1,300"], "explain": "1180.", "answer": 2},
+  {"topic": "Answer key", "q": "In problem 1 NW allocation, Station-1 ships to City-1:", "choices": ["45", "20", "10", "35"], "explain": "(S1,C1) = 35.", "answer": 3},
+  {"topic": "Answer key", "q": "Problem 2 minimum cell cost total in the answer key is:", "choices": ["20,650", "20,300", "20,200", "22,500"], "explain": "20,650.", "answer": 0},
+  {"topic": "Answer key", "q": "In problem 2, the first allocation is to a cell with cost:", "choices": ["450", "300", "400", "500"], "explain": "أقل تكلفة 300.", "answer": 1},
+  {"topic": "Answer key", "q": "Problem 3 Vogel total cost in the answer key is:", "choices": ["3,050", "2,850", "2,480", "2,000"], "explain": "2,480.", "answer": 2},
+  {"topic": "Answer key", "q": "In problem 3, supply total is:", "choices": ["450", "500", "400", "480"], "explain": "100+180+200 = 480.", "answer": 3},
+  {"topic": "Answer key", "q": "Problem 4 (VAM) answer key total (sheet's tie handling) is:", "choices": ["1,310", "1,290", "1,200", "1,400"], "explain": "1310 في الشيت؛ 1290 بالـ VAM القياسي (optimal).", "answer": 0},
+  {"topic": "Answer key", "q": "The standard VAM (dummy included in penalties) gives for problem 4:", "choices": ["1,310", "1,290 (optimal)", "1,500", "1,100"], "explain": "1290.", "answer": 1},
+  {"topic": "Answer key", "q": "In problem 4, S − D equals:", "choices": ["110", "80", "50", "300"], "explain": "300 − 250.", "answer": 2},
+  {"topic": "Answer key", "q": "Problem 6 total cost in the answer key is:", "choices": ["2,750", "2,850", "3,500", "3,050"], "explain": "3050.", "answer": 3},
+  {"topic": "Answer key", "q": "In problem 6 D − S equals:", "choices": ["50", "100", "450", "500"], "explain": "500 − 450.", "answer": 0},
+  {"topic": "Answer key", "q": "The dummy supply row in problem 6 has costs:", "choices": ["6, 4, 9", "0, 0, 0", "1, 1, 1", "10, 5, 8"], "explain": "أصفار.", "answer": 1},
+  {"topic": "Answer key", "q": "Different tie-breaking in an initial method:", "choices": ["Makes the problem infeasible", "Always gives the optimum", "May give a different but valid initial solution", "Is not allowed"], "explain": "كلها حلول ابتدائية صحيحة.", "answer": 2}
+]

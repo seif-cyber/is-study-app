@@ -1,0 +1,46 @@
+[
+ {
+  "front": "ILP types",
+  "back": "Pure (كلها integer) · Mixed (بعضها) · 0-1 (binary)"
+ },
+ {
+  "front": "LP relaxation",
+  "back": "إسقاط شرط integer (binary ⇒ 0≤Y≤1)"
+ },
+ {
+  "front": "ILP strategy",
+  "back": "1) relax 2) solve LP 3) أضف قيود خاصة لحد integer"
+ },
+ {
+  "front": "Two methods",
+  "back": "Branch-and-Bound · Cutting plane"
+ },
+ {
+  "front": "B&B example",
+  "back": "Max 5x1+4x2 · LP1: (3.75, 1.25) z=23.75 · LP2 (x1≤3): (3,2) z=23 · LP3 (x1≥4): (4,0.83) z=23.33"
+ },
+ {
+  "front": "B&B fathoming",
+  "back": "infeasible · integer أحسن ⇒ حدّث bound · مش أحسن من الـ bound"
+ },
+ {
+  "front": "B&B branching",
+  "back": "x_j كسري ⇒ x_j ≤ ⌊x⌋ و x_j ≥ ⌊x⌋+1"
+ },
+ {
+  "front": "B&B bound",
+  "back": "Max: lower bound (−∞) · Min: upper bound (+∞)"
+ },
+ {
+  "front": "ILP optimum (B&B ex.)",
+  "back": "(3,2) z=23 (والـ (4,1) infeasible: 46>45)"
+ },
+ {
+  "front": "Cutting plane example 1",
+  "back": "LP opt D(8/3,7/3) z=22/3 ⇒ cut x2≤2 ⇒ (3,2) z=7"
+ },
+ {
+  "front": "Cutting plane example 2",
+  "back": "LP (10/3,10/3) z=20/3 ⇒ ILP z=6 عند (4,2) أو (2,4)"
+ }
+]

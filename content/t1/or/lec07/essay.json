@@ -1,0 +1,18 @@
+[
+ {
+  "q": "Formulate the assignment model and state its relation to the transportation model.",
+  "a": "Let xij = 1 if facility i is assigned to job j and 0 otherwise. Minimize Z = sum cij xij subject to sum over j of xij = 1 for every i, sum over i of xij = 1 for every j. Replacing xij in {0,1} by xij >= 0 gives a transportation model in which all supplies and demands equal 1."
+ },
+ {
+  "q": "State the steps of the Hungarian method.",
+  "a": "Balance the matrix; subtract each row's minimum; subtract each column's minimum; assign zeros (circle a lone zero and cross out other zeros in its row/column); if each row and column has one circled zero it is optimal; otherwise cover all zeros with the minimum number of lines, subtract the smallest uncovered element from uncovered elements and add it at intersections, and repeat."
+ },
+ {
+  "q": "Solve the 5x5 minimization example.",
+  "a": "Row minima 15, 12, 21, 17, 16, then column minima 0, 0, 0, 2, 3 give a zero matrix with a complete assignment: 1-II (15), 2-IV (14), 3-I (21), 4-V (20), 5-III (16) for a total of 86 hours."
+ },
+ {
+  "q": "How are maximization and unbalanced assignment problems handled?",
+  "a": "Maximization: subtract every element from the largest element (e.g. 42) and solve as a minimization (answer 99 for the 4x4 example). Unbalanced: add dummy rows or columns with zero cost to make the matrix square (the 5x4 example adds a dummy job and gives total cost 54)."
+ }
+]

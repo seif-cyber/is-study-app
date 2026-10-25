@@ -1,0 +1,22 @@
+[
+ {
+  "q": "Explain degeneracy, alternative optima, unbounded and infeasible cases in simplex.",
+  "a": "Degeneracy: a basic variable equals zero, caused by a tie in the minimum ratio test (e.g. Max 3x1+9x2 gives z = 18 at (0,2) with a zero basic variable). Alternative optima: a non-basic variable has zero z-row coefficient in the optimal tableau, so another optimum exists (Max 2x1+4x2: (0,5/2) and (3,1) both give 10). Unbounded: the entering column has no positive entry so no leaving variable exists. Infeasible: an artificial variable stays positive in the final Big-M tableau."
+ },
+ {
+  "q": "Define primal and dual and state the rules for constructing the dual.",
+  "a": "The original problem is the primal; the dual is obtained by transposing rows and columns and has the same optimal value. Max becomes Min (and vice versa), objective coefficients become right-hand sides and vice versa, each primal constraint gives a dual variable and each primal variable a dual constraint. A <= constraint in a minimization primal is multiplied by -1 first."
+ },
+ {
+  "q": "Construct the dual of Max Z = 3X1 + 5X2 s.t. 2X1+6X2<=50, 3X1+2X2<=35, 5X1-3X2<=10, X2<=20.",
+  "a": "Min Z* = 50Y1 + 35Y2 + 10Y3 + 20Y4 s.t. 2Y1 + 3Y2 + 5Y3 >= 3 and 6Y1 + 2Y2 - 3Y3 + Y4 >= 5, Y >= 0. (The slide omits +Y4 in the second constraint.)"
+ },
+ {
+  "q": "What is sensitivity analysis? Show a change in the right-hand side.",
+  "a": "It studies how changes in coefficients affect the optimal solution. For Max 30X1+50X2 with optimum (7,2), Z = 310, changing the first RHS from 16 to 20 gives x = B^-1 b = (29/3, 2/3) and S3 = 10/3, all non-negative so the basis remains optimal, with Z = 323.33."
+ },
+ {
+  "q": "Solve the chairs and tables task.",
+  "a": "Max Z = 40x1 + 50x2 s.t. 2x1+2x2<=60, 3x1+x2<=75, x1+4x2<=84. Corner points: (0,21)=1050, (12,18)=1380, (22.5,7.5)=1275, (25,0)=1000. Optimum: 12 chairs and 18 tables, profit 1380; man-hours and wood are binding, machine slack = 21."
+ }
+]

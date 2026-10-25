@@ -1,0 +1,54 @@
+[
+ {
+  "front": "LP properties",
+  "back": "Objective (max/min) + Constraints"
+ },
+ {
+  "front": "Par model",
+  "back": "Max 10S+9D · 0.7S+D<=630 · 0.5S+(5/6)D<=600 · S+(2/3)D<=708 · 0.1S+0.25D<=135"
+ },
+ {
+  "front": "Par optimum",
+  "back": "S=540, D=252, Z=7668 (C&D و Finishing binding)"
+ },
+ {
+  "front": "Par slacks",
+  "back": "C&D 0 · Sewing 120 · Finishing 0 · Inspection 18"
+ },
+ {
+  "front": "Par extreme points",
+  "back": "(0,0) · (708,0) · (540,252) · (300,420) · (0,540)"
+ },
+ {
+  "front": "Slack vs Surplus",
+  "back": "Slack للـ ≤ (غير مستخدم) · Surplus للـ ≥ (زيادة)"
+ },
+ {
+  "front": "Binding vs Redundant",
+  "back": "Binding: slack=0 · Redundant: لا يؤثر على الـ feasible region"
+ },
+ {
+  "front": "M&D model",
+  "back": "Min 2A+3B · A>=125 · A+B=350 · 2A+B<=600"
+ },
+ {
+  "front": "M&D optimum",
+  "back": "A=250, B=100, Z=800 · surplus A = 125"
+ },
+ {
+  "front": "Alternative optima",
+  "back": "هدف موازي لقيد binding (6.3S+9D: Z=5670 عند (300,420) و (540,252))"
+ },
+ {
+  "front": "Infeasible",
+  "back": "مفيش feasible region (قيود متعارضة)"
+ },
+ {
+  "front": "Unbounded",
+  "back": "Z بلا حد · غالبًا قيد ناسي"
+ },
+ {
+  "front": "Standard form",
+  "back": "كل القيود معادلات بـ slack/surplus"
+ }
+]

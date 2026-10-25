@@ -1,0 +1,18 @@
+[
+  {"topic": "Formulation", "q": "Problem 1 (assembly lines): the objective function is:", "choices": ["Max Z = 6x1 + 4x2", "Max Z = 4x1 + 6x2", "Min Z = 6x1 + 4x2", "Max Z = 10x1 + 7x2"], "explain": "ربح 6$ و 4$.", "answer": 0},
+  {"topic": "Formulation", "q": "Problem 1: the line-2 constraint is:", "choices": ["10x1 + 10x2 <= 42", "7x1 + 3x2 <= 42", "7x1 + 3x2 <= 100", "3x1 + 7x2 <= 42"], "explain": "line 2: product 1 = 7 ساعات، product 2 = 3.", "answer": 1},
+  {"topic": "Solution", "q": "Problem 1: the optimal solution is:", "choices": ["x1 = 6, x2 = 0, Z = 36", "x1 = 0, x2 = 10, Z = 40", "x1 = 3, x2 = 7, Z = 46", "x1 = 7, x2 = 3, Z = 54"], "explain": "(3,7) ⇒ 46.", "answer": 2},
+  {"topic": "Formulation", "q": "Problem 2 (clothier): the wool constraint is:", "choices": ["10x1 + 4x2 <= 150", "3x1 + 5x2 <= 200", "5x1 + 3x2 <= 150", "3x1 + 5x2 <= 150"], "explain": "coat 3 ياردة، slacks 5.", "answer": 3},
+  {"topic": "Solution", "q": "Problem 2: the optimal profit is approximately:", "choices": ["$1,473.68", "$1,200", "$1,000", "$1,500"], "explain": "28000/19.", "answer": 0},
+  {"topic": "Formulation", "q": "Problem 3 (Kalo): the potassium constraint is:", "choices": ["x1 >= 2", "x2 >= 2", "x1 + x2 >= 2", "x2 <= 2"], "explain": "potassium في المادة 2 فقط.", "answer": 1},
+  {"topic": "Solution", "q": "Problem 3: the minimum cost is:", "choices": ["$28 at (1, 5)", "$50 at (0, 10)", "$22 at (4, 2)", "$20 at (2, 3)"], "explain": "**22** عند (4,2).", "answer": 2},
+  {"topic": "Formulation", "q": "Problem 3 is a ______ problem with ______ constraints.", "choices": ["Maximization, <=", "Minimization, <=", "Maximization, >=", "Minimization, >="], "explain": "Min مع ≥.", "answer": 3},
+  {"topic": "Solution", "q": "Problem 4 (Pinewood): the optimal solution is:", "choices": ["x1 = 6 chairs, x2 = 3.2 tables, Z = 2720", "x1 = 0, x2 = 8, Z = 800", "x1 = 10, x2 = 0, Z = 4000", "x1 = 4.29, x2 = 4.57"], "explain": "(6, 3.2) ⇒ 2720.", "answer": 0},
+  {"topic": "Formulation", "q": "Problem 4: the chair demand constraint is:", "choices": ["x1 >= 6", "x1 <= 6", "x2 <= 6", "x1 + x2 <= 6"], "explain": "الكراسي لا تزيد عن 6.", "answer": 1},
+  {"topic": "Solution", "q": "Problem 5 (Bakery): the optimal solution is:", "choices": ["5 coffee cakes and 0 Danish, Z = 5", "2 and 3, Z = 17", "0 coffee cakes and 4 Danish, Z = 20", "4 and 0, Z = 4"], "explain": "(0,4) ⇒ 20.", "answer": 2},
+  {"topic": "Solution", "q": "Problem 6 (Jewelry): the optimal profit is:", "choices": ["$2,200", "$1,800", "$1,600", "$2,400"], "explain": "(4,3) ⇒ 300(4)+400(3) = 2400.", "answer": 3},
+  {"topic": "Formulation", "q": "Problem 6: the platinum constraint is:", "choices": ["2x1 + 4x2 <= 20", "3x1 + 2x2 <= 20", "2x1 + 4x2 <= 18", "4x1 + 2x2 <= 20"], "explain": "necklace 2، bracelet 4.", "answer": 0},
+  {"topic": "Solution", "q": "Problem 7 (Munchies): the minimum cost is:", "choices": ["$0.26", "$0.24", "$0.60", "$0.12"], "explain": "(0,8) ⇒ 0.03×8 = 0.24.", "answer": 1},
+  {"topic": "Formulation", "q": "Problem 7: the vitamin B constraint is:", "choices": ["8x1 + 6x2 >= 12", "x1 + 2x2 <= 12", "x1 + 2x2 >= 12", "2x1 + x2 >= 12"], "explain": "oats 1، rice 2.", "answer": 2},
+  {"topic": "Method", "q": "The optimal solution of a graphical LP lies at:", "choices": ["The center", "The origin only", "Outside the region", "A corner point"], "explain": "corner point.", "answer": 3}
+]

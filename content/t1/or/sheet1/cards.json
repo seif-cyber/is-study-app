@@ -1,0 +1,34 @@
+[
+ {
+  "front": "Formulation steps",
+  "back": "1) decision variables 2) objective 3) constraints 4) x ≥ 0"
+ },
+ {
+  "front": "Problem 1",
+  "back": "Max 6x1+4x2 · 10x1+10x2≤100 · 7x1+3x2≤42 ⇒ (3,7) Z=46"
+ },
+ {
+  "front": "Problem 2",
+  "back": "Max 50x1+40x2 · 3x1+5x2≤150 · 10x1+4x2≤200 ⇒ (200/19, 450/19) Z≈1473.68"
+ },
+ {
+  "front": "Problem 3",
+  "back": "Min 3x1+5x2 · 10x1+2x2≥20 · 6x1+6x2≥36 · x2≥2 ⇒ (4,2) Z=22"
+ },
+ {
+  "front": "Problem 4",
+  "back": "Max 400x1+100x2 · 8x1+10x2≤80 · 2x1+6x2≤36 · x1≤6 ⇒ (6,3.2) Z=2720"
+ },
+ {
+  "front": "Problem 5",
+  "back": "Max x1+5x2 · 5x1+5x2≤25 · 2x1+4x2≤16 · x1≤5 ⇒ (0,4) Z=20"
+ },
+ {
+  "front": "Problem 6",
+  "back": "Max 300x1+400x2 · 3x1+2x2≤18 · 2x1+4x2≤20 · x2≤4 ⇒ (4,3) Z=2400"
+ },
+ {
+  "front": "Problem 7",
+  "back": "Min 0.05x1+0.03x2 · 8x1+6x2≥48 · x1+2x2≥12 ⇒ (0,8) Z=0.24"
+ }
+]

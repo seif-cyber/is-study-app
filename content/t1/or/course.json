@@ -13,8 +13,8 @@
       "id": "lec01",
       "kind": "lecture",
       "n": 1,
-      "title": "Lec 1",
-      "titleAr": "",
+      "title": "Lec 1: Introduction to LP",
+      "titleAr": "مقدمة البرمجة الخطية",
       "pdf": "1cxYeRblvCwbmR13bRW3umCqFJhm480_e",
       "mid": true
     },
@@ -22,8 +22,8 @@
       "id": "lec02",
       "kind": "lecture",
       "n": 2,
-      "title": "Lec 2",
-      "titleAr": "",
+      "title": "Lec 2: Linear Programming (Par & M&D)",
+      "titleAr": "البرمجة الخطية",
       "pdf": "14mY89qbhB0qfW51tx9gYITZdE8ekxjEk",
       "mid": true
     },
@@ -31,8 +31,8 @@
       "id": "lec03",
       "kind": "lecture",
       "n": 3,
-      "title": "Lec 3",
-      "titleAr": "",
+      "title": "Lec 3: Graphical & Simplex",
+      "titleAr": "الحل البياني والسمبلكس",
       "pdf": "1EHGp9jK_daYhR3xJwdo6OGk-fhHbTRRD",
       "mid": true
     },
@@ -40,8 +40,8 @@
       "id": "lec04",
       "kind": "lecture",
       "n": 4,
-      "title": "Lec 4",
-      "titleAr": "",
+      "title": "Lec 4: Special Cases, Duality & Sensitivity",
+      "titleAr": "الحالات الخاصة والـ Duality",
       "pdf": "1p71kucpbxheFtRZQgZgYBx67-menuIEe",
       "mid": true
     },
@@ -49,8 +49,8 @@
       "id": "lec05",
       "kind": "lecture",
       "n": 5,
-      "title": "Lec 5",
-      "titleAr": "",
+      "title": "Lec 5: Transportation (NW & Least Cost)",
+      "titleAr": "النقل: NW و Least Cost",
       "pdf": "14FyYfPW4v7XUf3Q3wfKPSWfpA7BOCDWM",
       "mid": true
     },
@@ -58,32 +58,32 @@
       "id": "lec06",
       "kind": "lecture",
       "n": 6,
-      "title": "Lec 6",
-      "titleAr": "",
+      "title": "Lec 6: Vogel's Method (VAM)",
+      "titleAr": "طريقة فوجل",
       "pdf": "17HF4UI8eizqHmh3DeCIriXv2Ux1U82rk"
     },
     {
       "id": "lec07",
       "kind": "lecture",
       "n": 7,
-      "title": "Lec 7",
-      "titleAr": "",
+      "title": "Lec 7: Assignment & Hungarian",
+      "titleAr": "التخصيص",
       "pdf": "10LPkvB58R0CIOhlbG17awsySqoD3n9LL"
     },
     {
       "id": "lec08",
       "kind": "lecture",
       "n": 8,
-      "title": "Lec 8",
-      "titleAr": "",
+      "title": "Lec 8: Integer Programming",
+      "titleAr": "البرمجة الصحيحة",
       "pdf": "1W51bJVsGztmaieJVkInGPtAKPq-STbkh"
     },
     {
       "id": "lec09",
       "kind": "lecture",
       "n": 9,
-      "title": "Lec 9",
-      "titleAr": "",
+      "title": "Lec 9: Dynamic Programming",
+      "titleAr": "البرمجة الديناميكية",
       "pdf": "1d6ejNxF-j0-HhgWosf2Mr4-2gvJSeCc2"
     },
     {
@@ -98,16 +98,16 @@
       "id": "sheet1",
       "kind": "section",
       "n": 1,
-      "title": "Sheet 1",
-      "titleAr": "",
+      "title": "Sheet 1: LP Formulation",
+      "titleAr": "صياغة LP",
       "pdf": "19K7nB24zEpWSl5pJLzwlRMyHSLhWt-Ls"
     },
     {
       "id": "sheet2",
       "kind": "section",
       "n": 2,
-      "title": "Sheet 2",
-      "titleAr": "",
+      "title": "Sheet 2: Graphical Solution",
+      "titleAr": "الحل البياني",
       "pdf": "1IBUg9cFiH2pWBNXydGV8WShRV-x92IKB"
     },
     {
@@ -122,8 +122,8 @@
       "id": "sheet4",
       "kind": "section",
       "n": 4,
-      "title": "Sheet 4",
-      "titleAr": "",
+      "title": "Sheet 4: Transportation",
+      "titleAr": "شيت النقل",
       "pdf": "12zljUTqxEOl59agDzUSTiGLGBoXZaa60"
     },
     {

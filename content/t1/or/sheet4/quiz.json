@@ -1,0 +1,18 @@
+[
+  {"topic": "Sheet 4", "q": "Problem 1 (stations to cities) total supply and demand are:", "choices": ["125 and 125", "120 and 125", "125 and 130", "100 and 100"], "explain": "35+50+40 = 125 = 45+20+30+30.", "answer": 0},
+  {"topic": "Sheet 4", "q": "Problem 1 by northwest corner has total cost:", "choices": ["1080", "1180", "1020", "1300"], "explain": "1180.", "answer": 1},
+  {"topic": "Sheet 4", "q": "The optimal cost of Problem 1 is:", "choices": ["1180", "1080", "1020", "950"], "explain": "الأمثل 1020 (VAM).", "answer": 2},
+  {"topic": "Sheet 4", "q": "Problem 2 by minimum cell cost gives total cost:", "choices": ["22,500", "20,300", "20,200", "20,650"], "explain": "20,650.", "answer": 3},
+  {"topic": "Sheet 4", "q": "Problem 3 by Vogel's method gives total cost:", "choices": ["2,480", "3,050", "2,500", "2,300"], "explain": "2,480.", "answer": 0},
+  {"topic": "Sheet 4", "q": "Problem 3 by northwest corner would give:", "choices": ["2,480", "3,050", "2,850", "3,500"], "explain": "3,050.", "answer": 1},
+  {"topic": "Sheet 4", "q": "Problem 4 (supply 300, demand 250) needs a dummy:", "choices": ["Row with supply 50", "Column with demand 300", "Column with demand 50", "Row with supply 250"], "explain": "supply > demand ⇒ dummy column 50.", "answer": 2},
+  {"topic": "Sheet 4", "q": "Problem 5 (supply 48, demand 45) needs a dummy column of demand:", "choices": ["48", "45", "1", "3"], "explain": "48 − 45 = 3.", "answer": 3},
+  {"topic": "Sheet 4", "q": "Problem 5 by northwest corner gives total cost:", "choices": ["1,542", "1,361", "1,304", "1,275"], "explain": "1542.", "answer": 0},
+  {"topic": "Sheet 4", "q": "Problem 6 (supply 450, demand 500) needs a dummy:", "choices": ["Column with demand 50", "Row with supply 50", "Row with supply 500", "Column with demand 450"], "explain": "demand > supply ⇒ dummy row.", "answer": 1},
+  {"topic": "Sheet 4", "q": "Problem 6 by minimum cell cost gives:", "choices": ["2,850", "2,750", "3,050", "3,500"], "explain": "3050.", "answer": 2},
+  {"topic": "Sheet 4", "q": "Problem 7 (supply 65, demand 75) needs a dummy row of supply:", "choices": ["65", "75", "5", "10"], "explain": "75 − 65 = 10.", "answer": 3},
+  {"topic": "Sheet 4", "q": "Problem 7 by Vogel's method gives:", "choices": ["250", "240", "260", "310"], "explain": "250 (الأمثل 240).", "answer": 0},
+  {"topic": "Sheet 4", "q": "The cost entries of the dummy row/column are:", "choices": ["One", "Zero", "The maximum", "Negative"], "explain": "صفر.", "answer": 1},
+  {"topic": "Sheet 4", "q": "Which method ignores costs?", "choices": ["Minimum cell cost", "VAM", "Northwest corner", "MODI"], "explain": "NW.", "answer": 2},
+  {"topic": "Sheet 4", "q": "Problems 1, 2 and 3 of the sheet are:", "choices": ["Unbalanced", "Assignment", "Transshipment", "Balanced"], "explain": "أول 3 balanced.", "answer": 3}
+]
