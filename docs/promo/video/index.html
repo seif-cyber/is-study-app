@@ -1,0 +1,277 @@
+<!doctype html>
+<html lang="ar" dir="rtl" data-resolution="portrait">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=1080, height=1920" />
+    <script src="gsap.min.js"></script>
+    <style>
+      @font-face { font-family: 'Plex'; font-weight: 400; src: url(fonts/ibm-plex-sans-arabic-arabic-400-normal.woff2) format('woff2'); unicode-range: U+0600-06FF, U+0750-077F, U+FB50-FDFF, U+FE70-FEFF, U+200C-200E; }
+      @font-face { font-family: 'Plex'; font-weight: 700; src: url(fonts/ibm-plex-sans-arabic-arabic-700-normal.woff2) format('woff2'); unicode-range: U+0600-06FF, U+0750-077F, U+FB50-FDFF, U+FE70-FEFF, U+200C-200E; }
+      @font-face { font-family: 'Plex'; font-weight: 400; src: url(fonts/ibm-plex-sans-arabic-latin-400-normal.woff2) format('woff2'); }
+      @font-face { font-family: 'Plex'; font-weight: 700; src: url(fonts/ibm-plex-sans-arabic-latin-700-normal.woff2) format('woff2'); }
+      * { margin: 0; padding: 0; box-sizing: border-box; }
+      html, body { width: 1080px; height: 1920px; overflow: hidden; background: #0b1120; }
+      body { font-family: 'Plex', sans-serif; color: #fff; }
+      #root { position: relative; width: 1080px; height: 1920px; overflow: hidden; background: radial-gradient(120% 80% at 50% 0%, #16224a 0%, #0b1120 60%); }
+
+      .blob { position: absolute; border-radius: 50%; filter: blur(90px); opacity: .55; }
+      .b1 { width: 700px; height: 700px; background: #3b5bdb; top: -200px; right: -250px; }
+      .b2 { width: 600px; height: 600px; background: #7c3aed; bottom: -150px; left: -250px; opacity: .4; }
+      .b3 { width: 420px; height: 420px; background: #0ea5e9; top: 900px; right: -200px; opacity: .3; }
+
+      .clip { position: absolute; inset: 0; }
+      .cap { position: absolute; top: 150px; left: 60px; right: 60px; text-align: center; }
+      .cap h2 { font-size: 78px; font-weight: 700; line-height: 1.25; }
+      .cap p { font-size: 44px; color: #b9c6ec; margin-top: 14px; line-height: 1.4; }
+      .hl { color: #7aa5ff; }
+      .gold { color: #ffcf5a; }
+
+      .phone { position: absolute; left: 50%; top: 520px; width: 640px; height: 1338px; margin-left: -320px; border-radius: 76px; background: #05070f; padding: 20px; box-shadow: 0 40px 120px rgba(0,0,0,.6), 0 0 0 3px #2a3560, inset 0 0 0 2px #111a33; }
+      .screen { position: relative; width: 600px; height: 1298px; border-radius: 58px; overflow: hidden; background: #0b1120; }
+      .screen img { position: absolute; top: 0; left: 0; width: 600px; display: block; }
+      .notch { position: absolute; top: 34px; left: 50%; width: 150px; height: 36px; margin-left: -75px; border-radius: 20px; background: #05070f; z-index: 5; }
+
+      .pill { position: absolute; padding: 18px 34px; border-radius: 999px; font-size: 40px; font-weight: 700; background: rgba(20,30,62,.92); border: 2px solid #3a4c8a; box-shadow: 0 16px 40px rgba(0,0,0,.45); white-space: nowrap; }
+      .pill.ok { border-color: #22c55e; }
+      .pill.soon { border-color: #f59e0b; color: #ffd48a; }
+      .big { position: absolute; left: 0; right: 0; text-align: center; font-weight: 700; }
+      .counter { font-size: 150px; line-height: 1; color: #fff; text-shadow: 0 10px 40px rgba(107,155,255,.6); }
+      .counter small { display: block; font-size: 46px; color: #b9c6ec; margin-top: 8px; }
+      .stat { position: absolute; padding: 26px 40px; border-radius: 36px; background: linear-gradient(135deg, #3b5bdb, #7c3aed); box-shadow: 0 20px 60px rgba(59,91,219,.55); text-align: center; font-weight: 700; }
+      .stat b { display: block; font-size: 96px; line-height: 1; }
+      .stat span { font-size: 38px; }
+
+      .hook { position: absolute; left: 60px; right: 60px; text-align: center; font-size: 104px; font-weight: 700; line-height: 1.2; }
+      .emoji { position: absolute; font-size: 130px; }
+
+      .logo { position: absolute; left: 50%; width: 300px; height: 300px; margin-left: -150px; border-radius: 80px; display: grid; place-items: center; font-size: 170px; background: linear-gradient(135deg, #3b5bdb, #7c3aed); box-shadow: 0 30px 90px rgba(59,91,219,.6); }
+      .brand { position: absolute; left: 0; right: 0; text-align: center; font-size: 150px; font-weight: 700; }
+
+      .laptop { position: absolute; left: 50%; top: 600px; width: 980px; margin-left: -490px; }
+      .lid { width: 980px; height: 632px; border-radius: 30px 30px 0 0; background: #05070f; padding: 22px; box-shadow: 0 0 0 3px #2a3560, 0 40px 120px rgba(0,0,0,.6); }
+      .lid img { width: 936px; height: 588px; border-radius: 10px; display: block; object-fit: cover; object-position: top; }
+      .base { width: 1060px; height: 34px; margin-left: -40px; border-radius: 0 0 40px 40px; background: linear-gradient(#3a4568, #1c2440); }
+      .mini { position: absolute; left: 40px; top: 980px; width: 330px; height: 690px; border-radius: 46px; background: #05070f; padding: 12px; box-shadow: 0 0 0 3px #2a3560, 0 30px 90px rgba(0,0,0,.7); }
+      .mini img { width: 306px; border-radius: 36px; display: block; }
+
+      .avatar { position: absolute; left: 50%; top: 1060px; width: 380px; height: 380px; margin-left: -190px; border-radius: 50%; overflow: hidden; background: linear-gradient(135deg, #3b5bdb, #7c3aed); box-shadow: 0 0 0 10px rgba(122,165,255,.35), 0 30px 90px rgba(0,0,0,.6); display: grid; place-items: center; }
+      .avatar img { width: 100%; height: 100%; object-fit: cover; }
+      .avatar .ph { font-size: 200px; }
+      .cta { position: absolute; left: 50px; right: 50px; text-align: center; }
+      .cta h3 { font-size: 66px; font-weight: 700; line-height: 1.3; }
+      .cta p { font-size: 46px; color: #b9c6ec; margin-top: 12px; }
+      .btn { display: inline-block; margin-top: 34px; padding: 26px 64px; border-radius: 999px; background: #25d366; color: #052e16; font-size: 50px; font-weight: 700; box-shadow: 0 20px 50px rgba(37,211,102,.45); }
+    </style>
+  </head>
+  <body>
+    <div id="root" data-composition-id="main" data-start="0" data-duration="65.4" data-width="1080" data-height="1920">
+      <audio id="vo" src="vo.mp3" data-start="0" data-duration="64.91" data-track-index="2" data-volume="1"></audio>
+
+      <div class="blob b1" id="b1"></div>
+      <div class="blob b2" id="b2"></div>
+      <div class="blob b3" id="b3"></div>
+
+      <!-- 1 · hook -->
+      <div id="s1" class="clip" data-start="0" data-duration="6.4" data-track-index="1">
+        <div class="emoji" id="e1" style="top:300px;right:120px">😩</div>
+        <div class="emoji" id="e2" style="top:1450px;left:110px">📚</div>
+        <div class="emoji" id="e3" style="top:1500px;right:150px">⏰</div>
+        <div class="hook" id="h1" style="top:600px">امتحاناتك قرّبت؟</div>
+        <div class="hook" id="h2" style="top:830px;color:#b9c6ec">المحاضرات كتير؟</div>
+        <div class="hook" id="h3" style="top:1060px"><span class="gold">ومش عارف تبدأ منين؟</span></div>
+      </div>
+
+      <!-- 2 · courses -->
+      <div id="s2" class="clip" data-start="6.2" data-duration="13.3" data-track-index="1">
+        <div class="logo" id="s2logo" style="top:640px">📚</div>
+        <div class="brand" id="s2brand" style="top:1000px">مذاكرة</div>
+        <div class="cap" id="s2cap"><h2>كل موادك في <span class="hl">مكان واحد</span></h2><p>لكل التخصصات</p></div>
+        <div class="phone" id="s2phone"><div class="notch"></div><div class="screen"><img id="s2img" src="shots/home.png" /></div></div>
+        <div class="pill ok" id="p1" style="top:760px;right:20px">✅ المواد العامة</div>
+        <div class="pill ok" id="p2" style="top:900px;left:20px">✅ قسم IS</div>
+        <div class="stat" id="s2stat" style="top:1220px;left:30px"><b id="n62">0</b><span>محاضرة وسكشن</span></div>
+        <div class="pill" id="p3" style="top:1440px;right:24px">🇪🇬 مشروحين بالمصري</div>
+        <div class="pill soon" id="p4" style="top:1640px;left:50%;margin-left:-300px;width:600px;text-align:center">⏳ باقي الأقسام: قريبًا</div>
+      </div>
+
+      <!-- 3 · lesson + summary -->
+      <div id="s3" class="clip" data-start="19.4" data-duration="7.4" data-track-index="1">
+        <div class="cap" id="s3cap1"><h2>شرح <span class="hl">خطوة بخطوة</span></h2><p>جداول · رسومات · صور السلايدات</p></div>
+        <div class="cap" id="s3cap2"><h2>⚡ ملخص <span class="gold">لليلة الامتحان</span></h2><p>كل المحاضرة في دقايق</p></div>
+        <div class="phone" id="s3phone"><div class="notch"></div><div class="screen"><img id="s3a" src="shots/lesson.png" /><img id="s3b" src="shots/summary.png" /></div></div>
+      </div>
+
+      <!-- 4 · quiz + mistakes -->
+      <div id="s4" class="clip" data-start="26.8" data-duration="11.5" data-track-index="1">
+        <div class="cap" id="s4cap1"><h2>امتحن <span class="hl">نفسك</span></h2><p>وكل سؤال معاه شرح الإجابة الصح</p></div>
+        <div class="cap" id="s4cap2"><h2>غلطاتك <span class="gold">بتتجمعلك</span></h2><p>عشان تراجعها قبل الامتحان</p></div>
+        <div class="phone" id="s4phone"><div class="notch"></div><div class="screen"><img id="s4a" src="shots/quiz-q.png" /><img id="s4b" src="shots/quiz-wrong.png" /><img id="s4c" src="shots/mistakes.png" /></div></div>
+        <div class="stat" id="s4stat" style="top:1280px;right:24px"><b>+<span id="n1900">0</span></b><span>سؤال</span></div>
+      </div>
+
+      <!-- 5 · review + cards -->
+      <div id="s5" class="clip" data-start="38.3" data-duration="6.4" data-track-index="1">
+        <div class="cap" id="s5cap1"><h2>مراجعة <span class="hl">الميد تيرم والفاينال</span></h2><p>⏱ امتحانات بتايمر</p></div>
+        <div class="cap" id="s5cap2"><h2>كروت <span class="gold">للحفظ السريع</span></h2><p>اقلب الكارت واعرف نفسك</p></div>
+        <div class="phone" id="s5phone"><div class="notch"></div><div class="screen" id="s5screen"><img id="s5a" src="shots/review.png" /><img id="s5b" src="shots/card-back.png" /><img id="s5c" src="shots/card-front.png" /></div></div>
+        <div class="stat" id="s5stat" style="top:1300px;left:24px"><b>+<span id="n900">0</span></b><span>كارت</span></div>
+      </div>
+
+      <!-- 6 · OR practice -->
+      <div id="s6" class="clip" data-start="44.7" data-duration="7.0" data-track-index="1">
+        <div class="cap" id="s6cap"><h2>🧮 بحوث العمليات</h2><p>حل المسائل <span class="hl">خطوة بخطوة</span> جوه الأبلكيشن</p></div>
+        <div class="phone" id="s6phone"><div class="notch"></div><div class="screen"><img id="s6a" src="shots/simplex.png" /><img id="s6b" src="shots/transport.png" /></div></div>
+        <div class="pill" id="t1" style="top:820px;right:10px" dir="ltr">Simplex</div>
+        <div class="pill" id="t2" style="top:1000px;left:10px" dir="ltr">Transportation</div>
+        <div class="pill" id="t3" style="top:1180px;right:10px" dir="ltr">Assignment</div>
+      </div>
+
+      <!-- 7 · sign-in, devices, stats -->
+      <div id="s7" class="clip" data-start="51.7" data-duration="7.1" data-track-index="1">
+        <div class="cap" id="s7cap1"><h2>سجّل <span class="hl">بالإيميل</span></h2><p>ومذاكرتك محفوظة</p></div>
+        <div class="cap" id="s7cap2"><h2>على <span class="hl">أي جهاز</span></h2><p>📱 موبايل أو 💻 لابتوب</p></div>
+        <div class="cap" id="s7cap3"><h2>📊 تابع <span class="gold">مستواك</span></h2><p>في كل مادة</p></div>
+        <div class="phone" id="s7phone"><div class="notch"></div><div class="screen"><img src="shots/auth.png" /></div></div>
+        <div class="laptop" id="s7lap"><div class="lid"><img src="shots/desktop.png" /></div><div class="base"></div></div>
+        <div class="mini" id="s7mini"><img src="shots/stats.png" /></div>
+      </div>
+
+      <!-- 8 · brand + call to action -->
+      <div id="s8" class="clip" data-start="58.8" data-duration="6.6" data-track-index="1">
+        <div class="logo" id="s8logo" style="top:300px">📚</div>
+        <div class="brand" id="s8brand" style="top:640px">مذاكرة</div>
+        <div class="big" id="s8slogan" style="top:860px;font-size:70px;color:#b9c6ec">ذاكر <span class="hl">صح</span>، مش كتير</div>
+        <div class="avatar" id="s8av"><span class="ph" id="s8ph">👨‍💻</span></div>
+        <div class="cta" id="s8cta" style="top:1490px"><h3>ابعت لـ <span class="gold">م. سيف</span></h3><p>عشان يفعّلك الأبلكيشن</p><div class="btn" id="s8btn">📩 فعّل حسابك</div></div>
+      </div>
+    </div>
+
+    <script>
+      const tl = gsap.timeline({ paused: true });
+      const E = 'power3.out', B = 'back.out(1.7)';
+      const PH = 1298; // phone screen height
+      const scale = 600 / 1170;
+      const slideUp = (sel, at) => tl.fromTo(sel, { y: 500, opacity: 0 }, { y: 0, opacity: 1, duration: 0.8, ease: E }, at);
+      const capIn = (sel, at) => tl.fromTo(sel, { y: 40, opacity: 0 }, { y: 0, opacity: 1, duration: 0.5, ease: E }, at);
+      const capOut = (sel, at) => tl.to(sel, { y: -30, opacity: 0, duration: 0.35 }, at);
+      const pop = (sel, at) => tl.fromTo(sel, { scale: 0, opacity: 0 }, { scale: 1, opacity: 1, duration: 0.55, ease: B }, at);
+      const swap = (out, inn, at) => { tl.to(out, { opacity: 0, duration: 0.35 }, at); tl.fromTo(inn, { opacity: 0, scale: 1.04 }, { opacity: 1, scale: 1, duration: 0.45 }, at); };
+      const scrollTo = (sel, px, at, dur) => tl.to(sel, { y: -px * scale, duration: dur, ease: 'power1.inOut' }, at);
+      const count = (sel, to, at, dur) => { const o = { v: 0 }; tl.to(o, { v: to, duration: dur, ease: 'power2.out', onUpdate: () => (document.querySelector(sel).textContent = Math.round(o.v).toLocaleString('en-US')) }, at); };
+
+      // background drift for the whole film
+      tl.to('#b1', { x: -260, y: 220, duration: 65, ease: 'sine.inOut' }, 0);
+      tl.to('#b2', { x: 300, y: -260, duration: 65, ease: 'sine.inOut' }, 0);
+      tl.to('#b3', { x: -200, y: 380, duration: 65, ease: 'sine.inOut' }, 0);
+
+      // 1 · hook
+      pop('#e1', 0.3);
+      tl.fromTo('#h1', { scale: 0.6, opacity: 0 }, { scale: 1, opacity: 1, duration: 0.6, ease: B }, 0.2);
+      tl.fromTo('#h2', { scale: 0.6, opacity: 0 }, { scale: 1, opacity: 1, duration: 0.6, ease: B }, 2.0);
+      pop('#e2', 2.2);
+      tl.fromTo('#h3', { scale: 0.6, opacity: 0 }, { scale: 1, opacity: 1, duration: 0.6, ease: B }, 3.9);
+      pop('#e3', 4.1);
+      tl.to('#h3', { rotation: -2, duration: 0.08, yoyo: true, repeat: 5 }, 4.6);
+      tl.to(['#h1', '#h2', '#h3', '#e1', '#e2', '#e3'], { opacity: 0, scale: 0.9, duration: 0.3 }, 5.95);
+
+      // 2 · courses (local times + 6.2)
+      const t2 = 6.2;
+      tl.set(['#s2cap', '#s2phone', '#p1', '#p2', '#p3', '#p4', '#s2stat'], { opacity: 0 }, 0);
+      pop('#s2logo', t2 + 0.1);
+      tl.fromTo('#s2brand', { y: 60, opacity: 0 }, { y: 0, opacity: 1, duration: 0.6, ease: E }, t2 + 0.4);
+      tl.to(['#s2logo', '#s2brand'], { y: -300, opacity: 0, duration: 0.5, ease: 'power2.in' }, t2 + 1.6);
+      capIn('#s2cap', t2 + 1.9);
+      slideUp('#s2phone', t2 + 2.0);
+      scrollTo('#s2img', 1030, t2 + 4.0, 1.8);
+      pop('#p1', t2 + 3.8);
+      pop('#p2', t2 + 4.8);
+      pop('#s2stat', t2 + 6.9);
+      count('#n62', 62, t2 + 7.0, 1.6);
+      pop('#p3', t2 + 9.2);
+      scrollTo('#s2img', 1900, t2 + 9.5, 1.6);
+      pop('#p4', t2 + 11.3);
+      tl.to('#p4', { scale: 1.08, duration: 0.3, yoyo: true, repeat: 1 }, t2 + 12.0);
+
+      // 3 · lesson + summary
+      const t3 = 19.4;
+      tl.set(['#s3cap2', '#s3b'], { opacity: 0 }, 0);
+      capIn('#s3cap1', t3);
+      slideUp('#s3phone', t3);
+      scrollTo('#s3a', 1500, t3 + 1.0, 1.6);
+      scrollTo('#s3a', 3300, t3 + 2.9, 1.7);
+      capOut('#s3cap1', t3 + 4.6);
+      capIn('#s3cap2', t3 + 4.85);
+      swap('#s3a', '#s3b', t3 + 4.8);
+
+      // 4 · quiz + mistakes
+      const t4 = 26.8;
+      tl.set(['#s4cap2', '#s4b', '#s4c', '#s4stat'], { opacity: 0 }, 0);
+      capIn('#s4cap1', t4);
+      slideUp('#s4phone', t4);
+      pop('#s4stat', t4 + 1.0);
+      count('#n1900', 1900, t4 + 1.1, 1.8);
+      swap('#s4a', '#s4b', t4 + 2.4);
+      tl.fromTo('#s4phone', { x: 0 }, { x: -18, duration: 0.07, yoyo: true, repeat: 5 }, t4 + 2.6);
+      scrollTo('#s4b', 600, t4 + 3.6, 1.4);
+      tl.to('#s4stat', { opacity: 0, duration: 0.3 }, t4 + 6.3);
+      capOut('#s4cap1', t4 + 6.6);
+      capIn('#s4cap2', t4 + 6.9);
+      swap('#s4b', '#s4c', t4 + 6.9);
+
+      // 5 · review + cards
+      const t5 = 38.3;
+      tl.set(['#s5cap2', '#s5b', '#s5c', '#s5stat'], { opacity: 0 }, 0);
+      capIn('#s5cap1', t5);
+      slideUp('#s5phone', t5);
+      capOut('#s5cap1', t5 + 3.0);
+      capIn('#s5cap2', t5 + 3.3);
+      swap('#s5a', '#s5b', t5 + 3.0);
+      pop('#s5stat', t5 + 3.6);
+      count('#n900', 900, t5 + 3.7, 1.4);
+      // card flip
+      tl.to('#s5screen', { scaleX: 0, duration: 0.22, ease: 'power2.in' }, t5 + 4.6);
+      tl.set('#s5b', { opacity: 0 }, t5 + 4.82);
+      tl.set('#s5c', { opacity: 1 }, t5 + 4.82);
+      tl.to('#s5screen', { scaleX: 1, duration: 0.25, ease: 'power2.out' }, t5 + 4.82);
+
+      // 6 · OR practice
+      const t6 = 44.7;
+      tl.set(['#s6b', '#t1', '#t2', '#t3'], { opacity: 0 }, 0);
+      capIn('#s6cap', t6);
+      slideUp('#s6phone', t6 + 0.1);
+      pop('#t1', t6 + 1.6);
+      pop('#t2', t6 + 2.3);
+      pop('#t3', t6 + 3.0);
+      scrollTo('#s6a', 900, t6 + 1.2, 1.4);
+      scrollTo('#s6a', 2100, t6 + 2.8, 1.4);
+      swap('#s6a', '#s6b', t6 + 4.4);
+      scrollTo('#s6b', 1500, t6 + 4.9, 1.6);
+
+      // 7 · sign-in, devices, stats
+      const t7 = 51.7;
+      tl.set(['#s7cap2', '#s7cap3', '#s7lap', '#s7mini'], { opacity: 0 }, 0);
+      capIn('#s7cap1', t7);
+      slideUp('#s7phone', t7);
+      capOut('#s7cap1', t7 + 2.2);
+      capIn('#s7cap2', t7 + 2.4);
+      tl.to('#s7phone', { y: 600, opacity: 0, duration: 0.5, ease: 'power2.in' }, t7 + 2.2);
+      tl.fromTo('#s7lap', { y: 300, opacity: 0, scale: 0.9 }, { y: 0, opacity: 1, scale: 1, duration: 0.7, ease: E }, t7 + 2.5);
+      capOut('#s7cap2', t7 + 4.6);
+      capIn('#s7cap3', t7 + 4.8);
+      tl.fromTo('#s7mini', { x: -400, opacity: 0, rotation: -8 }, { x: 0, opacity: 1, rotation: -4, duration: 0.7, ease: B }, t7 + 4.8);
+
+      // 8 · brand + CTA
+      const t8 = 58.8;
+      tl.set(['#s8slogan', '#s8av', '#s8cta'], { opacity: 0 }, 0);
+      pop('#s8logo', t8);
+      tl.fromTo('#s8brand', { y: 60, opacity: 0 }, { y: 0, opacity: 1, duration: 0.6, ease: E }, t8 + 0.2);
+      capIn('#s8slogan', t8 + 1.0);
+      pop('#s8av', t8 + 2.7);
+      capIn('#s8cta', t8 + 3.0);
+      tl.to('#s8btn', { scale: 1.07, duration: 0.45, yoyo: true, repeat: 3, ease: 'sine.inOut' }, t8 + 3.8);
+
+      window.__timelines = window.__timelines || {};
+      window.__timelines['main'] = tl;
+    </script>
+  </body>
+</html>
